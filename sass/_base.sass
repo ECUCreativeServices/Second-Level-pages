@@ -4,6 +4,8 @@ body
 	#main-content
 		.img-fluid
 			width: 100%
+
+/* sidebar */
 		.sidebar
 			padding-left: 0px
 			padding-right: 0px
@@ -23,6 +25,8 @@ body
 				a
 					color: $light-grey
 					border-bottom: none
+
+/* purple bg */
 		.bg-ecu-purple
 			background-color: $ecu-purple
 			color: $white
@@ -46,29 +50,8 @@ body
 				&:hover
 					color: $ecu-gold
 					border-color: $ecu-gold
-		.bg-ecu-purple
-			background-color: $ecu-purple
-			color: $white
-			.btn-ribbon
-				margin: 25px 0px
-				color: $ecu-purple !important
-				&:hover
-					color: $white !important
-					border-color: $white !important
-					&:after
-						color: $white !important
-			.tri-image
-				display: none
-			.ecu-h2, h2, h1
-				color: $white
-				padding: 0px 0px 20px 0px
-				line-height: 1.1em
-				margin: 5px 0px
-			a
-				color: $white
-				&:hover
-					color: $ecu-gold
-					border-color: $ecu-gold
+
+/* dark-purple bg */
 		.ecu-dark-purple-bg
 			background-color: $dark-purple
 			color: $white
@@ -115,17 +98,20 @@ body
 				padding: 0px 0px 20px 0px
 				line-height: 1.1em
 
+/* Ribbon styles */
 		.ribbon-style-3
 			a
 				&.ecu-btn
 					&.primary
 						color: $white
+
+/* teal */
 		a.teal
 			font-family: "Oswald", sans-serif
 			text-transform: uppercase
-			background-color: #00adb3
+			background: linear-gradient(#00adb3 50%, transparent)
 			padding: 10px
-			color: #003249
+			color: $white
 			text-decoration: none
 			display: block
 			border: none
@@ -140,6 +126,8 @@ body
 			&:hover
 				transform: scale(1.1)
 				-moz-transform-origin: 1 1
+
+/* buttons */
 		.btn
 			text-align: left
 			&:after
@@ -160,12 +148,25 @@ body
 				&:after
 					transition: .2s all
 					color: $ecu-hot-pink
+
+
+
+/* dashboard */
+
+
 		.dashboard-item
+			word-wrap: break-word
+			background-color: #fff
+			background-clip: border-box
+			border: 1px solid rgba(0,0,0,.125)
+			border-radius: 0
 			height: 100%
 		.dashboard-title
 			h2
 				font-weight: 600
 				font-size: 1.5em
+
+
 @media (min-width: 992px)
 	body
 		#main-content
