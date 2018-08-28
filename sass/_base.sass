@@ -5,7 +5,6 @@ body
 		.img-fluid
 			width: 100%
 
-/* sidebar */
 		.sidebar
 			padding-left: 0px
 			padding-right: 0px
@@ -26,7 +25,6 @@ body
 					color: $light-grey
 					border-bottom: none
 
-/* purple bg */
 		.bg-ecu-purple
 			background-color: $ecu-purple
 			color: $white
@@ -51,7 +49,6 @@ body
 					color: $ecu-gold
 					border-color: $ecu-gold
 
-/* dark-purple bg */
 		.ecu-dark-purple-bg
 			background-color: $dark-purple
 			color: $white
@@ -98,14 +95,12 @@ body
 				padding: 0px 0px 20px 0px
 				line-height: 1.1em
 
-/* Ribbon styles */
 		.ribbon-style-3
 			a
 				&.ecu-btn
 					&.primary
 						color: $white
 
-/* teal */
 		a.teal
 			font-family: "Oswald", sans-serif
 			text-transform: uppercase
@@ -127,7 +122,6 @@ body
 				transform: scale(1.1)
 				-moz-transform-origin: 1 1
 
-/* buttons */
 		.btn
 			text-align: left
 			&:after
@@ -149,11 +143,6 @@ body
 					transition: .2s all
 					color: $ecu-hot-pink
 
-
-
-/* dashboard */
-
-
 		.dashboard-item
 			word-wrap: break-word
 			background-color: #fff
@@ -166,6 +155,20 @@ body
 				font-weight: 600
 				font-size: 1.5em
 
+#main-nav
+	#second-level
+		background: $dark-purple
+		color: #b2901f
+		span
+			font-family: "Roboto Slab",sans-serif
+			font-size: 1.3rem
+			text-transform: uppercase
+			letter-spacing: 0.05rem
+			color: #b2901f
+		@media (min-width: $screen-md-min)
+			background: $burnt-gold
+			span
+				color: $white
 
 @media (min-width: 992px)
 	body
