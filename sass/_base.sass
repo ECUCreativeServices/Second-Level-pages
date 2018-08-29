@@ -2,6 +2,11 @@
 
 body
 	#main-content
+		.intro-ribbon
+			padding-top: 25px
+			background-color: #d9d8d6
+		.glance
+			background: linear-gradient(#a696b0, $white 40%)
 		.img-fluid
 			width: 100%
 
@@ -68,12 +73,11 @@ body
 							color: $white !important
 
 				&.bg-dark
-					&:hover
-						color: $white !important
-						border: 1px solid $white !important
-						background-color: $dark-purple !important
-						&:after
-							color: $white !important
+					color: $white
+					border: 1px solid $white
+					background-color: transparent
+					&:after
+						color: $white
 
 				&.btn-gold
 					background-color: $ecu-bright-yellow !important
@@ -154,7 +158,32 @@ body
 			h2
 				font-weight: 600
 				font-size: 1.5em
-
+		a.btn-ecu-white
+			color: $white
+			border: 1px solid $white
+			background: transparent
+			font-size: .875rem
+			text-transform: uppercase
+			transition: all .2s
+			display: inline-block
+			align-items: center
+			justify-content: space-between
+			padding: 6px 12px
+			line-height: 1.428571429
+			font-family: "Oswald",sans-serif
+			font-weight: 700
+			margin-top: 20px
+			&::after
+				font-family: "FontAwesome"
+				content: "\f054"
+				color: $white
+				margin-left: 5px
+			&:hover,
+				background: $white
+				border: 1px solid transparent
+				color: $dark-purple
+				&::after
+					color: $dark-purple
 #main-nav
 	#second-level
 		background: $dark-purple
@@ -169,6 +198,8 @@ body
 			background: $burnt-gold
 			span
 				color: $white
+
+
 
 @media (min-width: 992px)
 	body

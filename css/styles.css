@@ -1,5 +1,11 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Quattrocento:400,700|Roboto+Slab:400");
 /* BASE STYLES - GLOBAL CHANGES ONLY */
+body #main-content .intro-ribbon {
+  padding-top: 25px;
+  background-color: #d9d8d6; }
+body #main-content .glance {
+  background: linear-gradient(#a696b0, #FFFFFF 40%); }
 body #main-content .img-fluid {
   width: 100%; }
 body #main-content .sidebar {
@@ -60,12 +66,12 @@ body #main-content .ecu-dark-purple-bg {
       color: #42145F !important; }
       body #main-content .ecu-dark-purple-bg button.btn-ribbon.primary:hover:after {
         color: #FFFFFF !important; }
-  body #main-content .ecu-dark-purple-bg button.btn-ribbon.bg-dark:hover {
-    color: #FFFFFF !important;
-    border: 1px solid #FFFFFF !important;
-    background-color: #42145F !important; }
-    body #main-content .ecu-dark-purple-bg button.btn-ribbon.bg-dark:hover:after {
-      color: #FFFFFF !important; }
+  body #main-content .ecu-dark-purple-bg button.btn-ribbon.bg-dark {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: transparent; }
+    body #main-content .ecu-dark-purple-bg button.btn-ribbon.bg-dark:after {
+      color: #FFFFFF; }
   body #main-content .ecu-dark-purple-bg button.btn-ribbon.btn-gold {
     background-color: #eaaa24 !important;
     color: #42145F !important; }
@@ -136,6 +142,32 @@ body #main-content .dashboard-item {
 body #main-content .dashboard-title h2 {
   font-weight: 600;
   font-size: 1.5em; }
+body #main-content a.btn-ecu-white {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background: transparent;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 12px;
+  line-height: 1.428571429;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  margin-top: 20px; }
+  body #main-content a.btn-ecu-white::after {
+    font-family: "FontAwesome";
+    content: "";
+    color: #FFFFFF;
+    margin-left: 5px; }
+  body #main-content a.btn-ecu-white:hover {
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    color: #42145F; }
+    body #main-content a.btn-ecu-white:hover::after {
+      color: #42145F; }
 
 #main-nav #second-level {
   background: #42145F;
@@ -171,6 +203,6 @@ body #main-content section[aria-label="At a glance"] {
     margin-bottom: 150px;
     margin-top: -30px; }
   body #main-content .middle-section {
-    padding: 50px 50px 0px; } }
+    padding: 0px 32px 0px; } }
 
 /*# sourceMappingURL=styles.css.map */
