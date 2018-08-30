@@ -5,8 +5,7 @@ body #main-content .intro-ribbon {
   padding-top: 25px;
   background-color: #d9d8d6; }
 body #main-content .glance {
-  background: linear-gradient(#a696b0, #FFFFFF 40%);
-  margin-bottom: -55px; }
+  background: linear-gradient(#a696b0, #FFFFFF 40%); }
 body #main-content .img-fluid {
   width: 100%; }
 body #main-content .sidebar {
@@ -140,26 +139,15 @@ body #main-content .dashboard-item {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0;
   height: 100%;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-  padding: 10px; }
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
   body #main-content .dashboard-item img {
     max-width: 100%;
-    width: 75px;
     height: auto;
-    display: none;
-    margin: 5px auto; }
-    @media (min-width: 768px) {
-      body #main-content .dashboard-item img {
-        display: block; } }
+    display: block;
+    margin: auto; }
   body #main-content .dashboard-item .dashboard-title {
     text-align: center;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif; }
-    body #main-content .dashboard-item .dashboard-title .lead {
-      font-size: 1rem;
-      font-weight: 400;
-      letter-spacing: 0.5px;
-      opacity: 0.75; }
+    text-transform: uppercase; }
     body #main-content .dashboard-item .dashboard-title h2 {
       font-weight: 500;
       font-size: 1.5em !important;
@@ -214,18 +202,6 @@ body #main-content .arrow-img {
   display: none; }
 body #main-content .middle-section {
   padding: 5px; }
-body #main-content .ribbon.style-3 .dark-purple .lead, body #main-content .ribbon.style-3 .dark-purple h2 {
-  color: #42145F; }
-body #main-content .ribbon.style-3 .ecu-hot-pink .lead, body #main-content .ribbon.style-3 .ecu-hot-pink h2 {
-  color: #77216F; }
-body #main-content .ribbon.style-3 .dark-teal .lead, body #main-content .ribbon.style-3 .dark-teal h2 {
-  color: #004261; }
-body #main-content .ribbon.style-3 .burnt-gold .lead, body #main-content .ribbon.style-3 .burnt-gold h2 {
-  color: #B88B2D; }
-body #main-content .ribbon.style-3 .teal-color .lead, body #main-content .ribbon.style-3 .teal-color h2 {
-  color: #009fb1; }
-body #main-content .ribbon.style-3 .gold-grey .lead, body #main-content .ribbon.style-3 .gold-grey h2 {
-  color: #928a81; }
 
 @media (min-width: 992px) {
   body #main-content .arrow-img {
