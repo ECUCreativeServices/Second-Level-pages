@@ -7,7 +7,9 @@ body
 			background-color: #d9d8d6
 		.glance
 			background: linear-gradient(#a696b0, $white 40%)
-			margin-bottom: -55px
+			margin-bottom: 15px
+			@media (min-width: 992px)
+				margin-bottom: -55px
 		.img-fluid
 			width: 100%
 
@@ -120,6 +122,8 @@ body
 				height: 100%
 				img
 					width: 100%
+					max-width: 66px
+					padding: 5px
 			&.horizontal
 				margin-bottom: 15px
 				min-height: 75px
@@ -159,10 +163,10 @@ body
 			padding: 10px
 			img
 				max-width: 100%
-				width: 75px
+				width: 66px
 				height: auto
 				display: none
-				margin: 5px auto
+				margin: 10px auto
 				@media (min-width: $screen-md-min)
 					display: block
 			.dashboard-title
@@ -178,7 +182,6 @@ body
 					font-weight: 500
 					font-size: 1.5em !important
 					letter-spacing: -0.5px
-
 		a.btn-ecu-white
 			color: $white
 			border: 1px solid $white
@@ -205,6 +208,9 @@ body
 				color: $dark-purple
 				&::after
 					color: $dark-purple
+			.icon-btn
+				border: none
+
 #main-nav
 	#second-level
 		background: $dark-purple
@@ -219,8 +225,6 @@ body
 			background: $burnt-gold
 			span
 				color: $white
-
-
 
 @media (min-width: 992px)
 	body
