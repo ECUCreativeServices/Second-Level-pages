@@ -216,162 +216,33 @@ body #main-content a.btn-ecu-white {
 @media (min-width: 992px) {
   body #main-content .bg-ecu-purple .tri-image {
     display: block; } }
-/* RESEARCH PAGE */
-body #main-content .arrow-img {
-  display: none; }
-body #main-content .middle-section {
-  padding: 5px; }
-body #main-content .ribbon.style-3 .dark-purple .lead, body #main-content .ribbon.style-3 .dark-purple h2 {
-  color: #42145F; }
-body #main-content .ribbon.style-3 .ecu-hot-pink .lead, body #main-content .ribbon.style-3 .ecu-hot-pink h2 {
-  color: #77216F; }
-body #main-content .ribbon.style-3 .dark-teal .lead, body #main-content .ribbon.style-3 .dark-teal h2 {
-  color: #004261; }
-body #main-content .ribbon.style-3 .burnt-gold .lead, body #main-content .ribbon.style-3 .burnt-gold h2 {
-  color: #B88B2D; }
-body #main-content .ribbon.style-3 .teal-color .lead, body #main-content .ribbon.style-3 .teal-color h2 {
-  color: #009fb1; }
-body #main-content .ribbon.style-3 .gold-grey .lead, body #main-content .ribbon.style-3 .gold-grey h2 {
-  color: #928a81; }
-body #main-content .ecu-video-wrap .title-wrap .ecu-video-title {
-  max-width: 75%;
-  font-family: "Oswald", sans-serif;
-  font-size: 1.1rem;
-  display: inline-block;
-  padding: 10px 25px; }
-body #main-content .btn-icon-outline {
-  color: #FFFFFF !important;
-  width: 100%;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 700;
-  font-family: "Oswald", sans-serif;
-  cursor: pointer;
-  -webkit-appearance: none;
-  -webkit-font-smoothing: antialiased;
-  max-width: 325px;
-  padding: 26px 0;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: none;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); }
-  body #main-content .btn-icon-outline::before {
-    font-family: "FontAwesome";
-    content: "";
-    color: #FFFFFF;
-    margin-right: 5px;
-    vertical-align: middle;
-    font-size: 1.3rem; }
-  body #main-content .btn-icon-outline::after {
-    font-family: "FontAwesome";
-    content: "";
-    color: #FFFFFF;
-    margin-left: 5px;
-    font-size: 0.875rem;
-    vertical-align: middle; }
-body #main-content .btn-wrapper {
-  margin: 35px 0; }
-body #main-content .btn-solid-outline {
-  background-color: #77216F;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  -webkit-appearance: none;
-  border: 0 solid;
-  margin: -5px;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-  outline: 1px solid #77216F;
-  outline-offset: 5px;
-  text-shadow: none;
-  transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1);
-  padding: 7px 0 3px 20px; }
-  @media (min-width: 576px) {
-    body #main-content .btn-solid-outline {
-      padding-left: 0px; } }
-  body #main-content .btn-solid-outline:hover {
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
-    outline-color: rgba(255, 255, 255, 0);
-    outline-offset: 10px;
-    text-shadow: 1px 1px 2px #427388; }
-  body #main-content .btn-solid-outline::before {
-    font-family: "FontAwesome";
-    content: "";
-    color: white;
-    margin-left: 5px;
-    float: left;
-    font-size: 2rem;
-    padding: 0 10px;
-    display: none; }
-    @media (min-width: 576px) {
-      body #main-content .btn-solid-outline::before {
-        display: block; } }
-  body #main-content .btn-solid-outline a {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    font-size: 0.9em;
-    line-height: normal;
+/* MILITARY PAGE */
+body #main-content #steps-list {
+  border-left: 1px solid #d4d4d4;
+  padding: 0px 25px 25px; }
+  body #main-content #steps-list .steps-header {
+    border-bottom: 1px dotted #d4d4d4;
+    margin-bottom: 15px;
+    font-weight: 500; }
+  body #main-content #steps-list .steps-title {
     font-family: "Oswald", sans-serif;
-    border: none; }
-    body #main-content .btn-solid-outline a::after {
-      font-family: "FontAwesome";
-      content: "";
-      color: white;
-      margin-left: 5px; }
-body #main-content #give {
-  background-color: #B88B2D;
-  margin: 15px 5px -25px 5px;
-  width: 95%;
-  outline: 1px solid #B88B2D;
-  padding: 7px 0 3px 7px; }
-  body #main-content #give:hover {
-    outline: 1px solid #42145F; }
-  @media (min-width: 992px) {
-    body #main-content #give {
-      padding-left: 0px; } }
-  body #main-content #give::before {
-    content: "";
-    display: none; }
-    @media (min-width: 992px) {
-      body #main-content #give::before {
-        display: block; } }
-body #main-content .ecu-video-wrap .top {
-  border-bottom: 7px solid #59849b; }
-body #main-content .ecu-video-wrap .bottom {
-  border-top: 7px solid #8683A3; }
-body #main-content .arrows {
-  width: 100%;
-  text-align: center; }
-
-@media (min-width: 992px) {
-  body #main-content .arrows {
-    padding-top: 40px; }
-    body #main-content .arrows .arrow-text {
-      text-align: center;
-      background-image: url(https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/08/Arrow.svg);
-      background-size: auto;
-      background-repeat: no-repeat;
-      width: 95%;
-      margin: 0 auto;
-      line-height: 60px;
-      color: #4F7A8C !important;
-      height: 75px; }
-    body #main-content .arrows .arrow-img {
-      display: block;
-      margin-top: 0;
-      padding: 0 36px;
-      height: 65px; }
-  body #main-content .ecu-dark-purple-bg {
-    margin-bottom: 150px;
-    margin-top: -30px;
-    min-height: 630px; }
-  body #main-content .middle-section {
-    padding: 0px 32px 0px; }
-  body #main-content .ribbon .ribbon-callout {
-    padding: 35px 20px 20px; } }
+    text-transform: uppercase;
+    color: #572C86;
+    line-height: 24px;
+    padding-bottom: 7px;
+    font-size: 1.3em;
+    font-weight: 500; }
+  body #main-content #steps-list .step-number {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    background-color: #572C86;
+    color: #FFFFFF;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.75em; }
+  body #main-content #steps-list .uppercase-bold {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500; }
 
 /*# sourceMappingURL=styles.css.map */
