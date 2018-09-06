@@ -66,7 +66,7 @@ body
 				vertical-align: middle
 
 		.btn-wrapper
-			margin: 20px 0
+			margin: 35px 0
 
 		.btn-solid-outline
 			background-color: #77216F
@@ -115,20 +115,55 @@ body
 					content: "\f054"
 					color: white
 					margin-left: 5px
+		#give
+			background-color: $burnt-gold
+			margin: 15px 5px -25px 5px
+			width: 95%
+			outline: 1px solid $burnt-gold
+			padding: 7px 0 3px 7px
+			&:hover
+				outline: 1px solid $dark-purple
+			@media (min-width: $screen-lg-min)
+				padding-left: 0px
+			&::before
+				content: "\f06b"
+				display: none
+				@media (min-width: $screen-lg-min)
+					display: block
+
+		.ecu-video-wrap
+			.top
+				border-bottom: 7px solid #59849b
+			.bottom
+				border-top: 7px solid #8683A3
+		.arrows
+			width: 100%
+			text-align: center
 
 @media (min-width: 992px)
 	body
 		#main-content
 			.arrows
 				padding-top: 40px
+				.arrow-text
+					text-align: center
+					background-image: url(https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/08/Arrow.svg)
+					background-size: auto
+					background-repeat: no-repeat
+					width: 95%
+					margin: 0 auto
+					line-height: 60px
+					color: #4F7A8C !important
+					height: 75px
 				.arrow-img
 					display: block
-					margin-top: -5px
+					margin-top: 0
 					padding: 0 36px
 					height: 65px
 			.ecu-dark-purple-bg
 				margin-bottom: 150px
 				margin-top: -30px
+				min-height: 630px
 			.middle-section
 				padding: 0px 32px 0px
 			.ribbon
