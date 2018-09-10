@@ -216,33 +216,63 @@ body #main-content a.btn-ecu-white {
 @media (min-width: 992px) {
   body #main-content .bg-ecu-purple .tri-image {
     display: block; } }
-/* MILITARY PAGE */
-body #main-content #steps-list {
-  border-left: 1px solid #d4d4d4;
-  padding: 0px 25px 25px; }
-  body #main-content #steps-list .steps-header {
-    border-bottom: 1px dotted #d4d4d4;
-    margin-bottom: 15px;
-    font-weight: 500; }
-  body #main-content #steps-list .steps-title {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    color: #572C86;
-    line-height: 24px;
-    padding-bottom: 7px;
-    font-size: 1.3em;
-    font-weight: 500; }
-  body #main-content #steps-list .step-number {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    background-color: #572C86;
-    color: #FFFFFF;
-    padding: 5px;
-    text-align: center;
-    font-size: 0.75em; }
-  body #main-content #steps-list .uppercase-bold {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500; }
+/* LEADERSHIP PAGE */
+body #main-content .leader-wrap {
+  padding-top: 3em; }
+body #main-content .leadership-img {
+  -webkit-box-shadow: 13px 10px 34px -9px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 13px 10px 34px -9px rgba(0, 0, 0, 0.2);
+  box-shadow: 13px 10px 34px -9px rgba(0, 0, 0, 0.2); }
+body #main-content .break-out {
+  margin-top: -40px;
+  padding: 7px 0px 20px; }
+  body #main-content .break-out h1 {
+    color: #FFFFFF; }
+body #main-content .border-left {
+  border-left: 1px solid rgba(0, 0, 0, 0.25); }
+body #main-content .columns {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-position: inside;
+  list-style: none; }
+  body #main-content .columns li {
+    margin-left: 1em; }
+    body #main-content .columns li:before {
+      font-family: "FontAwesome";
+      content: "";
+      margin: 0 5px 0 -15px;
+      color: #404041; }
+body #main-content .tile:not(:first-child) {
+  margin-top: 40px; }
+body #main-content .tile .tile-header h2, body #main-content .tile .tile-header h3 {
+  text-transform: uppercase;
+  font-weight: 500; }
+body #main-content .tile .tile-header h2 {
+  color: #42145F;
+  margin-top: 0px; }
+body #main-content .tile .tile-header h3 {
+  font-size: 0.98em !important;
+  margin-top: -5px !important;
+  color: #572C86; }
+body #main-content .tile .tile-header hr {
+  border-top: 1px dotted rgba(0, 0, 0, 0.25); }
+body #main-content .tile .tile-info ul {
+  font-family: "Oswald", sans-serif;
+  padding-left: 0px;
+  font-weight: 400; }
+  body #main-content .tile .tile-info ul li {
+    margin: 0.2em 0em 0.2em 1em; }
+    body #main-content .tile .tile-info ul li a {
+      border-bottom: none;
+      color: #404041 !important;
+      font-weight: inherit; }
+      body #main-content .tile .tile-info ul li a:hover {
+        text-decoration: underline; }
+
+@media (min-width: 992px) {
+  body #main-content .break-out {
+    margin-left: -100%;
+    margin-right: -100%; } }
 
 /*# sourceMappingURL=styles.css.map */
