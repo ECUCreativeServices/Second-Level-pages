@@ -200,7 +200,7 @@ body #main-content a.btn-ecu-white {
   color: #b2901f; }
   #main-nav #second-level span {
     font-family: "Roboto Slab", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
     color: #b2901f; }
@@ -208,7 +208,8 @@ body #main-content a.btn-ecu-white {
     #main-nav #second-level {
       background: #B88B2D; }
       #main-nav #second-level span {
-        color: #FFFFFF; } }
+        color: #FFFFFF;
+        font-size: 1.8rem; } }
 
 @media (min-width: 992px) {
   body #main-content .bg-ecu-purple .tri-image {
@@ -286,6 +287,8 @@ body #main-content .btn-solid-outline {
   padding: 7px 0 7px 20px; }
   @media (min-width: 576px) {
     body #main-content .btn-solid-outline {
+      width: 95%;
+      margin-left: 6px;
       padding-left: 0px; } }
   body #main-content .btn-solid-outline:hover {
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
@@ -349,6 +352,8 @@ body #main-content .ecu-video-wrap .bottom {
 body #main-content .arrows {
   width: 100%;
   text-align: center; }
+body #main-content .ecu-video-wrap img {
+  border: 2px solid #42145F; }
 
 @media (min-width: 992px) {
   body #main-content .intro-text {
