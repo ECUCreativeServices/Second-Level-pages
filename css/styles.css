@@ -22,15 +22,12 @@ body #main-content .sidebar {
     border: 1px solid #bbbbbb;
     font-size: 0.9em;
     padding: 10px;
-    color: #FFFFFF;
+    color: #f5f5f5;
     border-bottom-color: transparent; }
     body #main-content .sidebar .grey-nav-item:hover {
       transition: 0.2s all;
       background-color: #FFFFFF;
       color: #6C6D68; }
-    body #main-content .sidebar .grey-nav-item a {
-      color: #f5f5f5;
-      border-bottom: none; }
 body #main-content .bg-ecu-purple {
   background-color: #572C86;
   color: #FFFFFF; }
@@ -99,8 +96,8 @@ body #main-content .ribbon-style-3 a.ecu-btn.primary {
 body #main-content a.teal {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  background: linear-gradient(#00adb3 50%, transparent);
-  padding: 10px;
+  background: linear-gradient(#00adb3 75%, transparent);
+  padding: 10px 10px 50px;
   color: #FFFFFF;
   text-decoration: none;
   display: block;
@@ -286,7 +283,7 @@ body #main-content .btn-solid-outline {
   outline-offset: 5px;
   text-shadow: none;
   transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1);
-  padding: 7px 0 3px 20px; }
+  padding: 7px 0 7px 20px; }
   @media (min-width: 576px) {
     body #main-content .btn-solid-outline {
       padding-left: 0px; } }
@@ -303,7 +300,8 @@ body #main-content .btn-solid-outline {
     float: left;
     font-size: 2rem;
     padding: 0 10px;
-    display: none; }
+    display: none;
+    line-height: 42px; }
     @media (min-width: 576px) {
       body #main-content .btn-solid-outline::before {
         display: block; } }
@@ -314,9 +312,10 @@ body #main-content .btn-solid-outline {
     font-weight: 500;
     letter-spacing: 0.5px;
     font-size: 0.9em;
-    line-height: normal;
+    line-height: 1.3rem;
     font-family: "Oswald", sans-serif;
-    border: none; }
+    border: none;
+    display: block; }
     body #main-content .btn-solid-outline a::after {
       font-family: "FontAwesome";
       content: "";
@@ -327,7 +326,7 @@ body #main-content #give {
   margin: 15px 5px -25px 5px;
   width: 95%;
   outline: 1px solid #B88B2D;
-  padding: 7px 0 3px 7px; }
+  padding: 7px; }
   body #main-content #give:hover {
     outline: 1px solid #42145F; }
   @media (min-width: 992px) {
@@ -337,19 +336,23 @@ body #main-content #give {
     content: "";
     display: none;
     font-size: 3rem;
-    line-height: 48px; }
+    line-height: 41px; }
     @media (min-width: 992px) {
       body #main-content #give::before {
         display: block; } }
 body #main-content .ecu-video-wrap .top {
+  margin-top: 0px;
   border-bottom: 7px solid #59849b; }
 body #main-content .ecu-video-wrap .bottom {
+  margin-top: -17px;
   border-top: 7px solid #8683A3; }
 body #main-content .arrows {
   width: 100%;
   text-align: center; }
 
 @media (min-width: 992px) {
+  body #main-content .intro-text {
+    padding-right: 20px; }
   body #main-content .arrows {
     padding-top: 40px; }
     body #main-content .arrows .arrow-text {

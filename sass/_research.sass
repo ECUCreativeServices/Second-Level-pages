@@ -81,7 +81,7 @@ body
 			outline-offset: 5px
 			text-shadow: none
 			transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1)
-			padding: 7px 0 3px 20px
+			padding: 7px 0 7px 20px
 			@media (min-width: 576px)
 				padding-left: 0px
 			&:hover
@@ -98,6 +98,7 @@ body
 				font-size: 2rem
 				padding: 0 10px
 				display: none
+				line-height: 42px
 				@media (min-width: 576px)
 					display: block
 			a
@@ -107,9 +108,10 @@ body
 				font-weight: 500
 				letter-spacing: 0.5px
 				font-size: 0.9em
-				line-height: normal
+				line-height: 1.3rem
 				font-family: "Oswald",sans-serif
 				border: none
+				display: block
 				&::after
 					font-family: "FontAwesome"
 					content: "\f054"
@@ -120,7 +122,7 @@ body
 			margin: 15px 5px -25px 5px
 			width: 95%
 			outline: 1px solid $burnt-gold
-			padding: 7px 0 3px 7px
+			padding: 7px
 			&:hover
 				outline: 1px solid $dark-purple
 			@media (min-width: $screen-lg-min)
@@ -129,14 +131,16 @@ body
 				content: "\f06b"
 				display: none
 				font-size: 3rem
-				line-height: 48px
+				line-height: 41px
 				@media (min-width: $screen-lg-min)
 					display: block
 
 		.ecu-video-wrap
 			.top
+				margin-top: 0px
 				border-bottom: 7px solid #59849b
 			.bottom
+				margin-top: -17px
 				border-top: 7px solid #8683A3
 		.arrows
 			width: 100%
@@ -145,6 +149,8 @@ body
 @media (min-width: 992px)
 	body
 		#main-content
+			.intro-text
+				padding-right: 20px
 			.arrows
 				padding-top: 40px
 				.arrow-text
