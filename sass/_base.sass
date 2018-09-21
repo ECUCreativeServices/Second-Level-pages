@@ -22,7 +22,7 @@ body
 				background-color: $grey
 				border: 1px solid #bbbbbb
 				font-size: .9em
-				padding: 10px
+				padding: 10px 10px 10px 15px
 				color: $light-grey
 				border-bottom-color: transparent
 				&:hover
@@ -52,7 +52,10 @@ body
 				&:hover
 					color: $ecu-gold
 					border-color: $ecu-gold
-
+		.intro-text
+			padding: 1.2rem
+			@media (min-width: $screen-lg-min)
+				padding: .7rem
 		.ecu-dark-purple-bg
 			background-color: $dark-purple
 			color: $white
@@ -103,30 +106,44 @@ body
 				&.ecu-btn
 					&.primary
 						color: $white
-
+		.style-4
+			.clusters
+				.col-12, .col-md-6
+					margin-top: 10px
+					margin-bottom: 10px
+				.col-lg-2
+					padding-right: 10px
+					padding-left: 10px
 		a.teal
 			font-family: "Oswald", sans-serif
 			text-transform: uppercase
-			background: linear-gradient(#00adb3 75%, transparent)
-			padding: 10px 10px 50px
+			background: #00adb3
+			padding: 10px
 			color: $white
 			text-decoration: none
 			display: block
 			border: none
+			font-size: 1.5rem
+			@media (min-width: $screen-lg-min)
+				background: linear-gradient(#00adb3 75%, transparent)
+				padding: 10px 10px 50px
+				margin: 0
+				font-size: 1.1rem
+				&:hover
+					transform: scale(1.1)
+					-moz-transform-origin: 1 1
 			&.vertical
 				text-align: center
 				height: 100%
 				img
+					display: block
 					width: 100%
 					max-width: 66px
 					padding: 5px
+					margin: auto
 			&.horizontal
 				margin-bottom: 15px
 				min-height: 75px
-			&:hover
-				transform: scale(1.1)
-				-moz-transform-origin: 1 1
-
 		.btn
 			text-align: left
 			&:after
@@ -217,13 +234,13 @@ body
 			text-transform: uppercase
 			letter-spacing: 0.05rem
 			color: #b2901f
-		@media (min-width: $screen-md-min)
+		@media (min-width: $screen-lg-min)
 			background: $burnt-gold
 			span
 				color: $white
 				font-size: 1.8rem
 
-@media (min-width: 992px)
+@media (min-width: $screen-lg-min)
 	body
 		#main-content
 			.bg-ecu-purple
