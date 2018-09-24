@@ -116,7 +116,7 @@ body #main-content a.teal {
   font-size: 1.5rem; }
   @media (min-width: 992px) {
     body #main-content a.teal {
-      background: linear-gradient(#00adb3 75%, transparent);
+      background-image: linear-gradient(to bottom, #00adb3 75%, #4F7A8C);
       padding: 10px 10px 50px;
       margin: 0;
       font-size: 1.1rem; }
@@ -342,8 +342,6 @@ body #main-content .btn-solid-outline {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
-    letter-spacing: 0.5px;
-    font-size: 0.9em;
     line-height: 1.3rem;
     font-family: "Oswald", sans-serif;
     border: none;
