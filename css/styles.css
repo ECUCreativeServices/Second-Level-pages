@@ -7,9 +7,6 @@ body #main-content .intro-ribbon {
 body #main-content .glance {
   background: linear-gradient(#a696b0, #FFFFFF 40%);
   margin-bottom: 15px; }
-  @media (min-width: 992px) {
-    body #main-content .glance {
-      margin-bottom: -45px; } }
 body #main-content .img-fluid {
   width: 100%; }
 body #main-content .sidebar {
@@ -353,7 +350,7 @@ body #main-content .btn-solid-outline {
       margin-left: 5px; }
 body #main-content #give {
   background-color: #eaaa24;
-  margin: 15px 5px -25px 5px;
+  margin: 15px 5px 5px;
   width: 95%;
   outline: 1px solid #eaaa24;
   padding: 7px; }
@@ -402,19 +399,18 @@ body #main-content .arrows {
         background-repeat: no-repeat;
         width: 95%;
         margin: 0 auto;
-        line-height: 60px; } }
-  body #main-content .arrows .arrow-img {
-    margin-top: 0;
-    padding: 0 36px;
-    height: 65px; }
+        line-height: 60px; }
+        body #main-content .arrows .arrow-text:hover {
+          transition: 0.2s all;
+          transform: scale(1.05);
+          -moz-transform-origin: 1 1; } }
 
 @media (min-width: 992px) {
   body #main-content .intro-text {
     padding-right: 20px; }
   body #main-content .ecu-dark-purple-bg {
-    margin-bottom: 150px;
     margin-top: -30px;
-    min-height: 630px; }
+    min-height: 100%; }
   body #main-content .middle-section {
     padding: 0px 32px 0px; }
   body #main-content .ribbon .ribbon-callout {

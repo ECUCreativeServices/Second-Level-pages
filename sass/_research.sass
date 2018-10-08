@@ -124,7 +124,7 @@ body
 					margin-left: 5px
 		#give
 			background-color: $ecu-bright-yellow
-			margin: 15px 5px -25px 5px
+			margin: 15px 5px 5px
 			width: 95%
 			outline: 1px solid $ecu-bright-yellow
 			padding: 7px
@@ -172,10 +172,10 @@ body
 					width: 95%
 					margin: 0 auto
 					line-height: 60px
-			.arrow-img
-				margin-top: 0
-				padding: 0 36px
-				height: 65px
+					&:hover
+						transition: .2s all
+						transform: scale(1.05)
+						-moz-transform-origin: 1 1
 
 @media (min-width: 992px)
 	body
@@ -183,9 +183,8 @@ body
 			.intro-text
 				padding-right: 20px
 			.ecu-dark-purple-bg
-				margin-bottom: 150px
 				margin-top: -30px
-				min-height: 630px
+				min-height: 100%
 			.middle-section
 				padding: 0px 32px 0px
 			.ribbon
