@@ -104,7 +104,7 @@ body #main-content .style-4 .clusters .col-lg-2 {
 body #main-content a.teal {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  background: #00adb3;
+  background: #00A3A8;
   padding: 10px;
   color: #FFFFFF;
   text-decoration: none;
@@ -113,7 +113,7 @@ body #main-content a.teal {
   font-size: 1.5rem; }
   @media (min-width: 992px) {
     body #main-content a.teal {
-      background-image: linear-gradient(to bottom, #00adb3 75%, #4F7A8C);
+      background-image: linear-gradient(to bottom, #00A3A8 75%, #4F7A8C);
       padding: 10px 10px 50px;
       margin: 0;
       font-size: 1.1rem; }
