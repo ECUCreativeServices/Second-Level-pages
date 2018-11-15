@@ -11,3 +11,132 @@ body
 					list-style-position: inside
 					li
 						margin-left: 1em
+		.ribbon.style-2
+			.ecu-h2
+				color: $white
+
+
+/* Brandon's Stles from Research */
+
+		.btn-icon-outline
+			color: $white !important
+			width: 100%
+			text-transform: uppercase
+			text-decoration: none
+			font-weight: 700
+			font-family: $heading-font
+			cursor: pointer
+			-webkit-appearance: none
+			-webkit-font-smoothing: antialiased
+			max-width: 325px
+			padding: 26px 0
+			text-transform: uppercase
+			text-decoration: none
+			border: none
+			font-size: 1.1rem
+			line-height: 1.5
+			text-shadow: 0 1px 5px rgba(0, 0, 0, 0.25)
+			&::before
+				font-family: $font-awesome
+				content: "\F1EA"
+				color: $white
+				margin-right: 5px
+				vertical-align: middle
+				font-size: 1.3rem
+			&::after
+				font-family: $font-awesome
+				content: "\f054"
+				color: $white
+				margin-left: 5px
+				font-size: .875rem
+				vertical-align: middle
+
+		.btn-wrapper
+			margin: 35px 0
+
+		.btn-solid-outline
+			background-color: #77216F
+			width: 100%
+			text-align: left
+			cursor: pointer
+			-webkit-appearance: none
+			border: 0 solid
+			box-shadow: inset 0 0 20px rgba(255, 255, 255, 0)
+			outline: 1px solid  #77216F
+			outline-offset: 5px
+			text-shadow: none
+			transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1)
+			padding: 7px 0 7px 20px
+			@media (min-width: $screen-md-min)
+				width: 95%
+				margin-left: 6px
+				padding-left: 0px
+			&:hover
+				box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2)
+				outline-color: rgba(255, 255, 255, 0)
+				outline-offset: 10px
+				text-shadow: 1px 1px 2px #427388
+			&::before
+				font-family: "FontAwesome"
+				content: "\f2b7"
+				color: white
+				margin-left: 5px
+				float: left
+				font-size: 2rem
+				padding: 0 10px
+				display: none
+				line-height: 42px
+				@media (min-width: $screen-md-min)
+					display: block
+					@media (min-width: $screen-lg-min)
+						line-height: 60px
+						@media (min-width: $screen-xl-min)
+							line-height: 41px
+			a
+				color: white
+				text-transform: uppercase
+				text-decoration: none
+				font-weight: 500
+				line-height: 1.3rem
+				font-family: "Oswald",sans-serif
+				border: none
+				display: block
+				&::after
+					font-family: "FontAwesome"
+					content: "\f054"
+					color: white
+					margin-left: 5px
+
+		/* Meet Button Styles */
+
+		#meet
+			background-color: $white
+			margin: 15px 5px 5px
+			width: 95%
+			outline: 1px solid $white
+			padding: 7px
+			&:hover
+				outline: 1px solid $ecu-purple
+			@media (min-width: $screen-lg-min)
+				padding-left: 0px
+			&::before
+				color: $ecu-purple
+				content: "\f0c0"
+				display: none
+				font-size: 2.5rem
+				@media (min-width: $screen-lg-min)
+					display: block
+			a
+				color: $ecu-purple
+				&::after
+					color: $ecu-purple
+
+
+.card-links-list li
+  list-style-type: none
+  font-family: $heading-font
+	a::before
+	  font-family: $font-awesome
+	  content: ""
+	  color: $ecu-purple
+	  margin-right: 5px
