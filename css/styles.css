@@ -38,6 +38,9 @@ body #main-content .bg-ecu-purple {
         color: #FFFFFF !important; }
   body #main-content .bg-ecu-purple .tri-image {
     display: none; }
+    @media (min-width: 992px) {
+      body #main-content .bg-ecu-purple .tri-image {
+        display: block; } }
   body #main-content .bg-ecu-purple .ecu-h2, body #main-content .bg-ecu-purple h2, body #main-content .bg-ecu-purple h1 {
     color: #FFFFFF;
     padding: 0px 0px 20px 0px;
@@ -216,7 +219,7 @@ body #main-content a.btn-ecu-white {
   background: #41215E;
   color: #b2901f; }
   #main-nav #second-level span {
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "roboto slab", sans-serif;
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
@@ -228,9 +231,7 @@ body #main-content a.btn-ecu-white {
         color: #FFFFFF;
         font-size: 1.8rem; } }
 
-@media (min-width: 992px) {
-  body #main-content .bg-ecu-purple .tri-image {
-    display: block; } }
+/* FUTURE STUDENTS PAGE */
 /* RESEARCH PAGE */
 body #main-content .middle-section {
   padding: 5px; }

@@ -16,7 +16,7 @@ body
 			padding-left: 0px
 			padding-right: 0px
 			.grey-nav-item
-				font-family: "Oswald", sans-serif
+				font-family: $heading-font
 				display: block
 				background-color: $grey
 				border: 1px solid #bbbbbb
@@ -41,6 +41,8 @@ body
 						color: $white!important
 			.tri-image
 				display: none
+				@media (min-width: $screen-lg-min)
+					display: block
 			.ecu-h2, h2, h1
 				color: $white
 				padding: 0px 0px 20px 0px
@@ -55,6 +57,7 @@ body
 			padding: 1.2rem
 			@media (min-width: $screen-lg-min)
 				padding: .7rem
+
 		.ecu-dark-purple-bg
 			background-color: $dark-purple
 			color: $white
@@ -114,7 +117,7 @@ body
 					padding-right: 10px
 					padding-left: 10px
 		a.teal
-			font-family: "Oswald", sans-serif
+			font-family: $heading-font
 			text-transform: uppercase
 			background: #00A3A8
 			padding: 10px
@@ -206,11 +209,11 @@ body
 			justify-content: space-between
 			padding: 6px 12px
 			line-height: 1.428571429
-			font-family: "Oswald",sans-serif
+			font-family: $heading-font
 			font-weight: 700
 			margin-top: 20px
 			&::after
-				font-family: "FontAwesome"
+				font-family: $font-awesome
 				content: "\f054"
 				color: $white
 				margin-left: 5px
@@ -228,7 +231,7 @@ body
 		background: $dark-purple
 		color: #b2901f
 		span
-			font-family: "Roboto Slab",sans-serif
+			font-family: $roboto
 			font-size: 1.3rem
 			text-transform: uppercase
 			letter-spacing: 0.05rem
@@ -238,10 +241,3 @@ body
 			span
 				color: $white
 				font-size: 1.8rem
-
-@media (min-width: $screen-lg-min)
-	body
-		#main-content
-			.bg-ecu-purple
-				.tri-image
-					display: block
