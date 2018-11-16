@@ -11,10 +11,25 @@ body
 					list-style-position: inside
 					li
 						margin-left: 1em
-		.ribbon.style-2
-			.ecu-h2
-				color: $white
+		.ribbon.style-3 .card-links-list li a
+			border-bottom: none
+			color: $ecu-purple
 
+.ribbon.style-2
+	.ecu-h2
+		color: $white
+
+#bottom
+	margin-bottom: -1rem
+
+.ribbon.style-3 .card-links-list li
+  list-style-type: none
+  font-family: $heading-font
+	a::before
+	  font-family: $font-awesome
+	  content: "\f054"
+	  color: $ecu-purple
+	  margin-right: .5em
 
 /* Brandon's Stles from Research */
 
@@ -130,13 +145,3 @@ body
 				color: $ecu-purple
 				&::after
 					color: $ecu-purple
-
-
-.card-links-list li
-  list-style-type: none
-  font-family: $heading-font
-	a::before
-	  font-family: $font-awesome
-	  content: ""
-	  color: $ecu-purple
-	  margin-right: 5px
