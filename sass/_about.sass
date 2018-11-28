@@ -1,38 +1,65 @@
-/* ABOUT PAGE */
+/* ABOUT PAGE STYLES */
 
 body
 	#main-content
-		section[aria-label="About Dashboard"]
-			.dash-content
-				.link-list
-					columns: 2
-					-webkit-columns: 2
-					-moz-columns: 2
-					list-style-position: inside
-					li
-						margin-left: 1em
-		.ribbon.style-3 .card-links-list li a
-			border-bottom: none
-			color: $ecu-purple
+		.ribbon.style-2 h2
+			color: $white
 
-.ribbon.style-2
-	.ecu-h2
-		color: $white
+		.intro-text
+			padding: 24px 48px 48px
+			@media (min-width: $screen-lg-min)
+				padding: 24px 48px 24px 24px
 
-#bottom
-	margin-bottom: -1rem
+		.dashboard-item .dashboard-title
+			text-align: left
+		  padding-left: 40px
+		  padding-top: 15px
+			@media (min-width: $screen-sm-min)
+				text-align: center
+	      padding-left: 15px
+			@media (min-width: $screen-md-min)
+				padding-top: 0px
 
-.ribbon.style-3 .card-links-list li
-  list-style-type: none
-  font-family: $heading-font
-	a::before
-	  font-family: $font-awesome
-	  content: "\f054"
-	  color: $ecu-purple
-	  margin-right: .5em
+		section[aria-label="About Dashboard"] .dash-content .link-list
+			list-style-position: outside
+			@media (min-width: $screen-sm-min)
+				columns: 2
+	      -webkit-columns: 2
+	      -moz-columns: 2
+	      column-gap: 40px
+	      -webkit-column-gap: 40px
+	      -moz-column-gap: 40px
+			@media (min-width: $screen-md-min)
+				column-gap: 90px
+	      -webkit-column-gap: 90px
+	      -moz-column-gap: 90px
+	      padding: 0px 90px
+			@media (min-width: $screen-lg-min)
+				column-gap: 20px
+	      -webkit-column-gap: 20px
+	      -moz-column-gap: 20px
+	      padding: 0px 20px
+			@media (min-width: $screen-xl-min)
+				column-gap: 50px
+	      -webkit-column-gap: 50px
+	      -moz-column-gap: 50px
+	      padding: 0px 50px
+			li
+				margin-left: 1em
+		    list-style-type: none
+		    font-family: $heading-font
+				a
+					border-bottom: none
+		      color: $ecu-purple
+		      line-height: 2rem
+					&::before
+						font-family: $font-awesome
+		        content: "\f054"
+		        color: $ecu-purple
+		        margin-right: 5px
 
-/* Brandon's Stles from Research */
-
+		/* Button Styles from Research */
+		
 		.btn-icon-outline
 			color: $white !important
 			width: 100%
@@ -70,14 +97,14 @@ body
 			margin: 35px 0
 
 		.btn-solid-outline
-			background-color: #77216F
+			background-color: $ecu-hot-pink
 			width: 100%
 			text-align: left
 			cursor: pointer
 			-webkit-appearance: none
 			border: 0 solid
 			box-shadow: inset 0 0 20px rgba(255, 255, 255, 0)
-			outline: 1px solid  #77216F
+			outline: 1px solid  $ecu-hot-pink
 			outline-offset: 5px
 			text-shadow: none
 			transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1)
@@ -92,9 +119,9 @@ body
 				outline-offset: 10px
 				text-shadow: 1px 1px 2px #427388
 			&::before
-				font-family: "FontAwesome"
+				font-family: $font-awesome
 				content: "\f2b7"
-				color: white
+				color: $white
 				margin-left: 5px
 				float: left
 				font-size: 2rem
@@ -108,21 +135,21 @@ body
 						@media (min-width: $screen-xl-min)
 							line-height: 41px
 			a
-				color: white
+				color: $white
 				text-transform: uppercase
 				text-decoration: none
 				font-weight: 500
 				line-height: 1.3rem
-				font-family: "Oswald",sans-serif
+				font-family: $heading-font
 				border: none
 				display: block
 				&::after
-					font-family: "FontAwesome"
+					font-family: $font-awesome
 					content: "\f054"
-					color: white
+					color: $white
 					margin-left: 5px
 
-		/* Meet Button Styles */
+		/* End Button Styles from Research */
 
 		#meet
 			background-color: $white
@@ -145,3 +172,93 @@ body
 				color: $ecu-purple
 				&::after
 					color: $ecu-purple
+
+		#image-blocks
+			display: none
+			@media (min-width: $screen-lg-min)
+		    display: block
+
+		#img-block-1
+			@media (min-width: $screen-lg-min)
+		    padding-bottom: .5em
+
+		#img-1
+		  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/8K4A6438.jpg")
+		  background-position: center
+		  background-repeat: no-repeat
+		  background-size: cover
+		  @media (min-width: $screen-lg-min)
+		    height: 13.750em
+		  @media (min-width: $screen-xl-min)
+		    height: 24.236em
+
+		#img-block-2
+			@media (min-width: $screen-lg-min)
+				padding-bottom: .5em
+			@media (min-width: $screen-xl-min)
+				padding-right: .5em
+				padding-bottom: 0
+
+		#img-2
+		  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/STEAM_Camp_Jenkins_2017-0839.jpg")
+		  background-position: center
+		  background-repeat: no-repeat
+		  background-size: cover
+		  @media (min-width: $screen-lg-min)
+		    height: 15.169em
+		  @media (min-width: $screen-xl-min)
+		    height: 16.157em
+
+		#img-block-3
+			@media (min-width: $screen-lg-min)
+				padding-bottom: .5em
+		  @media (min-width: $screen-xl-min)
+				padding-left: 0
+
+		#img-3
+		  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/C1_7921.jpg")
+		  background-position: center
+		  background-repeat: no-repeat
+		  background-size: cover
+		  @media (min-width: $screen-lg-min)
+		    height: 10em
+		  @media (min-width: $screen-xl-min)
+		    height: 9.694em
+
+		#img-block-4
+			@media (min-width: $screen-lg-min)
+				padding-right: .5em
+		  @media (min-width: $screen-xl-min)
+				padding-left: 0
+
+		#img-4 {
+		  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/A14I0097.jpg")
+		  background-position: center
+		  background-repeat: no-repeat
+		  background-size: cover
+			@media (min-width: $screen-lg-min)
+		    height: 8.169em
+		  @media (min-width: $screen-xl-min)
+		    height: 5.963em
+
+		#img-block-5
+			@media (min-width: $screen-lg-min)
+		  	padding-left: 0
+
+		#img-5 {
+		  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/LedoniaWright2011-2.jpg")
+		  background-position: center
+		  background-repeat: no-repeat
+		  background-size: cover
+			@media (min-width: $screen-lg-min)
+		    height: 8.169em
+		  @media (min-width: $screen-xl-min)
+		    height: 5.963em
+
+		#uneven
+			padding-bottom: 0
+			@media (min-width: $screen-sm-min)
+				padding-bottom: 5em
+
+		#bottom
+			margin-bottom: -1rem
