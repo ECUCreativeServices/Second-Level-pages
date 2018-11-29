@@ -251,40 +251,40 @@ body #main-content .dashboard-item .dashboard-title {
     body #main-content .dashboard-item .dashboard-title {
       padding-top: 0; } }
 
+body #main-content .dashboard-item .dash-content {
+  margin: 0;
+  padding-left: 40px; }
+  @media (min-width: 576px) {
+    body #main-content .dashboard-item .dash-content {
+      margin: 0 auto;
+      padding-left: 0; } }
 body #main-content section[aria-label="About Dashboard"] .dash-content .link-list {
-  list-style-position: outside; }
+  padding: 0; }
   @media (min-width: 576px) {
     body #main-content section[aria-label="About Dashboard"] .dash-content .link-list {
-      -webkit-columns: 2;
-      -moz-columns: 2;
-      columns: 2;
-      -webkit-column-gap: 40px;
-      -moz-column-gap: 40px;
-      -ms-column-gap: 40px;
-      column-gap: 40px; } }
+      -webkit-columns: 12.5em 2;
+      -moz-columns: 12.5em 2;
+      columns: 12.5em 2; } }
   @media (min-width: 576px) and (min-width: 768px) {
     body #main-content section[aria-label="About Dashboard"] .dash-content .link-list {
-      -webkit-column-gap: 90px;
-      -moz-column-gap: 90px;
-      -ms-column-gap: 90px;
-      column-gap: 90px;
-      padding: 0 90px; } }
+      -webkit-column-gap: 6em;
+      -moz-column-gap: 6em;
+      -ms-column-gap: 6em;
+      column-gap: 6em; } }
 
   @media (min-width: 576px) and (min-width: 768px) and (min-width: 992px) {
     body #main-content section[aria-label="About Dashboard"] .dash-content .link-list {
-      -webkit-column-gap: 20px;
-      -moz-column-gap: 20px;
-      -ms-column-gap: 20px;
-      column-gap: 20px;
-      padding: 0 20px; } }
+      -webkit-column-gap: 1.25em;
+      -moz-column-gap: 1.25em;
+      -ms-column-gap: 1.25em;
+      column-gap: 1.25em; } }
 
   @media (min-width: 576px) and (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
     body #main-content section[aria-label="About Dashboard"] .dash-content .link-list {
-      -webkit-column-gap: 50px;
-      -moz-column-gap: 50px;
-      -ms-column-gap: 50px;
-      column-gap: 50px;
-      padding: 0 50px; } }
+      -webkit-column-gap: 3em;
+      -moz-column-gap: 3em;
+      -ms-column-gap: 3em;
+      column-gap: 3em; } }
 
   body #main-content section[aria-label="About Dashboard"] .dash-content .link-list li {
     margin-left: 1em;
@@ -514,7 +514,7 @@ body #main-content #uneven {
   padding-bottom: 0; }
   @media (min-width: 576px) {
     body #main-content #uneven {
-      padding-bottom: 5em; } }
+      padding-bottom: 4em; } }
 body #main-content #bottom {
   margin-bottom: -1rem; }
 
