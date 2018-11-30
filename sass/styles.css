@@ -514,7 +514,7 @@ body #main-content #uneven {
   padding-bottom: 0; }
   @media (min-width: 576px) {
     body #main-content #uneven {
-      padding-bottom: 4em; } }
+      padding-bottom: 6em; } }
 body #main-content #bottom {
   margin-bottom: -1rem; }
 
