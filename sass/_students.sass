@@ -1,26 +1,23 @@
 /*--FUTURE STUDENTS --
 /*--colors--
 
-body #main-content .future-students .dashboard-item .dashboard-title .lead
-  opacity: 1 !important
-
-#main-content .future-students .dark-purple .lead, body #main-content .future-students .ribbon.style-3 .dark-purple h2
+#main-content .dark-purple .lead, body #main-content .ribbon.style-3 .dark-purple h2
   color: #41215E
 
-#main-content .future-students .ribbon.style-3 .ecu-hot-pink .lead, body #main-content .future-students .ribbon.style-3 .ecu-hot-pink h2
+#main-content .ribbon.style-3 .ecu-hot-pink .lead, body #main-content .ribbon.style-3 .ecu-hot-pink h2
   color: #77216F
 
-#main-content .future-students .ribbon.style-3 .dark-teal .lead, body #main-content .future-students .ribbon.style-3 .dark-teal h2
+#main-content .ribbon.style-3 .dark-teal .lead, body #main-content .ribbon.style-3 .dark-teal h2
   color: #004261
 
-#main-content .future-students .ribbon.style-3 .burnt-gold .lead, body #main-content .future-students .ribbon.style-3 .burnt-gold h2
+#main-content .ribbon.style-3 .AA-burnt-gold .lead, body #main-content .ribbon.style-3 .AA-burnt-gold h2
   color: #947024
 
-#main-content .future-students .ribbon.style-3 .teal-color .lead, body #main-content .future-students .ribbon.style-3 .teal-color h2
+#main-content .ribbon.style-3 .AA-teal .lead, body #main-content .ribbon.style-3 .AA-teal h2
   color: #00818F
 
-#main-content .future-students .ribbon.style-3 .gold-grey .lead, body #main-content .future-students .ribbon.style-3 .gold-grey h2
-  color: #7E756D
+#main-content .ribbon.style-3 .footer-bg .lead, body #main-content .ribbon.style-3 .footer-bg h2
+  color: #6C6D68
 
 /*--BTN--
 
@@ -37,7 +34,7 @@ body #main-content .future-students .dashboard-item .dashboard-title .lead
     box-shadow: inset 0 0 1.25rem rgba(255, 255, 255, 0)
     text-shadow: none
     transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1)
-    padding: 1.25rem 0
+    padding: 1.25rem 0 1.5625rem
     margin: .625rem 0
     a div
       font-size: 1rem
@@ -54,6 +51,8 @@ body #main-content .future-students .dashboard-item .dashboard-title .lead
         margin: 0
         width: 40%
         padding: 0 .5rem 0 0
+        top: 6px
+        position: relative
         &::before
           display: none
       &.subtitle
@@ -70,11 +69,16 @@ body #main-content .future-students .dashboard-item .dashboard-title .lead
     padding: .468rem
 
 @media (min-width: 768px)
+  .future-students .btn-solid-outline
+    padding: 1.25rem 0
+
+@media (min-width: 768px)
   .future-students .btn-solid-outline a span.title
     display: block
     margin: 0
     padding: 0
     width: 100%
+    top: 0
 
 @media (min-width: 992px)
   .future-students .btn-solid-outline a span.title
@@ -106,6 +110,7 @@ body #main-content .future-students .dashboard-item .dashboard-title .lead
     display: block
     margin: 10px auto 0
     border-top: thin solid white
+    font-size: .9rem
 
 @media (min-width: 992px)
   .future-students .btn-solid-outline a span.subtitle
@@ -122,7 +127,7 @@ body #main-content .future-students .btn-solid-outline a span.subtitle::after
   font-family: FontAwesome
   margin-left: .5rem
 
-@media (min-width: 768px)
+@media (max-width: 992px) and (min-width: 768px)
   body #main-content .future-students .btn-solid-outline a span.subtitle::after
     display: none
 
@@ -133,8 +138,8 @@ body #main-content .future-students .btn-solid-outline a span.subtitle::after
   .dark-teal-bg
     background-color: #004261
     outline: none
-  .gold-grey-bg
-    background-color: #7E756D
+  .footer-bg
+    background-color: #6C6D68
     outline: none
 
 @media (min-width: 768px)
@@ -148,9 +153,9 @@ body #main-content .future-students .btn-solid-outline a span.subtitle::after
     outline: 1px solid #004261
 
 @media (min-width: 768px)
-  .future-students .gold-grey-bg
-    background-color: #7E756D
-    outline: 1px solid #7E756D
+  .future-students .footer-bg
+    background-color: #6C6D68
+    outline: 1px solid #6C6D68
 
 body #main-content .future-students
   .btn-solid-outline
@@ -168,9 +173,19 @@ body #main-content .future-students
       font-family: "Oswald", sans-serif
       border: none
       display: block
+    br
+      display: none
   .intro-ribbon
     margin-top: -1.125rem
     padding: 1.5625rem 0
+
+@media (min-width: 992px)
+  body #main-content .future-students .btn-solid-outline br
+    display: block
+
+@media (min-width: 992px)
+  body #main-content .future-students .btn-solid-outline .space
+    display: none
 
 /*---LAYOUT---
 
@@ -237,7 +252,7 @@ body #main-content .future-students .intro-text
 
 .future-students .dashboard-item .dashboard-title
   .lead
-    opacity: 1
+    opacity: 1 !important
     margin: -1rem 0 1rem
   ul li
     text-align: left
