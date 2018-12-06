@@ -4,10 +4,12 @@ body
 	#main-content
 		.arts-item
 			height: 114px
+			background-color: $white
 			.tile-img
 				display: inline
 				float: left
 				width: 200px
+				height: 100%
 
 			.tile-content
 				height: 100%
@@ -15,25 +17,38 @@ body
 				width: calc(100% - 200px)
 				overflow: hidden
 				display: inline-block
-				padding: 0px 10px
+				padding: 10px
 				p
 					font-size: .95em
+					line-height: 1.2em
 				h2
 					font-weight: 500
 					text-transform: uppercase
 					margin-bottom: 5px
 					margin-top: 5px
 					font-size: 1.2em !important
+					&:before
+						z-index: 1
+						position: absolute
+						font-family: $font-awesome
+						color: $white
+						border-radius: 50%
+						font-size: 1.6em
+						width: 1.6em
+						text-align: center
+						line-height: 1.6em
+						border: 1em solid $white
+
+
 		.music
-			h2, p
-				color: $ecu-hot-pink !important
+			+arts-item($ecu-hot-pink, "\f001")
+			+section(#performing, $ecu-hot-pink, "https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png")
 		.drama
 			h2, p
 				color: $ecu-purple !important
 		.art
 			h2, p
 				color: $dark-teal !important
-
 		.btn-icon-outline
 			color: $white !important
 			width: 100%

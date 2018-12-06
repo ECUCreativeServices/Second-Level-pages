@@ -1,0 +1,18 @@
+
+=arts-item($color, $icon)
+  h2
+    color: $color !important
+    &:before
+      content: $icon
+      background-color: $color
+
+  p
+    color: $color !important
+
+
+=section($section, $color, $url)
+  #{$section}
+    .tile-img
+      background: linear-gradient(rgba( $color, .7 ), rgba( $color, .7 )), url($url)
+      &:hover
+        background: url($url)

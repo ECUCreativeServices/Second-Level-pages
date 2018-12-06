@@ -231,82 +231,57 @@ body #main-content a.btn-ecu-white {
         color: #FFFFFF;
         font-size: 1.8rem; } }
 
-/* ABOUT PAGE STYLES */
-body #main-content .ribbon.style-2 h2 {
-  color: #FFFFFF; }
-body #main-content .intro-text {
-  padding: 24px 48px 48px; }
-  @media (min-width: 992px) {
-    body #main-content .intro-text {
-      padding: 24px 48px 24px 24px; } }
-body #main-content .dashboard-item .dashboard-title {
-  text-align: left;
-  padding-left: 40px;
-  padding-top: 15px; }
-  @media (min-width: 576px) {
-    body #main-content .dashboard-item .dashboard-title {
-      text-align: center;
-      padding-left: 15px; } }
-  @media (min-width: 576px) and (min-width: 768px) {
-    body #main-content .dashboard-item .dashboard-title {
-      padding-top: 0; } }
-
-body #main-content .dashboard-item .dash-content {
-  margin: 0;
-  padding-left: 40px; }
-  @media (min-width: 576px) {
-    body #main-content .dashboard-item .dash-content {
-      margin: 0 auto;
-      padding-left: 0; } }
-body #main-content section[aria-label="About Dashboard"] .dash-content .link-list {
-  padding: 0; }
-  @media (min-width: 576px) {
-    body #main-content section[aria-label="About Dashboard"] .dash-content .link-list {
-      -webkit-columns: 12.5em 2;
-      -moz-columns: 12.5em 2;
-      columns: 12.5em 2; } }
-  @media (min-width: 576px) and (min-width: 768px) {
-    body #main-content section[aria-label="About Dashboard"] .dash-content .link-list {
-      -webkit-column-gap: 6em;
-      -moz-column-gap: 6em;
-      -ms-column-gap: 6em;
-      column-gap: 6em; } }
-
-  @media (min-width: 576px) and (min-width: 768px) and (min-width: 992px) {
-    body #main-content section[aria-label="About Dashboard"] .dash-content .link-list {
-      -webkit-column-gap: 1.25em;
-      -moz-column-gap: 1.25em;
-      -ms-column-gap: 1.25em;
-      column-gap: 1.25em; } }
-
-  @media (min-width: 576px) and (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
-    body #main-content section[aria-label="About Dashboard"] .dash-content .link-list {
-      -webkit-column-gap: 3em;
-      -moz-column-gap: 3em;
-      -ms-column-gap: 3em;
-      column-gap: 3em; } }
-
-  body #main-content section[aria-label="About Dashboard"] .dash-content .link-list li {
-    margin-left: 1em;
-    list-style-type: none;
-    font-family: "Oswald", sans-serif; }
-    body #main-content section[aria-label="About Dashboard"] .dash-content .link-list li a {
-      border-bottom: none;
-      color: #572C86;
-      line-height: 2rem; }
-      body #main-content section[aria-label="About Dashboard"] .dash-content .link-list li a::before {
+/* ARTS PAGE */
+body #main-content .arts-item {
+  height: 114px;
+  background-color: #FFFFFF; }
+  body #main-content .arts-item .tile-img {
+    display: inline;
+    float: left;
+    width: 200px;
+    height: 100%; }
+  body #main-content .arts-item .tile-content {
+    height: 100%;
+    float: left;
+    width: calc(100% - 200px);
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px; }
+    body #main-content .arts-item .tile-content p {
+      font-size: 0.95em;
+      line-height: 1.2em; }
+    body #main-content .arts-item .tile-content h2 {
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      font-size: 1.2em !important; }
+      body #main-content .arts-item .tile-content h2:before {
+        z-index: 1;
+        position: absolute;
         font-family: "FontAwesome";
-        content: "";
-        color: #572C86;
-        margin-right: 5px; }
-      body #main-content section[aria-label="About Dashboard"] .dash-content .link-list li a:hover {
-        border-bottom: 1px solid #572C86; }
-
-/* Styles from Research */
-body #main-content .ribbon.style-3 .dark-purple .lead, body #main-content .ribbon.style-3 .dark-purple h2 {
-  color: #41215E; }
-body #main-content .ribbon.style-3 .ecu-hot-pink .lead, body #main-content .ribbon.style-3 .ecu-hot-pink h2 {
-  color: #77216F; }
+        color: #FFFFFF;
+        border-radius: 50%;
+        font-size: 1.6em;
+        width: 1.6em;
+        text-align: center;
+        line-height: 1.6em;
+        border: 1em solid #FFFFFF; }
+body #main-content .music h2 {
+  color: #77216F !important; }
+  body #main-content .music h2:before {
+    content: "";
+    background-color: #77216F; }
+body #main-content .music p {
+  color: #77216F !important; }
+body #main-content .music #performing .tile-img {
+  background: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+  body #main-content .music #performing .tile-img:hover {
+    background: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+body #main-content .drama h2, body #main-content .drama p {
+  color: #572C86 !important; }
+body #main-content .art h2, body #main-content .art p {
+  color: #004261 !important; }
 body #main-content .btn-icon-outline {
   color: #FFFFFF !important;
   width: 100%;
@@ -316,10 +291,11 @@ body #main-content .btn-icon-outline {
   font-family: "Oswald", sans-serif;
   cursor: pointer;
   -webkit-appearance: none;
-  -moz-appearance: none;
   -webkit-font-smoothing: antialiased;
   max-width: 325px;
   padding: 26px 0;
+  text-transform: uppercase;
+  text-decoration: none;
   border: none;
   font-size: 1.1rem;
   line-height: 1.5;
@@ -346,7 +322,6 @@ body #main-content .btn-solid-outline {
   text-align: left;
   cursor: pointer;
   -webkit-appearance: none;
-  -moz-appearance: none;
   border: 0 solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
   outline: 1px solid #77216F;
@@ -358,7 +333,7 @@ body #main-content .btn-solid-outline {
     body #main-content .btn-solid-outline {
       width: 95%;
       margin-left: 6px;
-      padding-left: 0; } }
+      padding-left: 0px; } }
   body #main-content .btn-solid-outline:hover {
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
     outline-color: rgba(255, 255, 255, 0);
@@ -367,7 +342,7 @@ body #main-content .btn-solid-outline {
   body #main-content .btn-solid-outline::before {
     font-family: "FontAwesome";
     content: "";
-    color: #FFFFFF;
+    color: white;
     margin-left: 5px;
     float: left;
     font-size: 2rem;
@@ -376,10 +351,17 @@ body #main-content .btn-solid-outline {
     line-height: 42px; }
     @media (min-width: 768px) {
       body #main-content .btn-solid-outline::before {
-        display: block;
-        line-height: 41px; } }
+        display: block; } }
+  @media (min-width: 768px) and (min-width: 992px) {
+    body #main-content .btn-solid-outline::before {
+      line-height: 60px; } }
+
+  @media (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
+    body #main-content .btn-solid-outline::before {
+      line-height: 41px; } }
+
   body #main-content .btn-solid-outline a {
-    color: #FFFFFF;
+    color: white;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
@@ -390,132 +372,30 @@ body #main-content .btn-solid-outline {
     body #main-content .btn-solid-outline a::after {
       font-family: "FontAwesome";
       content: "";
-      color: #FFFFFF;
+      color: white;
       margin-left: 5px; }
-
-/* End Styles from Research */
-body #main-content #meet {
-  background-color: #FFFFFF;
+body #main-content #give {
+  background-color: #eaaa24;
   margin: 15px 5px 5px;
   width: 95%;
-  outline: 1px solid #FFFFFF;
+  outline: 1px solid #eaaa24;
   padding: 7px; }
-  body #main-content #meet:hover {
-    outline: 1px solid #572C86; }
+  body #main-content #give:hover {
+    outline: 1px solid #41215E; }
   @media (min-width: 992px) {
-    body #main-content #meet {
-      padding-left: 0; } }
-  body #main-content #meet::before {
-    color: #572C86;
-    content: "";
+    body #main-content #give {
+      padding-left: 0px; } }
+  body #main-content #give::before {
+    color: #41215E;
+    content: "";
     display: none;
-    font-size: 2.5rem; }
+    font-size: 3rem; }
     @media (min-width: 992px) {
-      body #main-content #meet::before {
+      body #main-content #give::before {
         display: block; } }
-  body #main-content #meet a {
-    color: #572C86; }
-    body #main-content #meet a::after {
-      color: #572C86; }
-body #main-content #image-blocks {
-  display: none; }
-  @media (min-width: 992px) {
-    body #main-content #image-blocks {
-      display: block; } }
-@media (min-width: 992px) {
-  body #main-content #img-block-1 {
-    padding-bottom: 0.5em; } }
-body #main-content #img-1 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/8K4A6438.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  @media (min-width: 992px) {
-    body #main-content #img-1 {
-      height: 13.75em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content #img-1 {
-      height: 24.236em; } }
-
-@media (min-width: 992px) {
-  body #main-content #img-block-2 {
-    padding-bottom: 0.5em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content #img-block-2 {
-      padding-right: 0.5em;
-      padding-bottom: 0; } }
-
-body #main-content #img-2 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/STEAM_Camp_Jenkins_2017-0839.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  @media (min-width: 992px) {
-    body #main-content #img-2 {
-      height: 15.169em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content #img-2 {
-      height: 16.157em; } }
-
-@media (min-width: 992px) {
-  body #main-content #img-block-3 {
-    padding-bottom: 0.5em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content #img-block-3 {
-      padding-left: 0; } }
-
-body #main-content #img-3 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/C1_7921.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  @media (min-width: 992px) {
-    body #main-content #img-3 {
-      height: 10em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content #img-3 {
-      height: 9.694em; } }
-
-@media (min-width: 992px) {
-  body #main-content #img-block-4 {
-    padding-right: 0.5em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content #img-block-4 {
-      padding-left: 0; } }
-
-body #main-content #img-4 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/A14I0097.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  @media (min-width: 992px) {
-    body #main-content #img-4 {
-      height: 8.169em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content #img-4 {
-      height: 5.963em; } }
-
-@media (min-width: 992px) {
-  body #main-content #img-block-5 {
-    padding-left: 0; } }
-body #main-content #img-5 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/LedoniaWright2011-2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  @media (min-width: 992px) {
-    body #main-content #img-5 {
-      height: 8.169em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content #img-5 {
-      height: 5.963em; } }
-
-body #main-content #uneven {
-  padding-bottom: 0; }
-  @media (min-width: 576px) {
-    body #main-content #uneven {
-      padding-bottom: 6em; } }
-body #main-content #bottom {
-  margin-bottom: -1rem; }
+  body #main-content #give a {
+    color: #41215E; }
+    body #main-content #give a::after {
+      color: #41215E; }
 
 /*# sourceMappingURL=styles.css.map */
