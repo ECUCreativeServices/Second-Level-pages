@@ -231,31 +231,92 @@ body #main-content a.btn-ecu-white {
         color: #FFFFFF;
         font-size: 1.8rem; } }
 
-/* RESEARCH PAGE */
-body #main-content .middle-section {
-  padding: 5px; }
-body #main-content .ribbon.style-3 .dark-purple .lead, body #main-content .ribbon.style-3 .dark-purple h2 {
-  color: #41215E; }
-body #main-content .ribbon.style-3 .ecu-hot-pink .lead, body #main-content .ribbon.style-3 .ecu-hot-pink h2 {
-  color: #77216F; }
-body #main-content .ribbon.style-3 .dark-teal .lead, body #main-content .ribbon.style-3 .dark-teal h2 {
-  color: #004261; }
-body #main-content .ribbon.style-3 .burnt-gold .lead, body #main-content .ribbon.style-3 .burnt-gold h2 {
-  color: #B88B2D; }
-body #main-content .ribbon.style-3 .teal-color .lead, body #main-content .ribbon.style-3 .teal-color h2 {
-  color: #009fb1; }
-body #main-content .ribbon.style-3 .gold-grey .lead, body #main-content .ribbon.style-3 .gold-grey h2 {
-  color: #928a81; }
-body #main-content .ecu-video-wrap .title-wrap .ecu-video-title {
-  max-width: 75%;
-  font-family: "Oswald", sans-serif;
-  font-size: 1.1rem;
-  display: inline-block;
-  padding: 10px 25px; }
-body #main-content .ecu-video-wrap .title-wrap .ecu-hot-pink {
-  background-color: #77216F;
-  border-color: #77216F;
-  color: white; }
+/* ARTS PAGE */
+body #main-content .arts-item {
+  position: relative;
+  background-color: #fff; }
+  body #main-content .arts-item::after {
+    display: block;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    top: 10px;
+    left: 152px;
+    position: absolute;
+    font-family: "FontAwesome";
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 1.6em;
+    text-align: center;
+    line-height: 1.7em;
+    border: 3px solid #FFFFFF; }
+  body #main-content .arts-item .tile-img {
+    display: none; }
+    @media (min-width: 768px) {
+      body #main-content .arts-item .tile-img {
+        display: inline-block;
+        background-position: top;
+        background-size: cover;
+        float: left;
+        width: 175px;
+        height: 140px; } }
+  body #main-content .arts-item .tile-content {
+    width: 100%; }
+    @media (min-width: 768px) {
+      body #main-content .arts-item .tile-content {
+        height: 100%;
+        float: left;
+        width: calc(100% - 200px);
+        overflow: hidden;
+        display: inline-block;
+        padding: 10px;
+        margin-left: 25px; }
+        body #main-content .arts-item .tile-content p {
+          font-size: 0.95em;
+          line-height: 1.2em; }
+        body #main-content .arts-item .tile-content h2 {
+          font-weight: 500;
+          text-transform: uppercase;
+          margin-bottom: 5px;
+          margin-top: 5px;
+          font-size: 1.2em !important; } }
+body #main-content .music h2 {
+  color: #77216F !important; }
+body #main-content .music::after {
+  content: "";
+  background-color: #77216F; }
+body #main-content .music p {
+  color: #77216F !important; }
+body #main-content .music #performing {
+  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+  body #main-content .music #performing:hover {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+body #main-content .music #fourseason {
+  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+  body #main-content .music #fourseason:hover {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+body #main-content .drama h2 {
+  color: #41215E !important; }
+body #main-content .drama::after {
+  content: "";
+  background-color: #41215E; }
+body #main-content .drama p {
+  color: #41215E !important; }
+body #main-content .drama #playhouse {
+  background-image: linear-gradient(rgba(65, 33, 94, 0.7), rgba(65, 33, 94, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+  body #main-content .drama #playhouse:hover {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+body #main-content .art h2 {
+  color: #004261 !important; }
+body #main-content .art::after {
+  content: "";
+  background-color: #004261; }
+body #main-content .art p {
+  color: #004261 !important; }
+body #main-content .art #gallery {
+  background-image: linear-gradient(rgba(0, 66, 97, 0.7), rgba(0, 66, 97, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+  body #main-content .art #gallery:hover {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
 body #main-content .btn-icon-outline {
   color: #FFFFFF !important;
   width: 100%;
@@ -291,14 +352,14 @@ body #main-content .btn-icon-outline {
 body #main-content .btn-wrapper {
   margin: 35px 0; }
 body #main-content .btn-solid-outline {
-  background-color: #77216F;
+  background-color: #FFFFFF;
   width: 100%;
   text-align: left;
   cursor: pointer;
   -webkit-appearance: none;
   border: 0 solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-  outline: 1px solid #77216F;
+  outline: 1px solid #FFFFFF;
   outline-offset: 5px;
   text-shadow: none;
   transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -315,8 +376,7 @@ body #main-content .btn-solid-outline {
     text-shadow: 1px 1px 2px #427388; }
   body #main-content .btn-solid-outline::before {
     font-family: "FontAwesome";
-    content: "";
-    color: white;
+    color: #41215E;
     margin-left: 5px;
     float: left;
     font-size: 2rem;
@@ -334,8 +394,13 @@ body #main-content .btn-solid-outline {
     body #main-content .btn-solid-outline::before {
       line-height: 41px; } }
 
+  body #main-content .btn-solid-outline #ticket {
+    content: ""; }
+  body #main-content .btn-solid-outline #calendar1,
+  body #main-content .btn-solid-outline #calendar2 {
+    content: ""; }
   body #main-content .btn-solid-outline a {
-    color: white;
+    color: #41215E;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
@@ -348,74 +413,5 @@ body #main-content .btn-solid-outline {
       content: "";
       color: white;
       margin-left: 5px; }
-body #main-content #give {
-  background-color: #eaaa24;
-  margin: 15px 5px 5px;
-  width: 95%;
-  outline: 1px solid #eaaa24;
-  padding: 7px; }
-  body #main-content #give:hover {
-    outline: 1px solid #41215E; }
-  @media (min-width: 992px) {
-    body #main-content #give {
-      padding-left: 0px; } }
-  body #main-content #give::before {
-    color: #41215E;
-    content: "";
-    display: none;
-    font-size: 3rem; }
-    @media (min-width: 992px) {
-      body #main-content #give::before {
-        display: block; } }
-  body #main-content #give a {
-    color: #41215E; }
-    body #main-content #give a::after {
-      color: #41215E; }
-body #main-content #report::before {
-  content: ""; }
-body #main-content .ecu-video-wrap .top {
-  margin-top: 0px;
-  border-bottom: 7px solid #41215E; }
-body #main-content .ecu-video-wrap .bottom {
-  margin-top: -17px;
-  border-top: 7px solid #77216F; }
-body #main-content .arrows {
-  width: 100%;
-  text-align: center; }
-  @media (min-width: 576px) {
-    body #main-content .arrows {
-      padding-top: 40px; } }
-  body #main-content .arrows .arrow-text {
-    text-align: center;
-    color: #4F7A8C !important;
-    display: block;
-    border-bottom: none;
-    background-color: #FFFFFF;
-    margin: 20px 10px; }
-    @media (min-width: 768px) {
-      body #main-content .arrows .arrow-text {
-        height: 75px;
-        background-color: transparent;
-        background-image: url(https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/08/Arrow.svg);
-        background-size: auto;
-        background-repeat: no-repeat;
-        width: 95%;
-        margin: 0 auto;
-        line-height: 60px; }
-        body #main-content .arrows .arrow-text:hover {
-          transition: 0.2s all;
-          transform: scale(1.05);
-          -moz-transform-origin: 1 1; } }
-
-@media (min-width: 992px) {
-  body #main-content .intro-text {
-    padding-right: 20px; }
-  body #main-content .ecu-dark-purple-bg {
-    margin-top: -30px;
-    min-height: 100%; }
-  body #main-content .middle-section {
-    padding: 0px 32px 0px; }
-  body #main-content .ribbon .ribbon-callout {
-    padding: 35px 20px 20px; } }
 
 /*# sourceMappingURL=styles.css.map */

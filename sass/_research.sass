@@ -145,7 +145,10 @@ body
 					color: $dark-purple
 		#report
 			&::before
-				content: "\f15c"
+				content: "\f15c" !important
+				@media (min-width: $screen-lg-min)
+					line-height: 42px
+
 		.ecu-video-wrap
 			.top
 				margin-top: 0px
