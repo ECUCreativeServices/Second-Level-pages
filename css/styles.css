@@ -401,7 +401,6 @@ body #main-content .btn-solid-outline {
   height: 100%; }
   @media (min-width: 768px) {
     body #main-content .btn-solid-outline {
-      width: 85%;
       padding-left: 0px; } }
   body #main-content .btn-solid-outline:hover {
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
@@ -419,13 +418,9 @@ body #main-content .btn-solid-outline {
     @media (min-width: 768px) {
       body #main-content .btn-solid-outline::before {
         display: block; } }
-  @media (min-width: 768px) and (min-width: 992px) {
-    body #main-content .btn-solid-outline::before {
-      line-height: 60px; } }
-
-  @media (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
-    body #main-content .btn-solid-outline::before {
-      line-height: 41px; } }
+@media (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
+  body #main-content .btn-solid-outline::before {
+    line-height: 41px; } }
 
   body #main-content .btn-solid-outline a {
     color: #41215E !important;
@@ -446,7 +441,15 @@ body #main-content .btn-solid-outline {
     body #main-content .btn-solid-outline a:hover {
       color: #41215E !important; }
 body #main-content #tickets::before {
-  content: ""; }
+  content: "";
+  margin-left: 0px;
+  font-size: 2.3rem;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; }
 body #main-content #calendar::before,
 body #main-content #events::before {
   content: ""; }
