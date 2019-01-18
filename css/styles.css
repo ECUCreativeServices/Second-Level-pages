@@ -231,227 +231,255 @@ body #main-content a.btn-ecu-white {
         color: #FFFFFF;
         font-size: 1.8rem; } }
 
-/* ARTS PAGE */
-body #main-content .intro-text {
-  padding: 1.2em 3em 0em 1.2em; }
-  body #main-content .intro-text h2 {
-    color: #FFFFFF !important; }
-body #main-content .arts-item {
-  position: relative;
-  background-color: #fff; }
-  @media (min-width: 1200px) {
-    body #main-content .arts-item {
-      display: flex;
-      flex: 1 1 auto;
-      min-height: auto; } }
-  body #main-content .arts-item::after {
-    display: none; }
-    @media (min-width: 768px) {
-      body #main-content .arts-item::after {
-        display: block;
-        z-index: 1;
-        height: 50px;
-        width: 50px;
-        top: 125px;
-        left: 80%;
-        position: absolute;
-        font-family: "FontAwesome";
-        color: #FFFFFF;
-        border-radius: 50%;
-        font-size: 1.6em;
-        text-align: center;
-        line-height: 1.7em;
-        border: 3px solid #FFFFFF;
-        display: block;
-        top: 125px;
-        left: 80%; } }
-  @media (min-width: 768px) and (min-width: 1200px) {
-    body #main-content .arts-item::after {
-      top: 10px;
-      left: 152px; } }
+/* FUTURE STUDENTS PAGE */
+/*--FUTURE STUDENTS -- */
+/*--colors-- */
+#main-content .dark-purple .lead, body #main-content .ribbon.style-3 .dark-purple h2 {
+  color: #41215E; }
 
-  body #main-content .arts-item .tile-img {
-    display: none;
-    height: 100vh; }
-    @media (min-width: 768px) {
-      body #main-content .arts-item .tile-img {
-        display: block;
-        width: 100%;
-        height: 150px;
-        clear: both; } }
-  @media (min-width: 768px) and (min-width: 1200px) {
-    body #main-content .arts-item .tile-img {
-      display: inline-block;
-      background-position: top;
-      background-size: cover;
-      float: left;
-      width: 175px;
-      height: 140px; } }
+#main-content .ribbon.style-3 .ecu-hot-pink .lead, body #main-content .ribbon.style-3 .ecu-hot-pink h2 {
+  color: #77216F; }
 
-  body #main-content .arts-item .tile-content {
-    width: 100%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    display: inline-block;
-    padding: 20px; }
-    @media (min-width: 768px) {
-      body #main-content .arts-item .tile-content {
-        min-height: 181px; } }
-  @media (min-width: 768px) and (min-width: 1200px) {
-    body #main-content .arts-item .tile-content {
-      margin-left: 25px;
-      width: calc(100% - 200px);
-      padding: 10px;
-      min-height: auto; } }
+#main-content .ribbon.style-3 .dark-teal .lead, body #main-content .ribbon.style-3 .dark-teal h2 {
+  color: #004261; }
 
-    body #main-content .arts-item .tile-content p {
-      font-size: 0.95em;
-      line-height: 1.2em; }
-    body #main-content .arts-item .tile-content h2 {
-      font-weight: 500;
-      text-transform: uppercase;
-      margin-bottom: 5px;
-      margin-top: 5px;
-      font-size: 1.2em !important; }
-body #main-content .music h2 {
-  color: #77216F !important; }
-body #main-content .music::after {
-  content: "";
-  background-color: #77216F; }
-body #main-content .music p {
-  color: #77216F !important; }
-body #main-content .music #performing {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .music #performing:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .music #fourseason {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .music #fourseason:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .music #symphony {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .music #symphony:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .music #newmusic {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .music #newmusic:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .music #opera {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .music #opera:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .music #taylor {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .music #taylor:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .drama h2 {
-  color: #41215E !important; }
-body #main-content .drama::after {
-  content: "";
-  background-color: #41215E; }
-body #main-content .drama p {
-  color: #41215E !important; }
-body #main-content .drama #playhouse {
-  background-image: linear-gradient(rgba(65, 33, 94, 0.7), rgba(65, 33, 94, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .drama #playhouse:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .drama #familyfare {
-  background-image: linear-gradient(rgba(65, 33, 94, 0.7), rgba(65, 33, 94, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .drama #familyfare:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .drama #artssmart {
-  background-image: linear-gradient(rgba(65, 33, 94, 0.7), rgba(65, 33, 94, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .drama #artssmart:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .art h2 {
-  color: #004261 !important; }
-body #main-content .art::after {
-  content: "";
-  background-color: #004261; }
-body #main-content .art p {
-  color: #004261 !important; }
-body #main-content .art #gallery {
-  background-image: linear-gradient(rgba(0, 66, 97, 0.7), rgba(0, 66, 97, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .art #gallery:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .art #glasstation {
-  background-image: linear-gradient(rgba(0, 66, 97, 0.7), rgba(0, 66, 97, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .art #glasstation:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .art #faulkner {
-  background-image: linear-gradient(rgba(0, 66, 97, 0.7), rgba(0, 66, 97, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-  body #main-content .art #faulkner:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
-body #main-content .btn-wrapper {
-  margin: 35px 0; }
-body #main-content .btn-solid-outline {
-  background-color: #FFFFFF;
+#main-content .ribbon.style-3 .AA-burnt-gold .lead, body #main-content .ribbon.style-3 .AA-burnt-gold h2 {
+  color: #947024; }
+
+#main-content .ribbon.style-3 .AA-teal .lead, body #main-content .ribbon.style-3 .AA-teal h2 {
+  color: #00818F; }
+
+#main-content .ribbon.style-3 .footer-bg .lead, body #main-content .ribbon.style-3 .footer-bg h2 {
+  color: #6C6D68; }
+
+/*--BTN-- */
+.future-students .btn-row {
+  width: 90%;
+  margin: 1.25rem auto; }
+.future-students .btn-solid-outline {
   width: 100%;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
   -webkit-appearance: none;
   border: 0 solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-  outline: 1px solid #FFFFFF;
-  outline-offset: 5px;
+  box-shadow: inset 0 0 1.25rem rgba(255, 255, 255, 0);
   text-shadow: none;
   transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1);
-  padding: 7px 0 7px 20px;
-  height: 100%; }
-  @media (min-width: 768px) {
-    body #main-content .btn-solid-outline {
-      padding-left: 0px; } }
-  body #main-content .btn-solid-outline:hover {
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
-    outline-color: rgba(255, 255, 255, 0);
-    outline-offset: 10px; }
-  body #main-content .btn-solid-outline::before {
-    font-family: "FontAwesome";
-    color: #41215E;
-    margin-left: 5px;
-    float: left;
-    font-size: 2rem;
-    padding: 0 10px;
-    display: none;
-    line-height: 42px; }
-    @media (min-width: 768px) {
-      body #main-content .btn-solid-outline::before {
-        display: block; } }
-@media (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
-  body #main-content .btn-solid-outline::before {
-    line-height: 41px; } }
+  padding: 1.25rem 0;
+  margin: 0.625rem 0; }
+  .future-students .btn-solid-outline a div {
+    font-size: 1rem;
+    display: inline-block; }
+  .future-students .btn-solid-outline div:after {
+    content: "";
+    font-family: FontAwesome;
+    margin-left: 0.5rem; }
+  .future-students .btn-solid-outline a span.title {
+    font-weight: 700;
+    font-size: 2.1rem;
+    display: inline-block;
+    margin: 0;
+    width: 40%;
+    padding: 0 0.5rem 0 0; }
+    .future-students .btn-solid-outline a span.title::before {
+      display: none; }
+  .future-students .btn-solid-outline a span.subtitle {
+    line-height: 1em;
+    display: inline-block;
+    width: 50%;
+    border-left: solid white 2px;
+    padding: 0 0 0 0.5rem;
+    text-align: left; }
 
-  body #main-content .btn-solid-outline a {
-    color: #41215E !important;
-    text-transform: uppercase;
+@media (min-width: 992px) {
+  .future-students .btn-solid-outline {
+    outline-offset: 0.313rem;
+    padding: 0.468rem; } }
+@media (min-width: 768px) {
+  .future-students .btn-solid-outline a span.title {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%; } }
+@media (min-width: 992px) {
+  .future-students .btn-solid-outline a span.title {
+    display: inline-block;
+    margin: 0;
+    padding: 0 0.625rem 0 0;
+    text-align: right;
+    width: 45%; } }
+@media (min-width: 1200px) {
+  .future-students .btn-solid-outline a span.title {
+    width: 50%; } }
+@media (min-width: 1200px) {
+  .future-students .btn-solid-outline a span.title::before {
+    display: inherit;
+    font-family: "FontAwesome";
+    content: "";
+    color: white;
+    font-size: 2rem;
+    padding: 0; } }
+@media (min-width: 768px) {
+  .future-students .btn-solid-outline a span.subtitle {
+    width: 100%;
+    border-left: none;
+    padding: 0.5rem 0 0;
+    text-align: center;
+    display: block;
+    margin: 10px auto 0;
+    border-top: thin solid white; } }
+@media (min-width: 992px) {
+  .future-students .btn-solid-outline a span.subtitle {
+    display: inline-block;
+    width: 50%;
+    border-left: solid white 2px;
+    padding: 0 0 0 0.625rem;
+    text-align: left;
+    border-top: none;
+    margin: 0; } }
+body #main-content .future-students .btn-solid-outline a span.subtitle::after {
+  content: "";
+  font-family: FontAwesome;
+  margin-left: 0.5rem; }
+
+@media (min-width: 768px) {
+  body #main-content .future-students .btn-solid-outline a span.subtitle::after {
+    display: none; } }
+.future-students .ecu-hot-pink-bg {
+  outline: none;
+  background-color: #77216F; }
+.future-students .dark-teal-bg {
+  background-color: #004261;
+  outline: none; }
+.future-students .footer-bg {
+  background-color: #6C6D68;
+  outline: none; }
+
+@media (min-width: 768px) {
+  .future-students .ecu-hot-pink-bg {
+    background-color: #77216F;
+    outline: thin solid #77216F; } }
+@media (min-width: 768px) {
+  .future-students .dark-teal-bg {
+    background-color: #004261;
+    outline: 1px solid #004261; } }
+@media (min-width: 768px) {
+  .future-students .footer-bg {
+    background-color: #6C6D68;
+    outline: 1px solid #6C6D68; } }
+body #main-content .future-students .btn-solid-outline:hover {
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 0.625rem;
+  text-shadow: 1px 1px 2px #427388; }
+body #main-content .future-students .btn-solid-outline a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.3rem;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  display: block; }
+body #main-content .future-students .intro-ribbon {
+  margin-top: -1.125rem;
+  padding: 1.5625rem 0; }
+
+/*---LAYOUT--- */
+.future-students .bg-ecu-purple {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+  .future-students .bg-ecu-purple h2 {
+    text-transform: uppercase; }
+
+.image-blocks {
+  display: block; }
+
+.img-block {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-block-1 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/Engineering_Lab-6849_1140.jpg");
+  display: none; }
+
+@media (min-width: 768px) {
+  .img-block-1 {
+    display: inherit;
+    height: 10.438rem; } }
+@media (max-width: 992px) and (min-width: 768px) {
+  .img-block-1 {
+    height: 12rem; } }
+.img-block-2 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/Estrogen_Torres_ECHI-0020_1140.jpg");
+  display: none; }
+
+@media (min-width: 768px) {
+  .img-block-2 {
+    border-left: 5px solid #592a8a;
+    border-top: none;
+    display: inherit;
+    height: 10.438rem; } }
+@media (max-width: 992px) and (min-width: 768px) {
+  .img-block-2 {
+    height: 12rem; } }
+.img-block-3 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/B34R0210_1140.jpg");
+  height: 13.75rem; }
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .img-block-3 {
+    height: 16rem;
+    border-top: 5px solid #592a8a; } }
+@media (min-width: 768px) {
+  .img-block-3 {
+    border-top: 0.3125rem solid #592a8a; } }
+body #main-content .future-students .intro-text {
+  padding: 1rem 2.5rem; }
+
+/*--dashboard blocks-- */
+.future-students .dashboard-item .dashboard-title .lead {
+  opacity: 1 !important;
+  margin: -1rem 0 1rem; }
+.future-students .dashboard-item .dashboard-title ul li {
+  text-align: left;
+  list-style: none;
+  line-height: 2rem; }
+
+body #main-content .future-students .dashboard-item .dashboard-title ul li a {
+  text-decoration: none;
+  border-bottom: none;
+  color: #592a8a;
+  text-transform: capitalize;
+  transition: 0.5s; }
+  body #main-content .future-students .dashboard-item .dashboard-title ul li a:hover {
+    color: #be9fdf;
+    border-color: #be9fdf;
+    border-bottom: thin solid #be9fdf; }
+
+.future-students .dashboard-item .dashboard-title ul li a::before {
+  content: "";
+  font-family: FontAwesome;
+  margin-right: 0.5rem; }
+
+#main-content .future-students .ribbon.style-3 .want-more {
+  text-align: center;
+  color: #947024; }
+  #main-content .future-students .ribbon.style-3 .want-more a {
+    color: #947024;
+    text-transform: Capitalize;
+    margin: 0 1rem;
     text-decoration: none;
-    font-weight: 500;
-    line-height: 1.3rem;
-    font-family: "Oswald", sans-serif;
-    border: none;
-    display: block; }
-    body #main-content .btn-solid-outline a::after {
-      font-family: "FontAwesome";
-      content: "";
-      color: #41215E;
-      margin-left: 5px;
-      font-size: 0.875rem;
-      vertical-align: middle; }
-    body #main-content .btn-solid-outline a:hover {
-      color: #41215E !important; }
-body #main-content #tickets::before {
-  content: "";
-  margin-left: 0px;
-  font-size: 2.3rem;
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH"; }
-body #main-content #calendar::before,
-body #main-content #events::before {
-  content: ""; }
+    border-bottom: none; }
+
+body #main-content .future-students .ribbon.style-3 .want-more a:hover {
+  color: #be9fdf;
+  border-color: #be9fdf;
+  border-bottom: thin solid #be9fdf; }
+
+#main-content .future-students .ribbon.style-3 .want-more span {
+  display: block; }
 
 /*# sourceMappingURL=styles.css.map */
