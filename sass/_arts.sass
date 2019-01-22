@@ -2,8 +2,41 @@
 
 body
 	#main-content
+
+		.image-blocks
+			display: none
+			@media (min-width: $screen-lg-min)
+				display: block
+			#img-block-1
+				@media (min-width: $screen-lg-min)
+					padding-bottom: .5em
+				#img-1
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/img1.jpg", 12.157em, 11.157em)
+
+			#img-block-2
+				@media (min-width: $screen-lg-min)
+					padding-left: .5em
+					padding-bottom: .5em
+				#img-2
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/img2.jpg", 12.157em, 11.157em)
+
+			#img-block-3
+				@media (min-width: $screen-lg-min)
+					padding-bottom: 0
+				#img-3
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/STEAM_Camp_Jenkins_2017-0839.jpg", 15.6em, 13.65em)
+
+			#img-block-4
+				@media (min-width: $screen-lg-min)
+					padding-left: .5em
+					padding-bottom: 0
+				#img-4
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/img3.jpg", 15.6em, 13.65em)
+
 		.intro-text
 			padding: 1.2em 3em 0em 2.2em
+			@media (min-width: $screen-lg-min)
+				padding: 1.2em 3em 0em 1.2em
 			h2
 				color: $white !important
 		.arts-item
@@ -79,8 +112,8 @@ body
 
 		.music
 			+arts-item($ecu-hot-pink, '\f001')
-			+section(#performing, $ecu-hot-pink, "https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png")
-			+section(#fourseason, $ecu-hot-pink, "https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png")
+			+section(#performing, $ecu-hot-pink, "https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/performing.jpg")
+			+section(#fourseason, $ecu-hot-pink, "https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/playhouse.jpg")
 			+section(#symphony, $ecu-hot-pink, "https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png")
 			+section(#newmusic, $ecu-hot-pink, "https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png")
 			+section(#opera, $ecu-hot-pink, "https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png")
@@ -97,7 +130,9 @@ body
 			+section(#faulkner, $dark-teal, "https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png")
 
 		.btn-wrapper
-			margin: 35px 0
+			margin: 20px 0
+			@media (min-width: $screen-md-min)
+				margin: 0
 
 		.btn-solid-outline
 			background-color: $white
@@ -150,7 +185,7 @@ body
 					margin-left: 5px
 					font-size: .875rem
 					vertical-align: middle
-					
+
 				&:hover
 					color: $dark-purple !important
 		#tickets
