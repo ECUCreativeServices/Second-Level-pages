@@ -247,10 +247,10 @@ body #main-content .image-blocks {
     background-size: cover; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-1 #img-1 {
-        height: 12.157em; } }
+        height: 13.157em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-1 #img-1 {
-      height: 11.157em; } }
+      height: 12.157em; } }
 
   @media (min-width: 992px) {
     body #main-content .image-blocks #img-block-2 {
@@ -263,41 +263,41 @@ body #main-content .image-blocks {
     background-size: cover; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-2 #img-2 {
-        height: 12.157em; } }
+        height: 13.157em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-2 #img-2 {
-      height: 11.157em; } }
+      height: 12.157em; } }
 
   @media (min-width: 992px) {
     body #main-content .image-blocks #img-block-3 {
       padding-bottom: 0; } }
   body #main-content .image-blocks #img-block-3 #img-3 {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/STEAM_Camp_Jenkins_2017-0839.jpg");
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/img3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-3 #img-3 {
-        height: 15.6em; } }
+        height: 16.6em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-3 #img-3 {
-      height: 13.65em; } }
+      height: 14.65em; } }
 
   @media (min-width: 992px) {
     body #main-content .image-blocks #img-block-4 {
       padding-left: 0.5em;
       padding-bottom: 0; } }
   body #main-content .image-blocks #img-block-4 #img-4 {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/img3.jpg");
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/img4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-4 #img-4 {
-        height: 15.6em; } }
+        height: 16.6em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-4 #img-4 {
-      height: 13.65em; } }
+      height: 14.65em; } }
 
 body #main-content .intro-text {
   padding: 1.2em 3em 0em 2.2em; }
@@ -322,8 +322,6 @@ body #main-content .arts-item {
         z-index: 1;
         height: 50px;
         width: 50px;
-        top: 125px;
-        left: 80%;
         position: absolute;
         font-family: "FontAwesome";
         color: #FFFFFF;
@@ -333,7 +331,7 @@ body #main-content .arts-item {
         line-height: 1.7em;
         border: 3px solid #FFFFFF;
         display: block;
-        top: 125px;
+        top: 225px;
         left: 80%; } }
   @media (min-width: 768px) and (min-width: 1200px) {
     body #main-content .arts-item::after {
@@ -347,7 +345,7 @@ body #main-content .arts-item {
       body #main-content .arts-item .tile-img {
         display: block;
         width: 100%;
-        height: 150px;
+        height: 250px;
         clear: both; } }
   @media (min-width: 768px) and (min-width: 1200px) {
     body #main-content .arts-item .tile-img {
@@ -399,40 +397,40 @@ body #main-content .music #performing {
   body #main-content .music #performing:hover {
     background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/performing.jpg"); }
 body #main-content .music #fourseason {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/playhouse.jpg");
+  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/fourseasons.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .music #fourseason:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/playhouse.jpg"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/fourseasons.jpg"); }
 body #main-content .music #symphony {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png");
+  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/symphony.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .music #symphony:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/symphony.jpg"); }
 body #main-content .music #newmusic {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png");
+  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/newmusic.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .music #newmusic:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/newmusic.jpg"); }
 body #main-content .music #opera {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png");
+  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/opera.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .music #opera:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/opera.jpg"); }
 body #main-content .music #taylor {
-  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png");
+  background-image: linear-gradient(rgba(119, 33, 111, 0.7), rgba(119, 33, 111, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/jazz.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .music #taylor:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/jazz.jpg"); }
 body #main-content .drama h2 {
   color: #41215E !important; }
 body #main-content .drama::after {
@@ -441,26 +439,26 @@ body #main-content .drama::after {
 body #main-content .drama p {
   color: #41215E !important; }
 body #main-content .drama #playhouse {
-  background-image: linear-gradient(rgba(65, 33, 94, 0.7), rgba(65, 33, 94, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png");
+  background-image: linear-gradient(rgba(65, 33, 94, 0.7), rgba(65, 33, 94, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/playhouse.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .drama #playhouse:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/playhouse.jpg"); }
 body #main-content .drama #familyfare {
-  background-image: linear-gradient(rgba(65, 33, 94, 0.7), rgba(65, 33, 94, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png");
+  background-image: linear-gradient(rgba(65, 33, 94, 0.7), rgba(65, 33, 94, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/familyfare.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .drama #familyfare:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/familyfare.jpg"); }
 body #main-content .drama #artssmart {
-  background-image: linear-gradient(rgba(65, 33, 94, 0.7), rgba(65, 33, 94, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png");
+  background-image: linear-gradient(rgba(65, 33, 94, 0.7), rgba(65, 33, 94, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/artssmart.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .drama #artssmart:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/artssmart.jpg"); }
 body #main-content .art h2 {
   color: #004261 !important; }
 body #main-content .art::after {
@@ -469,31 +467,28 @@ body #main-content .art::after {
 body #main-content .art p {
   color: #004261 !important; }
 body #main-content .art #gallery {
-  background-image: linear-gradient(rgba(0, 66, 97, 0.7), rgba(0, 66, 97, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png");
+  background-image: linear-gradient(rgba(0, 66, 97, 0.7), rgba(0, 66, 97, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/wellington.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .art #gallery:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/wellington.jpg"); }
 body #main-content .art #glasstation {
-  background-image: linear-gradient(rgba(0, 66, 97, 0.7), rgba(0, 66, 97, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png");
+  background-image: linear-gradient(rgba(0, 66, 97, 0.7), rgba(0, 66, 97, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/glasstation.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .art #glasstation:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/glasstation.jpg"); }
 body #main-content .art #faulkner {
-  background-image: linear-gradient(rgba(0, 66, 97, 0.7), rgba(0, 66, 97, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png");
+  background-image: linear-gradient(rgba(0, 66, 97, 0.7), rgba(0, 66, 97, 0.7)), url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/faulkner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body #main-content .art #faulkner:hover {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/dance.png"); }
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/faulkner.jpg"); }
 body #main-content .btn-wrapper {
-  margin: 20px 0; }
-  @media (min-width: 768px) {
-    body #main-content .btn-wrapper {
-      margin: 0; } }
+  margin: 20px 0 20px; }
 body #main-content .btn-solid-outline {
   background-color: #FFFFFF;
   width: 100%;
@@ -541,6 +536,9 @@ body #main-content .btn-solid-outline {
     font-family: "Oswald", sans-serif;
     border: none;
     display: block; }
+    @media (min-width: 1200px) {
+      body #main-content .btn-solid-outline a {
+        max-width: 172px; } }
     body #main-content .btn-solid-outline a::after {
       font-family: "FontAwesome";
       content: "";
