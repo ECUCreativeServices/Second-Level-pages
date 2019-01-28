@@ -232,6 +232,57 @@ body #main-content a.btn-ecu-white {
         font-size: 1.8rem; } }
 
 /* RESEARCH PAGE */
+body #main-content .image-blocks {
+  display: none; }
+  @media (min-width: 992px) {
+    body #main-content .image-blocks {
+      display: block; } }
+  @media (min-width: 992px) {
+    body #main-content .image-blocks #img-block-1 {
+      padding-bottom: 0.5em; } }
+  body #main-content .image-blocks #img-block-1 #img-1 {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/afib9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media (min-width: 992px) {
+      body #main-content .image-blocks #img-block-1 #img-1 {
+        height: 16.157em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content .image-blocks #img-block-1 #img-1 {
+      height: 14.157em; } }
+
+  @media (min-width: 992px) {
+    body #main-content .image-blocks #img-block-2 {
+      padding-left: 0.5em;
+      padding-bottom: 0.5em; } }
+  body #main-content .image-blocks #img-block-2 #img-2 {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/8_525x500_3D_Rib_Arnold_PC-0492.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media (min-width: 992px) {
+      body #main-content .image-blocks #img-block-2 #img-2 {
+        height: 16.157em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content .image-blocks #img-block-2 #img-2 {
+      height: 14.157em; } }
+
+  @media (min-width: 992px) {
+    body #main-content .image-blocks #img-block-3 {
+      padding-bottom: 0; } }
+  body #main-content .image-blocks #img-block-3 #img-3 {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/Richards_Mosquito-0648.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media (min-width: 992px) {
+      body #main-content .image-blocks #img-block-3 #img-3 {
+        height: 18.6em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content .image-blocks #img-block-3 #img-3 {
+      height: 17.65em; } }
+
 body #main-content .middle-section {
   padding: 5px; }
 body #main-content .ribbon.style-3 .dark-purple .lead, body #main-content .ribbon.style-3 .dark-purple h2 {
@@ -290,6 +341,11 @@ body #main-content .btn-icon-outline {
     vertical-align: middle; }
 body #main-content .btn-wrapper {
   margin: 35px 0; }
+  body #main-content .btn-wrapper.two {
+    margin: 0px 0 35px; }
+    @media (min-width: 992px) {
+      body #main-content .btn-wrapper.two {
+        margin: 35px 0; } }
 body #main-content .btn-solid-outline {
   background-color: #77216F;
   width: 100%;
