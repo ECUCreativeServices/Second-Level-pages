@@ -71,6 +71,8 @@ body
 			.tile-img
 				display: none
 				height: 100vh
+				border-bottom: none
+				transition: all .2s
 				@media (min-width: $screen-md-min)
 					display: block
 					width: 100%
@@ -78,8 +80,6 @@ body
 					clear: both
 					@media (min-width: $screen-xl-min)
 						display: inline-block
-						background-position: top
-						background-size: cover
 						float: left
 						width: 175px
 						height: 140px
@@ -107,6 +107,10 @@ body
 					margin-bottom: 5px
 					margin-top: 5px
 					font-size: 1.2em !important
+					a
+						line-height: 1em
+						&:hover
+							text-decoration: underline
 
 		.music
 			+arts-item($ecu-hot-pink, '\f001')
