@@ -1,0 +1,61 @@
+/* HEALTH STYLES */
+
+
+body
+	#main-content
+		.image-blocks
+			display: none
+			@media (min-width: $screen-lg-min)
+				display: block
+			#img-block-1
+				@media (min-width: $screen-lg-min)
+					padding-bottom: .5em
+				#img-1
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/afib9.jpg", 16.157em, 14.157em)
+
+			#img-block-2
+				@media (min-width: $screen-lg-min)
+					padding-left: .5em
+					padding-bottom: .5em
+				#img-2
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/8_525x500_3D_Rib_Arnold_PC-0492.jpg", 16.157em, 14.157em)
+
+			#img-block-3
+				@media (min-width: $screen-lg-min)
+					padding-bottom: 0
+				#img-3
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/Richards_Mosquito-0648.jpg", 18.6em, 17.60em)
+
+
+		.btn-icon-outline
+			color: $white !important
+			width: 100%
+			text-transform: uppercase
+			text-decoration: none
+			font-weight: 700
+			font-family: $heading-font
+			cursor: pointer
+			-webkit-appearance: none
+			-webkit-font-smoothing: antialiased
+			max-width: 325px
+			padding: 26px 0
+			text-transform: uppercase
+			text-decoration: none
+			border: none
+			font-size: 1.1rem
+			line-height: 1.5
+			text-shadow: 0 1px 5px rgba(0, 0, 0, 0.25)
+			&::before
+				font-family: $font-awesome
+				content: "\F1EA"
+				color: $white
+				margin-right: 5px
+				vertical-align: middle
+				font-size: 1.3rem
+			&::after
+				font-family: $font-awesome
+				content: "\f054"
+				color: $white
+				margin-left: 5px
+				font-size: .875rem
+				vertical-align: middle
