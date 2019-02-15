@@ -3,59 +3,133 @@
 
 body
 	#main-content
+
 		.image-blocks
 			display: none
 			@media (min-width: $screen-lg-min)
 				display: block
 			#img-block-1
 				@media (min-width: $screen-lg-min)
-					padding-bottom: .5em
 				#img-1
-					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/afib9.jpg", 16.157em, 14.157em)
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/02/Yeduri-1236.jpg", 24.20em, 22.2em)
 
 			#img-block-2
 				@media (min-width: $screen-lg-min)
 					padding-left: .5em
-					padding-bottom: .5em
 				#img-2
-					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/8_525x500_3D_Rib_Arnold_PC-0492.jpg", 16.157em, 14.157em)
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/02/Lamp-2015-27.jpg", 10.157em, 9.157em)
 
 			#img-block-3
 				@media (min-width: $screen-lg-min)
-					padding-bottom: 0
+					padding-top: 0.5em
 				#img-3
-					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/01/Richards_Mosquito-0648.jpg", 18.6em, 17.60em)
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/02/emergendental_111.jpg", 13.56em, 12.56em)
+
+		.intro-text
+			padding: 1.5rem
+
+		.btn-wrapper
+			margin: 35px 0
+			&.two
+				margin: 0px 0 35px
+				@media (min-width: $screen-lg-min)
+					margin: 35px 0
 
 
-		.btn-icon-outline
-			color: $white !important
+		.btn-solid-outline
+			background-color: #77216F
 			width: 100%
-			text-transform: uppercase
-			text-decoration: none
-			font-weight: 700
-			font-family: $heading-font
+			text-align: left
 			cursor: pointer
 			-webkit-appearance: none
-			-webkit-font-smoothing: antialiased
-			max-width: 325px
-			padding: 26px 0
-			text-transform: uppercase
-			text-decoration: none
-			border: none
-			font-size: 1.1rem
-			line-height: 1.5
-			text-shadow: 0 1px 5px rgba(0, 0, 0, 0.25)
+			border: 0 solid
+			box-shadow: inset 0 0 20px rgba(255, 255, 255, 0)
+			outline: 1px solid  #77216F
+			outline-offset: 5px
+			text-shadow: none
+			transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1)
+			padding: 7px 0 7px 20px
+			@media (min-width: $screen-md-min)
+				width: 95%
+				margin-left: 6px
+				padding-left: 0px
+			&:hover
+				box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2)
+				outline-color: rgba(255, 255, 255, 0)
+				outline-offset: 10px
+				text-shadow: 1px 1px 2px #427388
 			&::before
-				font-family: $font-awesome
-				content: "\F1EA"
-				color: $white
-				margin-right: 5px
-				vertical-align: middle
-				font-size: 1.3rem
-			&::after
-				font-family: $font-awesome
-				content: "\f054"
-				color: $white
+				font-family: "FontAwesome"
+				content: "\f2b7"
+				color: white
 				margin-left: 5px
-				font-size: .875rem
-				vertical-align: middle
+				float: left
+				font-size: 2rem
+				padding: 0 10px
+				display: none
+				line-height: 42px
+				@media (min-width: $screen-lg-min)
+					display: block
+					line-height: 60px
+					@media (min-width: $screen-xl-min)
+						Line-height: 41px
+			a
+				color: white
+				text-transform: uppercase
+				text-decoration: none
+				font-weight: 500
+				line-height: 1.3rem
+				font-family: "Oswald",sans-serif
+				border: none
+				display: block
+				margin-left: 5px
+				&::after
+					font-family: "FontAwesome"
+					content: "\f054"
+					color: white
+					margin-left: 5px
+
+		.style-3
+			.want-more
+				text-align: center
+				color: #947024
+				a
+					color: #947024
+					text-transform: Capitalize
+					margin: 0 1rem
+					text-decoration: none
+					border-bottom: none
+					&:hover
+						color: #be9fdf
+						border-color: #be9fdf
+						border-bottom: thin solid #be9fdf
+				span
+					display: block
+
+
+		.dashboard-item
+			.dark-purple h2
+				color: $dark-purple
+			.ecu-hot-pink h2
+				color: $ecu-hot-pink
+			.dashboard-title
+				.lead
+					opacity: 1 !important
+					margin: -1rem 0 1rem
+				ul
+					li
+						text-align: left
+						list-style: none
+						line-height: 2rem
+						a
+							text-decoration: none
+							border-bottom: none
+							color: #592a8a
+							text-transform: capitalize
+							transition: .5s
+							&:hover
+								border-bottom: thin solid #be9fdf
+							&::before
+								content: "\f054"
+								font-family: $font-awesome
+								margin-right: .5rem
