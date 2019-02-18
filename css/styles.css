@@ -247,7 +247,7 @@ body #main-content .image-blocks {
         height: 24.2em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-1 #img-1 {
-      height: 22.2em; } }
+      height: 22.26em; } }
 
   @media (min-width: 992px) {
     body #main-content .image-blocks #img-block-2 {
@@ -349,7 +349,7 @@ body #main-content .style-3 .want-more {
   color: #947024; }
   body #main-content .style-3 .want-more a {
     color: #947024;
-    text-transform: Capitalize;
+    text-transform: capitalize;
     margin: 0 1rem;
     text-decoration: none;
     border-bottom: none; }
