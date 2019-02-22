@@ -314,7 +314,7 @@ body #main-content .btn-solid-outline {
   body #main-content .btn-solid-outline::before {
     font-family: "FontAwesome";
     content: "";
-    color: white;
+    color: #FFFFFF;
     margin-left: 5px;
     float: left;
     font-size: 2rem;
@@ -344,43 +344,42 @@ body #main-content .btn-solid-outline {
       content: "";
       color: white;
       margin-left: 5px; }
-body #main-content .style-3 .want-more {
-  text-align: center;
-  color: #947024; }
-  body #main-content .style-3 .want-more a {
-    color: #947024;
-    text-transform: capitalize;
-    margin: 0 1rem;
-    text-decoration: none;
-    border-bottom: none; }
-    body #main-content .style-3 .want-more a:hover {
-      color: #be9fdf;
-      border-color: #be9fdf;
-      border-bottom: thin solid #be9fdf; }
-  body #main-content .style-3 .want-more span {
-    display: block; }
+body #main-content .polaroid-wrapper .polaroid img {
+  width: 100%;
+  margin: 0px;
+  padding: 1%; }
+body #main-content .polaroid-wrapper .polaroid-text {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 5px; }
+  body #main-content .polaroid-wrapper .polaroid-text img, body #main-content .polaroid-wrapper .polaroid-text h2 {
+    margin: 0px; }
 body #main-content .dashboard-item .dark-purple h2 {
   color: #41215E; }
+body #main-content .dashboard-item .ecu-purple h2 {
+  color: #572C86 !important; }
 body #main-content .dashboard-item .ecu-hot-pink h2 {
   color: #77216F; }
 body #main-content .dashboard-item .dashboard-title .lead {
   opacity: 1 !important;
   margin: -1rem 0 1rem; }
-body #main-content .dashboard-item .dashboard-title ul li {
-  text-align: left;
-  list-style: none;
-  line-height: 2rem; }
-  body #main-content .dashboard-item .dashboard-title ul li a {
-    text-decoration: none;
-    border-bottom: none;
-    color: #592a8a;
-    text-transform: capitalize;
-    transition: 0.5s; }
-    body #main-content .dashboard-item .dashboard-title ul li a:hover {
-      border-bottom: thin solid #be9fdf; }
-    body #main-content .dashboard-item .dashboard-title ul li a::before {
-      content: "";
-      font-family: "FontAwesome";
-      margin-right: 0.5rem; }
+body #main-content .dashboard-item .dashboard-title ul {
+  padding-left: 1.2rem; }
+  body #main-content .dashboard-item .dashboard-title ul li {
+    text-align: left;
+    list-style: none;
+    line-height: 2rem; }
+    body #main-content .dashboard-item .dashboard-title ul li a {
+      text-decoration: none;
+      border-bottom: none;
+      color: #592a8a;
+      text-transform: capitalize;
+      transition: 0.5s; }
+      body #main-content .dashboard-item .dashboard-title ul li a:hover {
+        border-bottom: thin solid #be9fdf; }
+      body #main-content .dashboard-item .dashboard-title ul li a::before {
+        content: "";
+        font-family: "FontAwesome";
+        margin-right: 0.5rem; }
 
 /*# sourceMappingURL=styles.css.map */
