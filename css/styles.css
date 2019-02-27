@@ -232,31 +232,15 @@ body #main-content a.btn-ecu-white {
         font-size: 1.8rem; } }
 
 /* FUTURE STUDENTS PAGE */
-/*--FUTURE STUDENTS -- */
-/*--colors-- */
-#main-content .dark-purple .lead, body #main-content .ribbon.style-3 .dark-purple h2 {
-  color: #41215E; }
-
-#main-content .ribbon.style-3 .ecu-hot-pink .lead, body #main-content .ribbon.style-3 .ecu-hot-pink h2 {
-  color: #77216F; }
-
-#main-content .ribbon.style-3 .dark-teal .lead, body #main-content .ribbon.style-3 .dark-teal h2 {
-  color: #004261; }
-
-#main-content .ribbon.style-3 .AA-burnt-gold .lead, body #main-content .ribbon.style-3 .AA-burnt-gold h2 {
-  color: #947024; }
-
-#main-content .ribbon.style-3 .AA-teal .lead, body #main-content .ribbon.style-3 .AA-teal h2 {
-  color: #00818F; }
-
-#main-content .ribbon.style-3 .grey .lead, body #main-content .ribbon.style-3 .grey h2 {
-  color: #6C6D68; }
-
-/*--BTN-- */
-.future-students .btn-row {
+#main-content .intro-ribbon {
+  margin-top: -1.125rem;
+  padding: 1.5625rem 0; }
+  #main-content .intro-ribbon .intro-text {
+    padding: 1rem 2.5rem; }
+#main-content .btn-row {
   width: 90%;
   margin: 1.25rem auto; }
-.future-students .btn-solid-outline {
+#main-content .btn-solid-outline {
   width: 100%;
   text-align: center;
   cursor: pointer;
@@ -267,223 +251,215 @@ body #main-content a.btn-ecu-white {
   transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1);
   padding: 1.25rem 0;
   margin: 0.625rem 0; }
-  .future-students .btn-solid-outline a div {
-    font-size: 1rem;
-    display: inline-block; }
-  .future-students .btn-solid-outline div:after {
-    content: "";
-    font-family: "FontAwesome";
-    margin-left: 0.5rem; }
-  .future-students .btn-solid-outline a span.title {
-    font-weight: 700;
-    font-size: 2.1rem;
-    display: inline-block;
-    margin: 0;
-    width: 40%;
-    padding: 0 0.5rem 0 0; }
-    .future-students .btn-solid-outline a span.title::before {
-      display: none; }
-  .future-students .btn-solid-outline a span.subtitle {
-    line-height: 1em;
-    display: inline-block;
-    width: 50%;
-    border-left: solid white 2px;
-    padding: 0 0 0 0.5rem;
-    text-align: left; }
-
-@media (min-width: 992px) {
-  .future-students .btn-solid-outline {
-    outline-offset: 0.313rem;
-    padding: 0.468rem; } }
-@media (min-width: 768px) {
-  .future-students .btn-solid-outline a span.title {
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 100%; } }
-@media (min-width: 992px) {
-  .future-students .btn-solid-outline a span.title {
-    display: inline-block;
-    margin: 0;
-    padding: 15px 0.625rem 12px 0;
-    text-align: right;
-    width: 45%; } }
-@media (min-width: 1200px) {
-  .future-students .btn-solid-outline a span.title {
-    width: 50%; } }
-@media (min-width: 1200px) {
-  .future-students .btn-solid-outline a span.title::before {
-    display: inherit;
-    font-family: "FontAwesome";
-    content: "";
+  #main-content .btn-solid-outline:hover {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 0.625rem; }
+  @media (min-width: 992px) {
+    #main-content .btn-solid-outline {
+      outline-offset: 0.313rem;
+      padding: 0.468rem; } }
+  #main-content .btn-solid-outline a {
     color: white;
-    font-size: 2rem;
-    padding: 0 7px 0 0; } }
-@media (min-width: 768px) {
-  .future-students .btn-solid-outline a span.subtitle {
-    width: 100%;
-    border-left: none;
-    padding: 0.5rem 0 0;
-    text-align: center;
-    display: block;
-    margin: 10px auto 0;
-    border-top: thin solid white; } }
-@media (min-width: 992px) {
-  .future-students .btn-solid-outline a span.subtitle {
-    display: inline-block;
-    width: 50%;
-    border-left: solid white 2px;
-    padding: 0 0 0 0.625rem;
-    text-align: left;
-    border-top: none;
-    margin: 0; } }
-body #main-content .future-students .btn-solid-outline a span.subtitle::after {
-  content: "";
-  font-family: "FontAwesome";
-  margin-left: 0.5rem; }
-
-@media (min-width: 768px) {
-  body #main-content .future-students .btn-solid-outline a span.subtitle::after {
-    display: none; } }
-.future-students .ecu-hot-pink-bg {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.3rem;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    display: block; }
+    #main-content .btn-solid-outline a div {
+      font-size: 1rem;
+      display: inline-block; }
+      #main-content .btn-solid-outline a div:after {
+        content: "";
+        font-family: "FontAwesome";
+        margin-left: 0.5rem; }
+    #main-content .btn-solid-outline a span.title {
+      font-weight: 700;
+      font-size: 2.1rem;
+      display: inline-block;
+      margin: 0;
+      width: 40%;
+      padding: 0 0.5rem 0 0; }
+      #main-content .btn-solid-outline a span.title::before {
+        display: none; }
+      @media (min-width: 768px) {
+        #main-content .btn-solid-outline a span.title {
+          display: block;
+          margin: 0;
+          padding: 0;
+          width: 100%; } }
+      @media (min-width: 992px) {
+        #main-content .btn-solid-outline a span.title {
+          display: inline-block;
+          margin: 0;
+          padding: 15px 0.625rem 12px 0;
+          text-align: right;
+          width: 45%; } }
+      @media (min-width: 1200px) {
+        #main-content .btn-solid-outline a span.title {
+          width: 50%; }
+          #main-content .btn-solid-outline a span.title::before {
+            display: inherit;
+            font-family: "FontAwesome";
+            content: "";
+            color: white;
+            font-size: 2rem;
+            padding: 0 7px 0 0; } }
+    #main-content .btn-solid-outline a span.subtitle {
+      line-height: 1em;
+      display: inline-block;
+      width: 50%;
+      border-left: solid white 2px;
+      padding: 0 0 0 0.5rem;
+      text-align: left; }
+      @media (min-width: 768px) {
+        #main-content .btn-solid-outline a span.subtitle {
+          width: 100%;
+          border-left: none;
+          padding: 0.5rem 0 0;
+          text-align: center;
+          display: block;
+          margin: 10px auto 0;
+          border-top: thin solid white; } }
+      @media (min-width: 992px) {
+        #main-content .btn-solid-outline a span.subtitle {
+          display: inline-block;
+          width: 50%;
+          border-left: solid white 2px;
+          padding: 0 0 0 0.625rem;
+          text-align: left;
+          border-top: none;
+          margin: 0; } }
+      #main-content .btn-solid-outline a span.subtitle::after {
+        content: "";
+        font-family: "FontAwesome";
+        margin-left: 0.5rem; }
+#main-content .future-students .ecu-hot-pink-bg {
   outline: none;
   background-color: #77216F; }
-.future-students .dark-teal-bg {
+  @media (min-width: 768px) {
+    #main-content .future-students .ecu-hot-pink-bg {
+      background-color: #77216F;
+      outline: thin solid #77216F; } }
+#main-content .future-students .dark-teal-bg {
   background-color: #004261;
   outline: none; }
-.future-students .grey {
+  @media (min-width: 768px) {
+    #main-content .future-students .dark-teal-bg {
+      background-color: #004261;
+      outline: 1px solid #004261; } }
+#main-content .future-students .footer-bg {
   background-color: #6C6D68;
   outline: none; }
-
-@media (min-width: 768px) {
-  .future-students .ecu-hot-pink-bg {
-    background-color: #77216F;
-    outline: thin solid #77216F; } }
-@media (min-width: 768px) {
-  .future-students .dark-teal-bg {
-    background-color: #004261;
-    outline: 1px solid #004261; } }
-@media (min-width: 768px) {
-  .future-students .footer-bg {
-    background-color: #6C6D68;
-    outline: 1px solid #6C6D68; } }
-body #main-content .future-students .btn-solid-outline:hover {
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
-  outline-color: rgba(255, 255, 255, 0);
-  outline-offset: 0.625rem;
-  text-shadow: 1px 1px 2px #427388; }
-body #main-content .future-students .btn-solid-outline a {
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 500;
-  line-height: 1.3rem;
-  font-family: "Oswald", sans-serif;
-  border: none;
-  display: block; }
-body #main-content .future-students .intro-ribbon {
-  margin-top: -1.125rem;
-  padding: 1.5625rem 0; }
-
-/*---LAYOUT--- */
-.future-students .bg-ecu-purple {
+  @media (min-width: 768px) {
+    #main-content .future-students .footer-bg {
+      background-color: #6C6D68;
+      outline: 1px solid #6C6D68; } }
+#main-content .future-students .bg-ecu-purple {
   box-sizing: border-box;
   padding: 0;
   margin: 0; }
-  .future-students .bg-ecu-purple h2 {
+  #main-content .future-students .bg-ecu-purple h2 {
     text-transform: uppercase; }
-
-.image-blocks {
-  display: block; }
-
-.img-block {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.img-block-1 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/Engineering_Lab-6849_1140.jpg");
+#main-content .image-blocks {
   display: none; }
+  @media (min-width: 992px) {
+    #main-content .image-blocks {
+      display: block; } }
+  @media (min-width: 992px) {
+    #main-content .image-blocks #img-block-1 {
+      padding-bottom: 0.5em; } }
+  #main-content .image-blocks #img-block-1 #img-1 {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/Engineering_Lab-6849_1140.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media (min-width: 992px) {
+      #main-content .image-blocks #img-block-1 #img-1 {
+        height: 12rem; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    #main-content .image-blocks #img-block-1 #img-1 {
+      height: 10.438rem; } }
 
-@media (min-width: 768px) {
-  .img-block-1 {
-    display: inherit;
-    height: 10.438rem; } }
-@media (max-width: 992px) and (min-width: 768px) {
-  .img-block-1 {
-    height: 12rem; } }
-.img-block-2 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/Estrogen_Torres_ECHI-0020_1140.jpg");
-  display: none; }
+  @media (min-width: 992px) {
+    #main-content .image-blocks #img-block-2 {
+      padding-left: 0.5em;
+      padding-bottom: 0.5em; } }
+  #main-content .image-blocks #img-block-2 #img-2 {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/Estrogen_Torres_ECHI-0020_1140.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media (min-width: 992px) {
+      #main-content .image-blocks #img-block-2 #img-2 {
+        height: 12rem; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    #main-content .image-blocks #img-block-2 #img-2 {
+      height: 10.438rem; } }
 
-@media (min-width: 768px) {
-  .img-block-2 {
-    border-left: 5px solid #592a8a;
-    border-top: none;
-    display: inherit;
-    height: 10.438rem; } }
-@media (max-width: 992px) and (min-width: 768px) {
-  .img-block-2 {
-    height: 12rem; } }
-.img-block-3 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/B34R0210_1140.jpg");
-  height: 13.75rem; }
+  @media (min-width: 992px) {
+    #main-content .image-blocks #img-block-3 {
+      padding-bottom: 0; } }
+  #main-content .image-blocks #img-block-3 #img-3 {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/B34R0210_1140.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media (min-width: 992px) {
+      #main-content .image-blocks #img-block-3 #img-3 {
+        height: 26.15rem; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    #main-content .image-blocks #img-block-3 #img-3 {
+      height: 22.15rem; } }
 
-@media (max-width: 992px) and (min-width: 768px) {
-  .img-block-3 {
-    height: 16rem;
-    border-top: 5px solid #572C86; } }
-@media (min-width: 768px) {
-  .img-block-3 {
-    border-top: 0.3125rem solid #572C86; } }
-@media (min-width: 1185px) {
-  .img-block-3 {
-    border-top: 0.3125rem solid #592a8a;
-    height: 22.15rem; } }
-body #main-content .future-students .intro-text {
-  padding: 1rem 2.5rem; }
-
-/*--dashboard blocks-- */
-.future-students .dashboard-item .dashboard-title .lead {
+#main-content .dashboard-item.dark-purple .lead, #main-content .dashboard-item.dark-purple h2 {
+  color: #41215E; }
+#main-content .dashboard-item.ecu-hot-pink .lead, #main-content .dashboard-item.ecu-hot-pink h2 {
+  color: #77216F; }
+#main-content .dashboard-item.dark-teal .lead, #main-content .dashboard-item.dark-teal h2 {
+  color: #004261; }
+#main-content .dashboard-item.AA-burnt-gold .lead, #main-content .dashboard-item.AA-burnt-gold h2 {
+  color: #947024; }
+#main-content .dashboard-item.AA-teal .lead, #main-content .dashboard-item.AA-teal h2 {
+  color: #00818F; }
+#main-content .dashboard-item.grey .lead, #main-content .dashboard-item.grey h2 {
+  color: #6C6D68; }
+#main-content .dashboard-item .lead {
   opacity: 1 !important;
   margin: -1rem 0 1rem; }
-.future-students .dashboard-item .dashboard-title ul li {
+#main-content .dashboard-item ul li {
   text-align: left;
   list-style: none;
   line-height: 2rem; }
-
-body #main-content .future-students .dashboard-item .dashboard-title ul li a {
-  text-decoration: none;
-  border-bottom: none;
-  color: #592a8a;
-  text-transform: capitalize;
-  transition: 0.5s; }
-  body #main-content .future-students .dashboard-item .dashboard-title ul li a:hover {
-    color: #be9fdf;
-    border-color: #be9fdf;
-    border-bottom: thin solid #be9fdf; }
-
-.future-students .dashboard-item .dashboard-title ul li a::before {
-  content: "";
-  font-family: "FontAwesome";
-  margin-right: 0.5rem; }
-
-#main-content .future-students .ribbon.style-3 .want-more {
+  #main-content .dashboard-item ul li a {
+    text-decoration: none;
+    border-bottom: none;
+    color: #572C86 !important;
+    text-transform: capitalize;
+    transition: 0.5s; }
+    #main-content .dashboard-item ul li a:hover {
+      color: #be9fdf;
+      border-color: #be9fdf;
+      border-bottom: thin solid #be9fdf; }
+    #main-content .dashboard-item ul li a::before {
+      content: "";
+      font-family: "FontAwesome";
+      margin-right: 0.5rem; }
+#main-content .dashboard-item .want-more {
   text-align: center;
   color: #947024; }
-  #main-content .future-students .ribbon.style-3 .want-more a {
+  #main-content .dashboard-item .want-more a {
     color: #947024;
     text-transform: Capitalize;
     margin: 0 1rem;
     text-decoration: none;
     border-bottom: none; }
-
-body #main-content .future-students .ribbon.style-3 .want-more a:hover {
-  color: #be9fdf;
-  border-color: #be9fdf;
-  border-bottom: thin solid #be9fdf; }
-
-#main-content .future-students .ribbon.style-3 .want-more span {
-  display: block; }
+    #main-content .dashboard-item .want-more a:hover {
+      border-color: #947024;
+      border-bottom: thin solid #947024; }
+  #main-content .dashboard-item .want-more span {
+    display: block; }
 
 /*# sourceMappingURL=styles.css.map */
