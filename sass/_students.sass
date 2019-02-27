@@ -17,10 +17,10 @@
 #main-content .ribbon.style-3 .AA-teal .lead, body #main-content .ribbon.style-3 .AA-teal h2
   color: $teal
 
-#main-content .ribbon.style-3 .footer-bg .lead, body #main-content .ribbon.style-3 .footer-bg h2
+#main-content .ribbon.style-3 .grey .lead, body #main-content .ribbon.style-3 .grey h2
   color: $grey
 
-/*--BTN--
+/*--BTN-- */
 
 .future-students
   .btn-row
@@ -42,7 +42,7 @@
       display: inline-block
     div:after
       content: "\f054"
-      font-family: FontAwesome
+      font-family: $font-awesome
       margin-left: .5rem
     a span
       &.title
@@ -78,7 +78,7 @@
   .future-students .btn-solid-outline a span.title
     display: inline-block
     margin: 0
-    padding: 0 .625rem 0 0
+    padding: 15px 0.625rem 12px 0
     text-align: right
     width: 45%
 
@@ -89,11 +89,11 @@
 @media (min-width: 1200px)
   .future-students .btn-solid-outline a span.title::before
     display: inherit
-    font-family: "FontAwesome"
+    font-family: $font-awesome
     content: "\f040"
     color: white
     font-size: 2rem
-    padding: 0
+    padding: 0 7px 0 0
 
 @media (min-width: 768px)
   .future-students .btn-solid-outline a span.subtitle
@@ -117,7 +117,7 @@
 
 body #main-content .future-students .btn-solid-outline a span.subtitle::after
   content: "\f054"
-  font-family: FontAwesome
+  font-family: $font-awesome
   margin-left: .5rem
 
 @media (min-width: 768px)
@@ -127,28 +127,28 @@ body #main-content .future-students .btn-solid-outline a span.subtitle::after
 .future-students
   .ecu-hot-pink-bg
     outline: none
-    background-color: #77216F
+    background-color: $ecu-hot-pink
   .dark-teal-bg
-    background-color: #004261
+    background-color: $dark-teal
     outline: none
-  .footer-bg
-    background-color: #6C6D68
+  .grey
+    background-color: $footer-bg
     outline: none
 
 @media (min-width: 768px)
   .future-students .ecu-hot-pink-bg
-    background-color: #77216F
-    outline: thin solid #77216F
+    background-color: $ecu-hot-pink
+    outline: thin solid $ecu-hot-pink
 
 @media (min-width: 768px)
   .future-students .dark-teal-bg
-    background-color: #004261
-    outline: 1px solid #004261
+    background-color: $dark-teal
+    outline: 1px solid $dark-teal
 
 @media (min-width: 768px)
   .future-students .footer-bg
-    background-color: #6C6D68
-    outline: 1px solid #6C6D68
+    background-color: $footer-bg
+    outline: 1px solid $footer-bg
 
 body #main-content .future-students
   .btn-solid-outline
@@ -163,12 +163,13 @@ body #main-content .future-students
       text-decoration: none
       font-weight: 500
       line-height: 1.3rem
-      font-family: "Oswald", sans-serif
+      font-family: $heading-font
       border: none
       display: block
   .intro-ribbon
     margin-top: -1.125rem
     padding: 1.5625rem 0
+
 
 /*---LAYOUT---
 
@@ -222,11 +223,16 @@ body #main-content .future-students
 @media (max-width: 992px) and (min-width: 768px)
   .img-block-3
     height: 16rem
-    border-top: 5px solid #592a8a
+    border-top: 5px solid $ecu-purple
 
 @media (min-width: 768px)
   .img-block-3
+    border-top: .3125rem solid $ecu-purple
+
+@media (min-width: 1185px)
+  .img-block-3
     border-top: .3125rem solid #592a8a
+    height: 22.15rem
 
 body #main-content .future-students .intro-text
   padding: 1rem 2.5rem
@@ -249,13 +255,13 @@ body #main-content .future-students .dashboard-item .dashboard-title ul li a
   text-transform: capitalize
   transition: .5s
   &:hover
-    color: #be9fdf
-    border-color: #be9fdf
-    border-bottom: thin solid #be9fdf
+    color: $light-purple
+    border-color: $light-purple
+    border-bottom: thin solid $light-purple
 
 .future-students .dashboard-item .dashboard-title ul li a::before
   content: "\f054"
-  font-family: FontAwesome
+  font-family: $font-awesome
   margin-right: .5rem
 
 #main-content .future-students .ribbon.style-3 .want-more
@@ -270,8 +276,8 @@ body #main-content .future-students .dashboard-item .dashboard-title ul li a
 
 body #main-content .future-students .ribbon.style-3 .want-more a:hover
   color: #be9fdf
-  border-color: #be9fdf
-  border-bottom: thin solid #be9fdf
+  border-color: $light-purple
+  border-bottom: thin solid $light-purple
 
 #main-content .future-students .ribbon.style-3 .want-more span
   display: block
