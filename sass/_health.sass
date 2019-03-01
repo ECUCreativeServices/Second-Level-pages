@@ -86,10 +86,10 @@ body
 					color: white
 					margin-left: 5px
 
-
 		.polaroid-wrapper
 			.polaroid
 				img
+					display: block
 					width: 100%
 					margin: 0px
 					padding: 1%
@@ -99,7 +99,15 @@ body
 				padding: 10px 0 5px
 				img, h2
 					margin: 0px
+				h2
+					text-align: center
+					@media (min-width: $screen-lg-min)
+						text-align: left
 		.dashboard-item
+			img
+				display: none
+				@media (min-width: $screen-lg-min)
+					display: block
 			.dark-purple h2
 				color: $dark-purple
 			.ecu-purple h2
