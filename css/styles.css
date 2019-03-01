@@ -254,15 +254,14 @@ body #main-content .image-blocks {
     background-size: cover; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-1 #img-1 {
-        height: 12rem; } }
+        height: 15.169em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-1 #img-1 {
-      height: 10.438rem; } }
+      height: 16.157em; } }
 
   @media (min-width: 992px) {
     body #main-content .image-blocks #img-block-2 {
-      padding-left: 0.5em;
-      padding-bottom: 0.5em; } }
+      padding-right: 0.5em; } }
   body #main-content .image-blocks #img-block-2 #img-2 {
     background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock1.jpg");
     background-position: center;
@@ -270,14 +269,14 @@ body #main-content .image-blocks {
     background-size: cover; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-2 #img-2 {
-        height: 12rem; } }
+        height: 16.5em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-2 #img-2 {
-      height: 10.438rem; } }
+      height: 16.157em; } }
 
   @media (min-width: 992px) {
     body #main-content .image-blocks #img-block-3 {
-      padding-bottom: 0; } }
+      padding-bottom: 0.5em; } }
   body #main-content .image-blocks #img-block-3 #img-3 {
     background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock4.jpg");
     background-position: center;
@@ -285,14 +284,15 @@ body #main-content .image-blocks {
     background-size: cover; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-3 #img-3 {
-        height: 5.963em; } }
+        height: 10em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-3 #img-3 {
-      height: 5.963em; } }
+      height: 9.694em; } }
 
   @media (min-width: 992px) {
     body #main-content .image-blocks #img-block-4 {
-      padding-bottom: 0; } }
+      padding-bottom: 0;
+      padding-right: 0.5em; } }
   body #main-content .image-blocks #img-block-4 #img-4 {
     background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock3.jpg");
     background-position: center;
@@ -312,7 +312,8 @@ body #main-content .image-blocks {
     background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock2.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-position: top !important; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-5 #img-5 {
         height: 5.963em; } }
