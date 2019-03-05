@@ -238,191 +238,168 @@ body #main-content a.btn-ecu-white {
         color: #FFFFFF;
         font-size: 1.8rem; } }
 
+/* HEALTH STYLES */
 body #main-content .image-blocks {
-  padding: 0px !important;
   display: none; }
   @media (min-width: 992px) {
     body #main-content .image-blocks {
       display: block; } }
-  @media (min-width: 992px) {
-    body #main-content .image-blocks #img-block-1 {
-      padding-bottom: 0.5em; } }
   body #main-content .image-blocks #img-block-1 #img-1 {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock1.jpg");
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/02/Yeduri-1236.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-1 #img-1 {
-        height: 15.169em; } }
+        height: 24.2em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-1 #img-1 {
-      height: 16.157em; } }
+      height: 22.311em; } }
 
   @media (min-width: 992px) {
     body #main-content .image-blocks #img-block-2 {
-      padding-right: 0.5em; } }
+      padding-left: 0.5em; } }
   body #main-content .image-blocks #img-block-2 #img-2 {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock1.jpg");
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/02/Lamp-2015-27.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-2 #img-2 {
-        height: 16.5em; } }
+        height: 10.157em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-2 #img-2 {
-      height: 16.157em; } }
+      height: 9.157em; } }
 
   @media (min-width: 992px) {
     body #main-content .image-blocks #img-block-3 {
-      padding-bottom: 0.5em; } }
+      padding-top: 0.5em; } }
   body #main-content .image-blocks #img-block-3 #img-3 {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock4.jpg");
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/02/emergendental_111.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
     @media (min-width: 992px) {
       body #main-content .image-blocks #img-block-3 #img-3 {
-        height: 10em; } }
+        height: 13.56em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content .image-blocks #img-block-3 #img-3 {
-      height: 9.694em; } }
+      height: 12.65em; } }
 
-  @media (min-width: 992px) {
-    body #main-content .image-blocks #img-block-4 {
-      padding-bottom: 0;
-      padding-right: 0.5em; } }
-  body #main-content .image-blocks #img-block-4 #img-4 {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-    @media (min-width: 992px) {
-      body #main-content .image-blocks #img-block-4 #img-4 {
-        height: 5.963em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content .image-blocks #img-block-4 #img-4 {
-      height: 5.963em; } }
-
-  @media (min-width: 992px) {
-    body #main-content .image-blocks #img-block-5 {
-      padding-bottom: 0; } }
-  body #main-content .image-blocks #img-block-5 #img-5 {
-    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top !important; }
-    @media (min-width: 992px) {
-      body #main-content .image-blocks #img-block-5 #img-5 {
-        height: 5.963em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content .image-blocks #img-block-5 #img-5 {
-      height: 5.963em; } }
-
-@media (min-width: 992px) {
-  body #main-content .glance {
-    margin-bottom: -45px; } }
-body #main-content #steps-list {
-  border-left: 1px solid;
-  padding: 0px 25px 25px;
-  border-color: #c3c3c3; }
-  body #main-content #steps-list .steps-header {
-    border-bottom: 1px dotted #d4d4d4;
-    margin-bottom: 15px;
-    font-weight: 500; }
-  body #main-content #steps-list .steps-title {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    color: #572C86;
-    line-height: 24px;
-    padding-bottom: 7px;
-    font-size: 1.3em;
-    font-weight: 500; }
-  body #main-content #steps-list .step-number {
-    min-width: 45px !important;
-    margin-right: 20px !important;
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    background-color: #572C86;
-    color: #FFFFFF;
-    padding: 5px;
-    text-align: center;
-    font-size: 0.75em; }
-  body #main-content #steps-list .uppercase-bold {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500; }
-  body #main-content #steps-list a {
-    border-color: #aaa !important; }
-    body #main-content #steps-list a:hover {
-      border-color: #000000 !important; }
-body #main-content .intro-ribbon {
-  background-color: #d6d8d9 !important; }
 body #main-content .intro-text {
-  padding: 5%; }
-body #main-content .ribbon.style-2 {
-  color: #404041 !important;
-  padding-bottom: 0; }
-body #main-content .ui_dashboard .ui_element_wrap {
-  background-color: white;
-  margin: 5px;
+  padding: 1.5rem; }
+body #main-content .btn-wrapper {
+  margin: 35px 0; }
+  body #main-content .btn-wrapper.two {
+    margin: 0px 0 35px; }
+    @media (min-width: 992px) {
+      body #main-content .btn-wrapper.two {
+        margin: 35px 0; } }
+body #main-content .btn-solid-outline {
+  background-color: #77216F;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid #77216F;
+  outline-offset: 5px;
+  text-shadow: none;
+  transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1);
+  padding: 7px 0 7px 20px; }
+  @media (min-width: 768px) {
+    body #main-content .btn-solid-outline {
+      width: 95%;
+      margin-left: 6px;
+      padding-left: 0px; } }
+  body #main-content .btn-solid-outline:hover {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 10px;
+    text-shadow: 1px 1px 2px #427388; }
+  body #main-content .btn-solid-outline::before {
+    font-family: "FontAwesome";
+    content: "";
+    color: #FFFFFF;
+    margin-left: 5px;
+    float: left;
+    font-size: 2rem;
+    padding: 0 10px;
+    display: none;
+    line-height: 42px; }
+    @media (min-width: 992px) {
+      body #main-content .btn-solid-outline::before {
+        display: block;
+        line-height: 60px; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content .btn-solid-outline::before {
+      Line-height: 41px; } }
+
+  body #main-content .btn-solid-outline a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.3rem;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    display: block;
+    margin-left: 5px; }
+    body #main-content .btn-solid-outline a::after {
+      font-family: "FontAwesome";
+      content: "";
+      color: white;
+      margin-left: 5px; }
+body #main-content .polaroid-wrapper .polaroid img {
+  display: block;
+  width: 100%;
+  margin: 0px;
   padding: 1%; }
-body #main-content .dashboard-item h2.dark-purple .lead, body #main-content .dashboard-item h2.dark-purple h2 {
+body #main-content .polaroid-wrapper .polaroid-text {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 5px; }
+  body #main-content .polaroid-wrapper .polaroid-text img, body #main-content .polaroid-wrapper .polaroid-text h2 {
+    margin: 0px; }
+  body #main-content .polaroid-wrapper .polaroid-text h2 {
+    text-align: center; }
+    @media (min-width: 992px) {
+      body #main-content .polaroid-wrapper .polaroid-text h2 {
+        text-align: left; } }
+body #main-content .dashboard-item img {
+  display: none; }
+  @media (min-width: 992px) {
+    body #main-content .dashboard-item img {
+      display: block; } }
+body #main-content .dashboard-item .dark-purple h2 {
   color: #41215E; }
-body #main-content .dashboard-item h2.ecu-hot-pink .lead, body #main-content .dashboard-item h2.ecu-hot-pink h2 {
+body #main-content .dashboard-item .ecu-purple h2 {
+  color: #572C86 !important; }
+body #main-content .dashboard-item .ecu-hot-pink h2 {
   color: #77216F; }
-body #main-content .dashboard-item h2.AA-burnt-gold .lead, body #main-content .dashboard-item h2.AA-burnt-gold h2 {
-  color: #947024; }
-body #main-content .dashboard-item .lead {
+body #main-content .dashboard-item .dashboard-title a h2:hover {
+  text-decoration: underline; }
+body #main-content .dashboard-item .dashboard-title .lead {
   opacity: 1 !important;
   margin: -1rem 0 1rem; }
-body #main-content .dashboard-item ul li {
-  text-align: left;
-  list-style: none;
-  line-height: 2rem; }
-  body #main-content .dashboard-item ul li a {
-    text-decoration: none;
-    border-bottom: none;
-    color: #572C86 !important;
-    text-transform: capitalize;
-    transition: 0.5s; }
-    body #main-content .dashboard-item ul li a:hover {
-      color: #be9fdf;
-      border-color: #be9fdf;
-      border-bottom: thin solid #be9fdf; }
-    body #main-content .dashboard-item ul li a::before {
-      content: "";
-      font-family: "FontAwesome";
-      margin-right: 0.5rem; }
-body #main-content .icon-links-wrapper {
-  min-height: 100%; }
-body #main-content .fa-2x {
-  font-size: 4em !important; }
-body #main-content .ribbon.style-2 {
-  background-color: #d9d8d6 !important;
-  color: #404041 !important; }
-  body #main-content .ribbon.style-2 .ecu-h2 {
-    color: #41215e !important; }
-body #main-content .alignleft2 {
-  margin: 0px 10px 0px 0;
-  float: left; }
-body #main-content .bg-ecu-purple .intro-text a {
-  border-color: #aaa !important; }
-  body #main-content .bg-ecu-purple .intro-text a:hover {
-    border-color: #FFFFFF !important; }
-body #main-content .ribbon.style-2 .ribbon-callout {
-  padding: 30px 20px !important; }
-  body #main-content .ribbon.style-2 .ribbon-callout a {
-    color: #FFFFFF !important; }
-  body #main-content .ribbon.style-2 .ribbon-callout .ecu-h2 {
-    color: #FFFFFF !important; }
-    body #main-content .ribbon.style-2 .ribbon-callout .ecu-h2:hover {
-      border-color: #FFFFFF !important; }
-body #main-content .ribbon.style-4 a {
-  border-color: #aaa !important; }
-  body #main-content .ribbon.style-4 a:hover {
-    border-color: white !important; }
+body #main-content .dashboard-item .dashboard-title ul {
+  padding-left: 1.2rem; }
+  body #main-content .dashboard-item .dashboard-title ul li {
+    text-align: left;
+    list-style: none;
+    line-height: 2rem; }
+    body #main-content .dashboard-item .dashboard-title ul li a {
+      text-decoration: none;
+      border-bottom: none;
+      color: #592a8a;
+      text-transform: capitalize;
+      transition: 0.5s; }
+      body #main-content .dashboard-item .dashboard-title ul li a:hover {
+        border-bottom: thin solid #be9fdf; }
+      body #main-content .dashboard-item .dashboard-title ul li a::before {
+        content: "";
+        font-family: "FontAwesome";
+        margin-right: 0.5rem; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -9,7 +9,7 @@ body
 			#img-block-1
 				@media (min-width: $screen-lg-min)
 				#img-1
-					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/02/Yeduri-1236.jpg", 24.20em, 22.26em)
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/02/Yeduri-1236.jpg", 24.20em, 22.311em)
 
 			#img-block-2
 				@media (min-width: $screen-lg-min)
@@ -21,7 +21,7 @@ body
 				@media (min-width: $screen-lg-min)
 					padding-top: 0.5em
 				#img-3
-					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/02/emergendental_111.jpg", 13.56em, 12.56em)
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/02/emergendental_111.jpg", 13.56em, 12.65em)
 
 		.intro-text
 			padding: 1.5rem
@@ -115,6 +115,9 @@ body
 			.ecu-hot-pink h2
 				color: $ecu-hot-pink
 			.dashboard-title
+				a h2
+					&:hover
+						text-decoration: underline
 				.lead
 					opacity: 1 !important
 					margin: -1rem 0 1rem

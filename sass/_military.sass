@@ -1,10 +1,46 @@
-/* MILITARY PAGE */
 
 body
 	#main-content
+		.image-blocks
+			padding: 0px !important
+			display: none
+			@media (min-width: $screen-lg-min)
+				display: block
+			#img-block-1
+				@media (min-width: $screen-lg-min)
+					padding-bottom: 0.5em
+				#img-1
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock1.jpg", 15.169em, 16.157em)
+			#img-block-2
+				@media (min-width: $screen-lg-min)
+					padding-right: 0.5em
+				#img-2
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock1.jpg", 16.5em, 16.157em)
+			#img-block-3
+				@media (min-width: $screen-lg-min)
+					padding-bottom: 0.5em
+				#img-3
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock4.jpg", 10em, 9.694em)
+			#img-block-4
+				@media (min-width: $screen-lg-min)
+					padding-bottom: 0
+					padding-right: 0.5em
+				#img-4
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock3.jpg", 5.963em, 5.963em)
+			#img-block-5
+				@media (min-width: $screen-lg-min)
+					padding-bottom: 0
+				#img-5
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/12/Mil_PhotoBlock2.jpg", 5.963em, 5.963em)
+					background-position: top !important
+		.glance
+			@media (min-width: 992px)
+				margin-bottom: -45px
+
 		#steps-list
-			border-left: 1px solid #d4d4d4
+			border-left: 1px solid
 			padding: 0px 25px 25px
+			border-color: #c3c3c3
 			.steps-header
 				border-bottom: 1px dotted #d4d4d4
 				margin-bottom: 15px
@@ -18,14 +54,108 @@ body
 				font-size: 1.3em
 				font-weight: 500
 			.step-number
+				min-width: 45px !important
+				margin-right: 20px !important
 				font-family: $heading-font
 				text-transform: uppercase
 				background-color: $ecu-purple
-				color: $white
+				color: #FFFFFF
 				padding: 5px
 				text-align: center
-				font-size: .75em
+				font-size: 0.75em
 			.uppercase-bold
 				font-family: $heading-font
 				text-transform: uppercase
 				font-weight: 500
+			a
+				border-color: #aaa !important
+				&:hover
+					border-color: #000000 !important
+
+		.intro-ribbon
+			background-color: $bs-dark-grey !important
+
+		.intro-text
+			padding: 5%
+
+		.ribbon.style-2
+			color: $dark-grey !important
+			padding-bottom: 0
+
+		.ui_dashboard
+			.ui_element_wrap
+				background-color: white
+				margin: 5px
+				padding: 1%
+
+		.dashboard-item
+			h2
+				&.dark-purple
+					.lead, h2
+						color: $dark-purple
+				&.ecu-hot-pink
+					.lead, h2
+						color: $ecu-hot-pink
+				&.AA-burnt-gold
+					.lead, h2
+						color: $burnt-gold-aa
+			.lead
+				opacity: 1 !important
+				margin: -1rem 0 1rem
+			ul
+				li
+					text-align: left
+					list-style: none
+					line-height: 2rem
+					a
+						text-decoration: none
+						border-bottom: none
+						color: $ecu-purple !important
+						text-transform: capitalize
+						transition: .5s
+						&:hover
+							color: $light-purple
+							border-color: $light-purple
+							border-bottom: thin solid $light-purple
+						&::before
+							content: "\f054"
+							font-family: $font-awesome
+							margin-right: .5rem
+
+		.icon-links-wrapper
+			min-height: 100%
+
+		.fa-2x
+			font-size: 4em !important
+
+		.ribbon.style-2
+			background-color: #d9d8d6 !important
+			color: #404041 !important
+			.ecu-h2
+				color: #41215e !important
+
+		.alignleft2
+			margin: 0px 10px 0px 0
+			float: left
+
+		.bg-ecu-purple
+			.intro-text
+				a
+					border-color: #aaa !important
+					&:hover
+						border-color: #FFFFFF !important
+		.ribbon
+			&.style-2
+				.ribbon-callout
+					padding: 30px 20px !important
+					a
+						color: $white !important
+					.ecu-h2
+						color: $white !important
+						&:hover
+							border-color: #FFFFFF !important
+			&.style-4
+				a
+					border-color: #aaa !important
+					&:hover
+						border-color: white !important
