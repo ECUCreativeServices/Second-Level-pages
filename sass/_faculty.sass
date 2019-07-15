@@ -1,0 +1,70 @@
+/* FACULTY STYLES */
+
+body
+	#main-content
+
+		.image-blocks
+			display: none
+			@media (min-width: $screen-lg-min)
+				display: block
+			#img-block-1
+				@media (min-width: $screen-lg-min)
+					padding-bottom: 0
+				#img-1
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/07/Spring-at-Wright_78.jpg", 20.425em, 20.425em)
+
+			#img-block-2
+				@media (min-width: $screen-lg-min)
+					padding-left: .5em
+					padding-bottom: .5em
+				#img-2
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/07/6-3-2016-BusinessScienceJC-109.jpg", 10.2125em, 10.2125em)
+
+			#img-block-3
+				@media (min-width: $screen-lg-min)
+					padding-left: .5em
+					padding-bottom: 0
+				#img-3
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/07/staffsenate9515.jpg", 9.7125em, 9.7125em)
+
+		.intro-ribbon
+			padding: 30px 0
+			.intro-text
+				@media (min-width: $screen-lg-min)
+					padding-left: 0
+				@media (min-width: $screen-xl-min)
+					padding-left: .7rem
+
+		.dashboard-item
+			h2
+			&.ecu-hot-pink
+				.lead, h2
+					color: $ecu-hot-pink
+			&.dark-teal
+				.lead, h2
+					color: $dark-teal
+			&.AA-burnt-gold
+				.lead, h2
+					color: $burnt-gold-aa
+			.lead
+				opacity: 1 !important
+				margin: -1rem 0 1rem
+			ul
+				li
+					text-align: left
+					list-style: none
+					line-height: 2rem
+					a
+						text-decoration: none
+						border-bottom: none
+						color: $ecu-purple !important
+						text-transform: capitalize
+						transition: .5s
+						&:hover
+							color: $light-purple
+							border-color: $light-purple
+							border-bottom: thin solid $light-purple
+						&::before
+							content: "\f054"
+							font-family: $font-awesome
+							margin-right: .5rem
