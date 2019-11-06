@@ -1,7 +1,7 @@
 /* HEALTH STYLES */
 body
 	#main-content
-
+		margin-top: -8px
 		.image-blocks
 			display: none
 			@media (min-width: $screen-lg-min)
@@ -25,13 +25,6 @@ body
 
 		.intro-text
 			padding: 1.5rem
-
-		.btn-wrapper
-			margin: 35px 0
-			&.two
-				margin: 0px 0 35px
-				@media (min-width: $screen-lg-min)
-					margin: 35px 0
 
 		.btn-solid-outline
 			background-color: $ecu-hot-pink
@@ -85,6 +78,28 @@ body
 					content: "\f054"
 					color: white
 					margin-left: 5px
+			&#meet
+				background-color: $white
+				margin: 15px 5px 5px
+				width: 95%
+				outline: 1px solid $white
+				padding: 7px
+				&:hover
+					outline: 1px solid $ecu-purple
+				@media (min-width: $screen-lg-min)
+					padding-left: 0
+				&::before
+					color: $ecu-purple
+					content: "\f0c0"
+					display: none
+					font-size: 2.5rem
+					@media (min-width: $screen-lg-min)
+						display: block
+				a
+					color: $ecu-purple
+					&::after
+						color: $ecu-purple
+
 
 		.polaroid-wrapper
 			.polaroid
@@ -101,8 +116,6 @@ body
 					margin: 0px
 				h2
 					text-align: center
-					@media (min-width: $screen-lg-min)
-						text-align: left
 		.dashboard-item
 			img
 				display: none
@@ -121,6 +134,9 @@ body
 				.lead
 					opacity: 1 !important
 					margin: -1rem 0 1rem
+					font-size: 1rem
+					font-weight: 400
+					letter-spacing: 0.5px
 				ul
 					padding-left: 1.2rem
 					li
@@ -139,3 +155,28 @@ body
 								content: "\f054"
 								font-family: $font-awesome
 								margin-right: .5rem
+.dash-content .link-list
+	padding: 0
+	@media (min-width: $screen-sm-min)
+		-webkit-columns: 12.5em 2
+		-moz-columns: 12.5em 2
+		columns: 12.5em 2
+		@media (min-width: $screen-md-min)
+			-webkit-column-gap: 6em
+			-moz-column-gap: 6em
+			-ms-column-gap: 6em
+			column-gap: 6em
+			@media (min-width: $screen-lg-min)
+				-webkit-column-gap: 1.25em
+				-moz-column-gap: 1.25em
+				-ms-column-gap: 1.25em
+				column-gap: 1.25em
+				@media (min-width: $screen-xl-min)
+					-webkit-column-gap: 0em
+					-moz-column-gap: 0em
+					-ms-column-gap: 0em
+					column-gap: 0em
+	.uneven
+		padding-bottom: 0
+		@media (min-width: $screen-sm-min)
+			padding-bottom: 6em
