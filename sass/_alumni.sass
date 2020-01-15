@@ -3,11 +3,17 @@ body
 		.intro-ribbon
 			padding-top: 2rem
 			padding-bottom: 2rem
-		#img-block-1
+		#img-block-1, #img-block-2, #img-block-3, #img-block-4
 			@media screen and (min-width: $screen-lg-min)
 				padding: 0
 		#img-1
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/MCSC_Letters.jpg", 22.9875em, 21.4875em)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/MCSC_Letters.jpg", 26.6969em, 25.2188em)
+		#img-2
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/MCSC_Letters.jpg", 9.9469em, 9.9469em)
+		#img-3
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/MCSC_Letters.jpg", 9.9469em, 9.9469em)
+		#img-4
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/MCSC_Letters.jpg", 9.9469em, 9.9469em)
 		.hot-pink
 			background-color: $ecu-hot-pink
 			color: $white
@@ -16,6 +22,11 @@ body
 				color: $white
 		.ribbon.gold
 			background-color: rgba(195, 149, 25, 0.5)
+		.dashboard-item.with-image
+			padding: 0
+			border: none
+			img
+				margin: 14px auto
 		.ribbon.purple
 			background-color: #8683a4
 			.ribbon-callout
@@ -73,6 +84,31 @@ body
 		#update-info-wrapper
 			margin-bottom: 0
 			padding-bottom: 5px
+		#upcoming-events
+			background-color: $white
+			margin: 15px 5px 5px
+			width: 95%
+			outline: 1px solid $white
+			padding: 7px
+			&:hover
+				outline: 1px solid $ecu-purple
+			@media (min-width: $screen-lg-min)
+				padding-left: 0
+			&::before
+				color: $ecu-purple
+				content: ''
+				background: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/01/upcoming-events.svg")
+				display: none
+				font-size: 2.5rem
+				height: 40px
+				width: 40px
+				margin: 1px 0.25em 0
+				@media (min-width: $screen-lg-min)
+					display: block
+			a
+				color: $ecu-purple
+				&::after
+					color: $ecu-purple
 
 /* STYLES FROM RESEARCH */
 
@@ -142,7 +178,7 @@ body
 	#main-content
 		.dashboard-item
 			h2
-				margin-top: -13px
+				line-height: 0.95
 			&.dark-teal
 				.lead, h2
 					color: $dark-teal
@@ -151,9 +187,9 @@ body
 			&.AA-burnt-gold
 				.lead, h2
 					color: $burnt-gold-aa
-			&.grey
+			&.gold-grey
 				.lead, h2
-					color: $grey
+					color: $gold-grey
 					&:hover
 						text-decoration: underline
 			.lead

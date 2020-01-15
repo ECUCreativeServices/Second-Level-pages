@@ -242,7 +242,7 @@ body #main-content .intro-ribbon {
   padding-top: 2rem;
   padding-bottom: 2rem; }
 @media screen and (min-width: 992px) {
-  body #main-content #img-block-1 {
+  body #main-content #img-block-1, body #main-content #img-block-2, body #main-content #img-block-3, body #main-content #img-block-4 {
     padding: 0; } }
 body #main-content #img-1 {
   background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/MCSC_Letters.jpg");
@@ -251,10 +251,46 @@ body #main-content #img-1 {
   background-size: cover; }
   @media (min-width: 992px) {
     body #main-content #img-1 {
-      height: 22.9875em; } }
+      height: 26.6969em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content #img-1 {
-      height: 21.4875em; } }
+      height: 25.2188em; } }
+
+body #main-content #img-2 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/MCSC_Letters.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    body #main-content #img-2 {
+      height: 9.9469em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content #img-2 {
+      height: 9.9469em; } }
+
+body #main-content #img-3 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/MCSC_Letters.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    body #main-content #img-3 {
+      height: 9.9469em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content #img-3 {
+      height: 9.9469em; } }
+
+body #main-content #img-4 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/MCSC_Letters.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    body #main-content #img-4 {
+      height: 9.9469em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content #img-4 {
+      height: 9.9469em; } }
 
 body #main-content .hot-pink {
   background-color: #77216F;
@@ -264,6 +300,11 @@ body #main-content .hot-pink {
     color: #FFFFFF; }
 body #main-content .ribbon.gold {
   background-color: rgba(195, 149, 25, 0.5); }
+body #main-content .dashboard-item.with-image {
+  padding: 0;
+  border: none; }
+  body #main-content .dashboard-item.with-image img {
+    margin: 14px auto; }
 body #main-content .ribbon.purple {
   background-color: #8683a4; }
   body #main-content .ribbon.purple .ribbon-callout {
@@ -323,6 +364,33 @@ body #main-content #update-info {
 body #main-content #update-info-wrapper {
   margin-bottom: 0;
   padding-bottom: 5px; }
+body #main-content #upcoming-events {
+  background-color: #FFFFFF;
+  margin: 15px 5px 5px;
+  width: 95%;
+  outline: 1px solid #FFFFFF;
+  padding: 7px; }
+  body #main-content #upcoming-events:hover {
+    outline: 1px solid #572C86; }
+  @media (min-width: 992px) {
+    body #main-content #upcoming-events {
+      padding-left: 0; } }
+  body #main-content #upcoming-events::before {
+    color: #572C86;
+    content: "";
+    background: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/01/upcoming-events.svg");
+    display: none;
+    font-size: 2.5rem;
+    height: 40px;
+    width: 40px;
+    margin: 1px 0.25em 0; }
+    @media (min-width: 992px) {
+      body #main-content #upcoming-events::before {
+        display: block; } }
+  body #main-content #upcoming-events a {
+    color: #572C86; }
+    body #main-content #upcoming-events a::after {
+      color: #572C86; }
 
 /* STYLES FROM RESEARCH */
 body #main-content .btn-wrapper {
@@ -393,16 +461,16 @@ body #main-content .btn-solid-outline {
 
 /* Styles from Future Students */
 body #main-content .dashboard-item h2 {
-  margin-top: -13px; }
+  line-height: 0.95; }
 body #main-content .dashboard-item.dark-teal .lead, body #main-content .dashboard-item.dark-teal h2 {
   color: #004261; }
   body #main-content .dashboard-item.dark-teal .lead:hover, body #main-content .dashboard-item.dark-teal h2:hover {
     text-decoration: underline; }
 body #main-content .dashboard-item.AA-burnt-gold .lead, body #main-content .dashboard-item.AA-burnt-gold h2 {
   color: #947024; }
-body #main-content .dashboard-item.grey .lead, body #main-content .dashboard-item.grey h2 {
-  color: #6C6D68; }
-  body #main-content .dashboard-item.grey .lead:hover, body #main-content .dashboard-item.grey h2:hover {
+body #main-content .dashboard-item.gold-grey .lead, body #main-content .dashboard-item.gold-grey h2 {
+  color: #928a81; }
+  body #main-content .dashboard-item.gold-grey .lead:hover, body #main-content .dashboard-item.gold-grey h2:hover {
     text-decoration: underline; }
 body #main-content .dashboard-item .lead {
   opacity: 1 !important;
