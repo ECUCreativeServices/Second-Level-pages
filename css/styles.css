@@ -238,6 +238,12 @@ body #main-content a.btn-ecu-white {
         color: #FFFFFF;
         font-size: 1.8rem; } }
 
+body #main-content small.small {
+  font-size: 25%;
+  line-height: 1.1em;
+  vertical-align: top;
+  position: relative;
+  top: 0.5em; }
 body #main-content .intro-ribbon {
   padding-top: 2rem;
   padding-bottom: 2rem; }
@@ -251,7 +257,7 @@ body #main-content #img-1 {
   background-size: cover; }
   @media (min-width: 992px) {
     body #main-content #img-1 {
-      height: 26.6969em; } }
+      height: 26.7594em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content #img-1 {
       height: 25.2188em; } }
