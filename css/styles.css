@@ -238,6 +238,12 @@ body #main-content a.btn-ecu-white {
         color: #FFFFFF;
         font-size: 1.8rem; } }
 
+body #main-content small.small {
+  font-size: 25%;
+  line-height: 1.1em;
+  vertical-align: top;
+  position: relative;
+  top: 0.5em; }
 body #main-content #aac-logo {
   padding-top: 0.75rem; }
 body #main-content .bg-ecu-purple {
