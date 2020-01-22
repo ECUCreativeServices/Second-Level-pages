@@ -1,0 +1,78 @@
+body
+	#main-content
+		small.small
+			font-size: 25%
+			line-height: 1.1em
+			vertical-align: top
+			position: relative
+			top: 0.5em
+		#aac-logo
+			padding-top: 0.75rem
+		.bg-ecu-purple
+			height: 100%
+		.intro-ribbon
+			padding-top: 30px
+			padding-bottom: 30px
+			.intro-text
+				padding-right: 1.5rem
+		.ribbon.style-3
+			.ribbon-callout
+				padding: 30px 20px 20px
+				background-color: $dark-purple
+				#membership
+					&:hover
+						color: $dark-purple
+			a.purple
+				font-family: $heading-font
+				text-transform: uppercase
+				background: #726F95
+				padding: 10px
+				color: $white
+				text-decoration: none
+				display: block
+				border: none
+				font-size: 1.5rem
+				@media (min-width: $screen-lg-min)
+					padding: 10px 10px 50px
+					margin: 0
+					font-size: 1.1rem
+					&:hover
+						transform: scale(1.1)
+						-moz-transform-origin: 1 1
+				&.horizontal
+					min-height: 88px
+					padding: 20px
+					-webkit-align-items: center
+					-ms-flex-align: center
+					align-items: center
+					display: -webkit-flex
+					display: flex
+					a
+						font-weight: bold
+			img.purple-button-icons
+				margin: 0px 10px 0px 0
+				float: left
+				min-width: 45px
+		#img-block-1
+			@media (min-width: $screen-lg-min)
+				padding-bottom: .5em
+				padding-right: .5em
+
+		#img-1
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/3-22-2015-WBBallNIT_JC-188.jpg", 9.5em, 9em)
+
+		#img-block-2
+			@media (min-width: $screen-lg-min)
+				padding-right: .5em
+				padding-bottom: 0
+
+		#img-2
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/ECU_UNC-0207.jpg", 12em, 11.5em)
+
+		#img-block-3
+			@media (min-width: $screen-lg-min)
+				padding-bottom: 0
+				padding-left: 0
+
+		#img-3
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/12/NCAA_Baseball_Sunday-1316.jpg", 22em, 21em)
