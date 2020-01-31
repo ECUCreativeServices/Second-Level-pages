@@ -1,0 +1,46 @@
+body
+	#main-content
+		.ribbon.style-2
+			.intro-text
+				padding: 1.5rem
+				h2
+					color: $white
+					padding-bottom: 0.25em
+
+/* STYLES FROM FUTURE STUDENTS */
+body
+	#main-content
+		.dashboard-item
+			ul
+				padding-left: 1.25em
+				li
+					text-align: left
+					list-style: none
+					line-height: 2rem
+					a
+						text-decoration: none
+						border-bottom: none
+						color: $ecu-purple !important
+						text-transform: capitalize
+						transition: .5s
+						&:hover
+							color: $light-purple
+							border-color: $light-purple
+							border-bottom: thin solid $light-purple
+						&::before
+							content: "\f054"
+							font-family: $font-awesome
+							margin-right: .5rem
+			h2
+				margin-top: 1em
+				@media (min-width: $screen-md-min)
+					margin-top: 0
+			&.dark-purple
+				.lead, h2
+					color: $dark-purple
+			&.ecu-hot-pink
+				.lead, h2
+					color: $ecu-hot-pink
+			&.AA-burnt-gold
+				.lead, h2
+					color: $burnt-gold-aa
