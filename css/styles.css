@@ -238,11 +238,124 @@ body #main-content a.btn-ecu-white {
         color: #FFFFFF;
         font-size: 1.8rem; } }
 
+body #main-content #image-blocks {
+  display: none; }
+  @media (min-width: 992px) {
+    body #main-content #image-blocks {
+      display: block; } }
+body #main-content #img-1 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/PeeDee_Admissions-7270-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    body #main-content #img-1 {
+      height: 14em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content #img-1 {
+      height: 12.5em; } }
+
+@media screen and (min-width: 992px) {
+  body #main-content #img-block-2, body #main-content #img-block-3, body #main-content #img-block-4, body #main-content #img-block-5 {
+    padding-bottom: 1.125em; } }
+body #main-content #img-2 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Geology_Stock-1227.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    body #main-content #img-2 {
+      height: 14em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content #img-2 {
+      height: 12.5em; } }
+
+body #main-content #img-3 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Academic_Success_Tutor-07985.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    body #main-content #img-3 {
+      height: 14em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content #img-3 {
+      height: 12.5em; } }
+
+body #main-content #img-4 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Qi_Challenge_Egg_Drop-02172.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    body #main-content #img-4 {
+      height: 14em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content #img-4 {
+      height: 12.5em; } }
+
+body #main-content #img-5 {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Academic_Success_Tutor-08115.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    body #main-content #img-5 {
+      height: 14em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #main-content #img-5 {
+      height: 12.5em; } }
+
+body #main-content .ribbon-content.glance {
+  margin-bottom: 1.75em; }
+  body #main-content .ribbon-content.glance .dk-purple-blocks {
+    padding: 20px;
+    background-color: #41215E;
+    color: #FFFFFF;
+    height: 100%; }
+    body #main-content .ribbon-content.glance .dk-purple-blocks h2 {
+      color: #FFFFFF; }
+    body #main-content .ribbon-content.glance .dk-purple-blocks .btn {
+      color: #FFFFFF;
+      background-color: #41215E;
+      border-color: #FFFFFF; }
+      body #main-content .ribbon-content.glance .dk-purple-blocks .btn::after {
+        font-family: "FontAwesome";
+        content: "";
+        color: #FFFFFF;
+        margin-left: 10px; }
+      body #main-content .ribbon-content.glance .dk-purple-blocks .btn:hover {
+        background-color: #FFFFFF;
+        color: #41215E; }
+        body #main-content .ribbon-content.glance .dk-purple-blocks .btn:hover::after {
+          color: #41215E; }
 body #main-content .ribbon.style-2 .intro-text {
   padding: 1.5rem; }
   body #main-content .ribbon.style-2 .intro-text h2 {
     color: #FFFFFF;
     padding-bottom: 0.25em; }
+body #main-content .ribbon.style-4 ul.teal-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -15px; }
+  body #main-content .ribbon.style-4 ul.teal-links li {
+    width: 33.3333333333%;
+    padding: 8px 15px; }
+    body #main-content .ribbon.style-4 ul.teal-links li:nth-child(even) a.teal.horizontal {
+      background-color: #00adb2; }
+    body #main-content .ribbon.style-4 ul.teal-links li a.teal.horizontal {
+      background-image: none;
+      background-color: rgba(0, 173, 178, 0.5);
+      min-height: 80px;
+      align-items: center;
+      padding: 10px 18px; }
+      body #main-content .ribbon.style-4 ul.teal-links li a.teal.horizontal::before {
+        content: "";
+        font-family: "FontAwesome";
+        margin-right: 0.5rem; }
 
 /* STYLES FROM FUTURE STUDENTS */
 body #main-content .dashboard-item ul {
