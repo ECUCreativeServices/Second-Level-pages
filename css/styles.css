@@ -342,13 +342,27 @@ body #main-content .ribbon.style-4 ul.teal-links {
   flex-wrap: wrap;
   margin: 0 -15px; }
   body #main-content .ribbon.style-4 ul.teal-links li {
-    width: 33.3333333333%;
+    width: 100%;
     padding: 8px 15px; }
-    body #main-content .ribbon.style-4 ul.teal-links li:nth-child(even) a.teal.horizontal {
-      background-color: #00adb2; }
+    @media screen and (min-width: 768px) {
+      body #main-content .ribbon.style-4 ul.teal-links li {
+        width: 50%; }
+        body #main-content .ribbon.style-4 ul.teal-links li:nth-child(4n) a.teal.horizontal {
+          background-color: rgba(0, 173, 178, 0.5); }
+        body #main-content .ribbon.style-4 ul.teal-links li:nth-child(4n+1) a.teal.horizontal {
+          background-color: rgba(0, 173, 178, 0.5); } }
+    @media screen and (min-width: 1200px) {
+      body #main-content .ribbon.style-4 ul.teal-links li {
+        width: 33.3333333333%; }
+        body #main-content .ribbon.style-4 ul.teal-links li:nth-child(odd) a.teal.horizontal {
+          background-color: rgba(0, 173, 178, 0.5); }
+        body #main-content .ribbon.style-4 ul.teal-links li:nth-child(even) a.teal.horizontal {
+          background-color: #00adb2; } }
+    body #main-content .ribbon.style-4 ul.teal-links li:nth-child(odd) a.teal.horizontal {
+      background-color: rgba(0, 173, 178, 0.5); }
     body #main-content .ribbon.style-4 ul.teal-links li a.teal.horizontal {
       background-image: none;
-      background-color: rgba(0, 173, 178, 0.5);
+      background-color: #00adb2;
       min-height: 80px;
       align-items: center;
       padding: 10px 18px; }
