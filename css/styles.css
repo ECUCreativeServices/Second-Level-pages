@@ -244,7 +244,7 @@ body #main-content #image-blocks {
     body #main-content #image-blocks {
       display: block; } }
 body #main-content #img-1 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/PeeDee_Admissions-7270-2.jpg");
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/PeeDee_Admissions-7270-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -259,7 +259,7 @@ body #main-content #img-1 {
   body #main-content #img-block-2, body #main-content #img-block-3, body #main-content #img-block-4, body #main-content #img-block-5 {
     padding-bottom: 1.125em; } }
 body #main-content #img-2 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Geology_Stock-1227.jpg");
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/Geology_Stock-1227.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -271,7 +271,7 @@ body #main-content #img-2 {
       height: 12.5em; } }
 
 body #main-content #img-3 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Academic_Success_Tutor-07985.jpg");
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/Academic_Success_Tutor-07985.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -283,7 +283,7 @@ body #main-content #img-3 {
       height: 12.5em; } }
 
 body #main-content #img-4 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Qi_Challenge_Egg_Drop-02172.jpg");
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/Qi_Challenge_Egg_Drop-02172.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -295,7 +295,7 @@ body #main-content #img-4 {
       height: 12.5em; } }
 
 body #main-content #img-5 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Academic_Success_Tutor-08115.jpg");
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/Academic_Success_Tutor-08115.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -426,22 +426,22 @@ body #main-content .dashboard-item ul {
     text-align: left;
     list-style: none;
     line-height: 2rem;
-    padding-left: 18px; }
+    padding-left: 18px;
+    color: #572C86;
+    text-transform: none; }
+    body #main-content .dashboard-item ul li::before {
+      content: "";
+      font-family: "FontAwesome";
+      margin-right: 0.5rem; }
     body #main-content .dashboard-item ul li a {
       text-decoration: none;
       border-bottom: none;
       color: #572C86 !important;
-      text-transform: capitalize;
-      transition: 0.5s;
-      margin-left: -18px; }
+      transition: 0.5s; }
       body #main-content .dashboard-item ul li a:hover {
         color: #be9fdf;
         border-color: #be9fdf;
         border-bottom: thin solid #be9fdf; }
-      body #main-content .dashboard-item ul li a::before {
-        content: "";
-        font-family: "FontAwesome";
-        margin-right: 0.5rem; }
 body #main-content .dashboard-item h2 {
   margin-top: 1em; }
   @media (min-width: 768px) {

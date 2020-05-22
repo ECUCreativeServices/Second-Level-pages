@@ -5,18 +5,18 @@ body
 			@media (min-width: $screen-lg-min)
 				display: block
 		#img-1
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/PeeDee_Admissions-7270-2.jpg", 14em, 12.5em)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/PeeDee_Admissions-7270-2.jpg", 14em, 12.5em)
 		#img-block-2, #img-block-3, #img-block-4, #img-block-5
 			@media screen and (min-width: $screen-lg-min)
 				padding-bottom: 1.125em
 		#img-2
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Geology_Stock-1227.jpg", 12em, 12.5em)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/Geology_Stock-1227.jpg", 12em, 12.5em)
 		#img-3
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Academic_Success_Tutor-07985.jpg", 12em, 12.5em)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/Academic_Success_Tutor-07985.jpg", 12em, 12.5em)
 		#img-4
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Qi_Challenge_Egg_Drop-02172.jpg", 12em, 12.5em)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/Qi_Challenge_Egg_Drop-02172.jpg", 12em, 12.5em)
 		#img-5
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2020/02/Academic_Success_Tutor-08115.jpg", 12em, 12.5em)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/Academic_Success_Tutor-08115.jpg", 12em, 12.5em)
 			@media screen and (min-width: $screen-lg-min)
 				background-position: center 30%
 			@media screen and (min-width: $screen-xl-min)
@@ -136,21 +136,21 @@ body
 					list-style: none
 					line-height: 2rem
 					padding-left: 18px
+					color: $ecu-purple
+					text-transform: none
+					&::before
+						content: "\f054"
+						font-family: $font-awesome
+						margin-right: .5rem
 					a
 						text-decoration: none
 						border-bottom: none
 						color: $ecu-purple !important
-						text-transform: capitalize
 						transition: .5s
-						margin-left: -18px
 						&:hover
 							color: $light-purple
 							border-color: $light-purple
 							border-bottom: thin solid $light-purple
-						&::before
-							content: "\f054"
-							font-family: $font-awesome
-							margin-right: .5rem
 			h2
 				margin-top: 1em
 				@media (min-width: $screen-md-min)
