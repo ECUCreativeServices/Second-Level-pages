@@ -250,10 +250,10 @@ body #main-content #img-1 {
   background-size: cover; }
   @media (min-width: 992px) {
     body #main-content #img-1 {
-      height: 14em; } }
+      height: 20.7em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content #img-1 {
-      height: 12.5em; } }
+      height: 17.7em; } }
 
 @media screen and (min-width: 992px) {
   body #main-content #img-block-2, body #main-content #img-block-3, body #main-content #img-block-4, body #main-content #img-block-5 {
@@ -346,10 +346,20 @@ body #main-content .ribbon.style-2 .intro-text {
   padding-left: 2.25rem; }
   @media screen and (min-width: 992px) {
     body #main-content .ribbon.style-2 .intro-text {
-      padding-left: 1.5rem; } }
+      padding-left: 1.5rem;
+      padding-right: 3rem; } }
   body #main-content .ribbon.style-2 .intro-text h2 {
     color: #FFFFFF;
     padding-bottom: 0.25em; }
+body #main-content .ribbon.style-2 #de-search-input {
+  background-color: white;
+  color: gray;
+  border: 1px solid #6C6D68;
+  padding: 0.5rem 0.75rem;
+  font-family: Oswald, sans-serif;
+  line-height: 1.25;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem; }
 body #main-content .ribbon.style-4 ul.teal-links {
   list-style-type: none;
   padding: 0;
@@ -401,23 +411,77 @@ body #main-content .ribbon.style-4 ul.teal-links {
       body #main-content .ribbon.style-4 ul.teal-links li #thcas::before {
         margin-top: -10%; } }
     @media screen and (min-width: 768px) {
-      body #main-content .ribbon.style-4 ul.teal-links li #cahs::before {
+      body #main-content .ribbon.style-4 ul.teal-links li #cahs::before, body #main-content .ribbon.style-4 ul.teal-links li #coastal::before, body #main-content .ribbon.style-4 ul.teal-links li #hospitality::before, body #main-content .ribbon.style-4 ul.teal-links li #theatre::before {
         margin-top: -8%; } }
     @media screen and (min-width: 992px) {
-      body #main-content .ribbon.style-4 ul.teal-links li #cahs::before {
+      body #main-content .ribbon.style-4 ul.teal-links li #cahs::before, body #main-content .ribbon.style-4 ul.teal-links li #coastal::before, body #main-content .ribbon.style-4 ul.teal-links li #hospitality::before, body #main-content .ribbon.style-4 ul.teal-links li #theatre::before {
         margin-top: 0; } }
     @media screen and (min-width: 1200px) {
-      body #main-content .ribbon.style-4 ul.teal-links li #cahs::before {
+      body #main-content .ribbon.style-4 ul.teal-links li #cahs::before, body #main-content .ribbon.style-4 ul.teal-links li #coastal::before, body #main-content .ribbon.style-4 ul.teal-links li #hospitality::before, body #main-content .ribbon.style-4 ul.teal-links li #theatre::before {
         margin-top: -10%; } }
     @media screen and (min-width: 768px) {
-      body #main-content .ribbon.style-4 ul.teal-links li #cet::before, body #main-content .ribbon.style-4 ul.teal-links li #cfac::before, body #main-content .ribbon.style-4 ul.teal-links li #chhp::before {
+      body #main-content .ribbon.style-4 ul.teal-links li #cet::before, body #main-content .ribbon.style-4 ul.teal-links li #cfac::before, body #main-content .ribbon.style-4 ul.teal-links li #chhp::before, body #main-content .ribbon.style-4 ul.teal-links li #miller::before {
         margin-top: -8%; } }
     @media screen and (min-width: 1200px) {
-      body #main-content .ribbon.style-4 ul.teal-links li #cet::before, body #main-content .ribbon.style-4 ul.teal-links li #cfac::before, body #main-content .ribbon.style-4 ul.teal-links li #chhp::before {
+      body #main-content .ribbon.style-4 ul.teal-links li #cet::before, body #main-content .ribbon.style-4 ul.teal-links li #cfac::before, body #main-content .ribbon.style-4 ul.teal-links li #chhp::before, body #main-content .ribbon.style-4 ul.teal-links li #miller::before {
         margin-top: -10%; } }
     @media screen and (min-width: 1200px) {
-      body #main-content .ribbon.style-4 ul.teal-links li #dental::before, body #main-content .ribbon.style-4 ul.teal-links li #brody::before {
+      body #main-content .ribbon.style-4 ul.teal-links li #dental::before, body #main-content .ribbon.style-4 ul.teal-links li #brody::before, body #main-content .ribbon.style-4 ul.teal-links li #art::before, body #main-content .ribbon.style-4 ul.teal-links li #communication::before {
         margin-top: -10%; } }
+body #main-content #department-list {
+  padding-left: 1.5rem; }
+  @media screen and (min-width: 768px) {
+    body #main-content #department-list {
+      column-count: 2;
+      column-gap: 3em; } }
+  @media screen and (min-width: 992px) {
+    body #main-content #department-list {
+      column-count: 3; } }
+  @media screen and (min-width: 1200px) {
+    body #main-content #department-list {
+      column-count: 4; } }
+  body #main-content #department-list li {
+    text-align: left;
+    list-style: none;
+    line-height: 1.25em;
+    padding-bottom: 1em; }
+    body #main-content #department-list li a {
+      color: #FFFFFF !important;
+      margin-left: -18px;
+      border-bottom: none;
+      text-transform: capitalize;
+      font-family: "Oswald", sans-serif;
+      transition: 0.5s; }
+      body #main-content #department-list li a:hover {
+        border-bottom: thin solid #FFFFFF; }
+      body #main-content #department-list li a::before {
+        content: "";
+        font-family: "FontAwesome";
+        margin-right: 0.5rem; }
+  @media screen and (min-width: 992px) {
+    body #main-content #department-list #dept-lg-col1, body #main-content #department-list #dept-lg-col2 {
+      padding-bottom: 0; } }
+  @media screen and (min-width: 1200px) {
+    body #main-content #department-list #dept-lg-col1, body #main-content #department-list #dept-lg-col2 {
+      padding-bottom: 1em; } }
+  @media screen and (min-width: 992px) {
+    body #main-content #department-list #dept-lg-col3 {
+      padding-bottom: 2em; } }
+  @media screen and (min-width: 1200px) {
+    body #main-content #department-list #dept-lg-col3 {
+      padding-bottom: 1em; } }
+  @media screen and (min-width: 768px) {
+    body #main-content #department-list #dept-xl-col2 {
+      padding-bottom: 0; } }
+  @media screen and (min-width: 992px) {
+    body #main-content #department-list #dept-xl-col2 {
+      padding-bottom: 1em; } }
+  @media screen and (min-width: 1200px) {
+    body #main-content #department-list #dept-xl-col2 {
+      padding-bottom: 0; } }
+  @media screen and (min-width: 1200px) {
+    body #main-content #department-list #dept-xl-col3 {
+      padding-bottom: 2em; } }
 
 /* STYLES FROM FUTURE STUDENTS */
 body #main-content .dashboard-item ul {
