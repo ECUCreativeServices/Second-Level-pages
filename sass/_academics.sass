@@ -5,7 +5,7 @@ body
 			@media (min-width: $screen-lg-min)
 				display: block
 		#img-1
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/PeeDee_Admissions-7270-2.jpg", 20.7em, 17.7em)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/02/PeeDee_Admissions-7270-2.jpg", 20.9em, 17.9em)
 		#img-block-2, #img-block-3, #img-block-4, #img-block-5
 			@media screen and (min-width: $screen-lg-min)
 				padding-bottom: 1.125em
@@ -50,23 +50,20 @@ body
 							color: $dark-purple
 		.ribbon.style-2
 			.intro-text
-				padding: 1.5rem
-				padding-left: 2.25rem
+				padding: 1.5rem 2.25rem
 				@media screen and (min-width: $screen-lg-min)
 					padding-left: 1.5rem
 					padding-right: 3rem
 				h2
 					color: $white
 					padding-bottom: 0.25em
-			#de-search-input
-				background-color: white
-				color: gray
-				border: 1px solid $grey
-				padding: 0.5rem 0.75rem
-				font-family: Oswald, sans-serif
-				line-height: 1.25
-				margin-right: 0.5rem
-				margin-bottom: 1rem
+			input#searchBox
+				background-color: $white
+				color: $grey
+				font-size: 17px
+				font-family: $heading-font
+			.form-control::placeholder
+				color: $grey
 		.ribbon.style-4
 			ul.teal-links
 				list-style-type: none
