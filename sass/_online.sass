@@ -1,0 +1,85 @@
+body
+	#main-content
+		.bg-ecu-purple
+			height: 100%
+		.intro-ribbon
+			padding-top: 30px
+			padding-bottom: 30px
+			.intro-text
+				padding-right: 1.5rem
+		.ribbon.style-4
+			.ribbon-callout
+				padding: 30px 0
+				margin-top: 0
+				.stat
+					border-right: 1px solid $white
+					&:last-child
+						border-right: none
+						padding: 0 20px
+					.row
+						margin: 0
+						padding: 0
+					img
+						width: 100%
+						max-width: 110px
+		.ribbon.style-3
+			.ribbon-callout
+				padding: 30px 20px 20px
+				background-color: $dark-purple
+				#membership
+					&:hover
+						color: $dark-purple
+			a.purple
+				font-family: $heading-font
+				text-transform: uppercase
+				background: #726F95
+				padding: 10px
+				color: $white
+				text-decoration: none
+				display: block
+				border: none
+				font-size: 1.5rem
+				@media (min-width: $screen-lg-min)
+					padding: 10px 10px 50px
+					margin: 0
+					font-size: 1.1rem
+					&:hover
+						transform: scale(1.1)
+						-moz-transform-origin: 1 1
+				&.horizontal
+					min-height: 88px
+					padding: 20px
+					-webkit-align-items: center
+					-ms-flex-align: center
+					align-items: center
+					display: -webkit-flex
+					display: flex
+					a
+						font-weight: bold
+			img.purple-button-icons
+				margin: 0px 10px 0px 0
+				float: left
+				min-width: 45px
+		#img-block-1
+			@media (min-width: $screen-lg-min)
+				padding-bottom: .5em
+				padding-right: .5em
+
+		#img-1
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/COLUMS-crop.jpg", 10.5em, 9.5em)
+
+		#img-block-2
+			@media (min-width: $screen-lg-min)
+				padding-right: .5em
+				padding-bottom: 0
+
+		#img-2
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/campus_photos.jpg", 12em, 11.5em)
+
+		#img-block-3
+			@media (min-width: $screen-lg-min)
+				padding-bottom: 0
+				padding-left: 0
+
+		#img-3
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/Pirate_Profile-4930.jpg", 23em, 21.5em)
