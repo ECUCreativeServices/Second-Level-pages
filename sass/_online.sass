@@ -12,10 +12,21 @@ body
 				padding: 30px 0
 				margin-top: 0
 				.stat
-					border-right: 1px solid $white
-					&:last-child
-						border-right: none
+					border-bottom: 1px solid $white
+					padding: 20px
+					margin: 0 30px
+					@media screen and (min-width: $screen-lg-min)
+						border-right: 1px solid $white
+						border-bottom: none
 						padding: 0 20px
+						margin: 0
+					&:last-child
+						border-bottom: none
+						padding-bottom: 0
+						@media screen and (min-width: $screen-lg-min)
+							border-right: none
+					&:first-child
+						padding-top: 0
 					.row
 						margin: 0
 						padding: 0
@@ -26,7 +37,7 @@ body
 			.ribbon-callout
 				padding: 30px 20px 20px
 				background-color: $dark-purple
-				#membership
+				a.btn-ecu-white
 					&:hover
 						color: $dark-purple
 			a.purple
@@ -60,21 +71,25 @@ body
 				margin: 0px 10px 0px 0
 				float: left
 				min-width: 45px
+			#apply
+				min-width: 35px
+				margin: 0 15px 5px 5px
 		#img-block-1
 			@media (min-width: $screen-lg-min)
 				padding-bottom: .5em
 				padding-right: .5em
 
 		#img-1
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/COLUMS-crop.jpg", 10.5em, 9.5em)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/COLUMS-crop.jpg", 9em, 9.5em)
 
 		#img-block-2
 			@media (min-width: $screen-lg-min)
-				padding-right: .5em
 				padding-bottom: 0
+			@media (min-width: $screen-xl-min)
+				padding-right: .5em
 
 		#img-2
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/campus_photos.jpg", 12em, 11.5em)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/campus_photos.jpg", 9em, 11.5em)
 
 		#img-block-3
 			@media (min-width: $screen-lg-min)
@@ -82,4 +97,4 @@ body
 				padding-left: 0
 
 		#img-3
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/Pirate_Profile-4930.jpg", 23em, 21.5em)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/Pirate_Profile-4930.jpg", 14em, 21.5em)

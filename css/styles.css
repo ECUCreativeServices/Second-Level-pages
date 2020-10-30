@@ -249,10 +249,23 @@ body #main-content .ribbon.style-4 .ribbon-callout {
   padding: 30px 0;
   margin-top: 0; }
   body #main-content .ribbon.style-4 .ribbon-callout .stat {
-    border-right: 1px solid #FFFFFF; }
+    border-bottom: 1px solid #FFFFFF;
+    padding: 20px;
+    margin: 0 30px; }
+    @media screen and (min-width: 992px) {
+      body #main-content .ribbon.style-4 .ribbon-callout .stat {
+        border-right: 1px solid #FFFFFF;
+        border-bottom: none;
+        padding: 0 20px;
+        margin: 0; } }
     body #main-content .ribbon.style-4 .ribbon-callout .stat:last-child {
-      border-right: none;
-      padding: 0 20px; }
+      border-bottom: none;
+      padding-bottom: 0; }
+      @media screen and (min-width: 992px) {
+        body #main-content .ribbon.style-4 .ribbon-callout .stat:last-child {
+          border-right: none; } }
+    body #main-content .ribbon.style-4 .ribbon-callout .stat:first-child {
+      padding-top: 0; }
     body #main-content .ribbon.style-4 .ribbon-callout .stat .row {
       margin: 0;
       padding: 0; }
@@ -262,7 +275,7 @@ body #main-content .ribbon.style-4 .ribbon-callout {
 body #main-content .ribbon.style-3 .ribbon-callout {
   padding: 30px 20px 20px;
   background-color: #41215E; }
-  body #main-content .ribbon.style-3 .ribbon-callout #membership:hover {
+  body #main-content .ribbon.style-3 .ribbon-callout a.btn-ecu-white:hover {
     color: #41215E; }
 body #main-content .ribbon.style-3 a.purple {
   font-family: "Oswald", sans-serif;
@@ -296,6 +309,9 @@ body #main-content .ribbon.style-3 img.purple-button-icons {
   margin: 0px 10px 0px 0;
   float: left;
   min-width: 45px; }
+body #main-content .ribbon.style-3 #apply {
+  min-width: 35px;
+  margin: 0 15px 5px 5px; }
 @media (min-width: 992px) {
   body #main-content #img-block-1 {
     padding-bottom: 0.5em;
@@ -307,15 +323,17 @@ body #main-content #img-1 {
   background-size: cover; }
   @media (min-width: 992px) {
     body #main-content #img-1 {
-      height: 10.5em; } }
+      height: 9em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content #img-1 {
       height: 9.5em; } }
 
 @media (min-width: 992px) {
   body #main-content #img-block-2 {
-    padding-right: 0.5em;
     padding-bottom: 0; } }
+@media (min-width: 1200px) {
+  body #main-content #img-block-2 {
+    padding-right: 0.5em; } }
 body #main-content #img-2 {
   background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/campus_photos.jpg");
   background-position: center;
@@ -323,7 +341,7 @@ body #main-content #img-2 {
   background-size: cover; }
   @media (min-width: 992px) {
     body #main-content #img-2 {
-      height: 12em; } }
+      height: 9em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content #img-2 {
       height: 11.5em; } }
@@ -339,7 +357,7 @@ body #main-content #img-3 {
   background-size: cover; }
   @media (min-width: 992px) {
     body #main-content #img-3 {
-      height: 23em; } }
+      height: 14em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content #img-3 {
       height: 21.5em; } }
