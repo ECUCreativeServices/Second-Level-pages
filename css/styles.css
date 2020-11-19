@@ -238,128 +238,138 @@ body #main-content a.btn-ecu-white {
         color: #FFFFFF;
         font-size: 1.8rem; } }
 
-body #main-content .bg-ecu-purple {
-  height: 100%; }
-body #main-content .intro-ribbon {
-  padding-top: 30px;
-  padding-bottom: 30px; }
-  body #main-content .intro-ribbon .intro-text {
-    padding-right: 1.5rem; }
-body #main-content .ribbon.style-4 .ribbon-callout {
-  padding: 30px 0;
-  margin-top: 0; }
-  body #main-content .ribbon.style-4 .ribbon-callout .stat {
-    border-bottom: 1px solid #FFFFFF;
-    padding: 20px;
-    margin: 0 30px; }
-    @media screen and (min-width: 992px) {
-      body #main-content .ribbon.style-4 .ribbon-callout .stat {
-        border-right: 1px solid #FFFFFF;
-        border-bottom: none;
-        padding: 0 20px;
-        margin: 0; } }
-    body #main-content .ribbon.style-4 .ribbon-callout .stat:last-child {
-      border-bottom: none;
-      padding-bottom: 0; }
-      @media screen and (min-width: 992px) {
-        body #main-content .ribbon.style-4 .ribbon-callout .stat:last-child {
-          border-right: none; } }
-    body #main-content .ribbon.style-4 .ribbon-callout .stat:first-child {
-      padding-top: 0; }
-    body #main-content .ribbon.style-4 .ribbon-callout .stat .row {
-      margin: 0;
-      padding: 0; }
-    body #main-content .ribbon.style-4 .ribbon-callout .stat img {
-      width: 100%;
-      max-width: 110px; }
-body #main-content .ribbon.style-3 .ribbon-callout {
-  padding: 30px 20px 20px;
-  background-color: #41215E; }
-  body #main-content .ribbon.style-3 .ribbon-callout a.btn-ecu-white:hover {
-    color: #41215E; }
-body #main-content .ribbon.style-3 a.purple {
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  background: #726F95;
-  padding: 10px;
-  color: #FFFFFF;
-  text-decoration: none;
-  display: block;
-  border: none;
-  font-size: 1.5rem; }
-  @media (min-width: 992px) {
-    body #main-content .ribbon.style-3 a.purple {
-      padding: 10px 10px 50px;
-      margin: 0;
-      font-size: 1.1rem; }
-      body #main-content .ribbon.style-3 a.purple:hover {
-        transform: scale(1.1);
-        -moz-transform-origin: 1 1; } }
-  body #main-content .ribbon.style-3 a.purple.horizontal {
-    min-height: 88px;
-    padding: 20px;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-flex;
-    display: flex; }
-    body #main-content .ribbon.style-3 a.purple.horizontal a {
-      font-weight: bold; }
-body #main-content .ribbon.style-3 img.purple-button-icons {
-  margin: 0px 10px 0px 0;
-  float: left;
-  min-width: 45px; }
-body #main-content .ribbon.style-3 #apply {
-  min-width: 35px;
-  margin: 0 15px 5px 5px; }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   body #main-content #img-block-1 {
-    padding-bottom: 0.5em;
-    padding-right: 0.5em; } }
+    padding: 0; } }
 body #main-content #img-1 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/COLUMS-crop.jpg");
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/11/11-02-17campus_photos-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   @media (min-width: 992px) {
     body #main-content #img-1 {
-      height: 9em; } }
+      height: 20em; } }
   @media (min-width: 992px) and (min-width: 1200px) {
     body #main-content #img-1 {
-      height: 9.5em; } }
+      height: 19em; } }
 
-@media (min-width: 992px) {
-  body #main-content #img-block-2 {
-    padding-bottom: 0; } }
-@media (min-width: 1200px) {
-  body #main-content #img-block-2 {
-    padding-right: 0.5em; } }
-body #main-content #img-2 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/campus_photos.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  @media (min-width: 992px) {
-    body #main-content #img-2 {
-      height: 9em; } }
+body #main-content .bg-lt-purple {
+  background-color: #77216F;
+  color: #FFFFFF; }
+  body #main-content .bg-lt-purple h2 {
+    color: #FFFFFF; }
+body #main-content .btn-solid-outline {
+  background-color: #77216F;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid #77216F;
+  outline-offset: 5px;
+  text-shadow: none;
+  transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1);
+  padding: 7px 0 7px 20px; }
+  @media (min-width: 768px) {
+    body #main-content .btn-solid-outline {
+      width: 95%;
+      margin-left: 6px;
+      padding-left: 0px; } }
+  body #main-content .btn-solid-outline:hover {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 10px;
+    text-shadow: 1px 1px 2px #427388; }
+  body #main-content .btn-solid-outline::before {
+    font-family: "FontAwesome";
+    content: "";
+    color: #FFFFFF;
+    margin-left: 5px;
+    float: left;
+    font-size: 2rem;
+    padding: 0 10px;
+    display: none;
+    line-height: 42px; }
+    @media (min-width: 992px) {
+      body #main-content .btn-solid-outline::before {
+        display: block;
+        line-height: 60px; } }
   @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content #img-2 {
-      height: 11.5em; } }
+    body #main-content .btn-solid-outline::before {
+      Line-height: 41px; } }
 
-@media (min-width: 992px) {
-  body #main-content #img-block-3 {
-    padding-bottom: 0;
-    padding-left: 0; } }
-body #main-content #img-3 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/10/Pirate_Profile-4930.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  @media (min-width: 992px) {
-    body #main-content #img-3 {
-      height: 14em; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
-    body #main-content #img-3 {
-      height: 21.5em; } }
+  body #main-content .btn-solid-outline a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.3rem;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    display: block;
+    margin-left: 5px; }
+    body #main-content .btn-solid-outline a::after {
+      font-family: "FontAwesome";
+      content: "";
+      color: white;
+      margin-left: 5px; }
+  body #main-content .btn-solid-outline#alert-reg, body #main-content .btn-solid-outline#livesafe-app {
+    background-color: #FFFFFF;
+    margin: 15px 5px 5px;
+    width: 95%;
+    outline: 1px solid #FFFFFF;
+    padding: 7px; }
+    body #main-content .btn-solid-outline#alert-reg:hover, body #main-content .btn-solid-outline#livesafe-app:hover {
+      outline: 1px solid #77216F; }
+    @media (min-width: 992px) {
+      body #main-content .btn-solid-outline#alert-reg, body #main-content .btn-solid-outline#livesafe-app {
+        padding-left: 0; } }
+    body #main-content .btn-solid-outline#alert-reg::before, body #main-content .btn-solid-outline#livesafe-app::before {
+      color: #77216F;
+      content: "";
+      display: none;
+      font-size: 2.5rem;
+      height: 40px;
+      width: 40px;
+      margin: 1px 0.25em 0; }
+      @media (min-width: 992px) {
+        body #main-content .btn-solid-outline#alert-reg::before, body #main-content .btn-solid-outline#livesafe-app::before {
+          display: block; } }
+    body #main-content .btn-solid-outline#alert-reg#alert-reg::before, body #main-content .btn-solid-outline#livesafe-app#alert-reg::before {
+      background: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/11/alert-reg.svg"); }
+    body #main-content .btn-solid-outline#alert-reg#livesafe-app::before, body #main-content .btn-solid-outline#livesafe-app#livesafe-app::before {
+      background: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2020/11/livesafe-app.svg"); }
+    body #main-content .btn-solid-outline#alert-reg a, body #main-content .btn-solid-outline#livesafe-app a {
+      color: #77216F; }
+      body #main-content .btn-solid-outline#alert-reg a::after, body #main-content .btn-solid-outline#livesafe-app a::after {
+        color: #77216F; }
+body #main-content .dashboard-item ul li {
+  text-align: left;
+  list-style: none;
+  line-height: 2rem; }
+  body #main-content .dashboard-item ul li a {
+    text-decoration: none;
+    border-bottom: none;
+    color: #572C86 !important;
+    text-transform: capitalize;
+    transition: 0.5s; }
+    body #main-content .dashboard-item ul li a:hover {
+      color: #be9fdf;
+      border-color: #be9fdf;
+      border-bottom: thin solid #be9fdf; }
+    body #main-content .dashboard-item ul li a::before {
+      content: "";
+      font-family: "FontAwesome";
+      margin-right: 0.5rem; }
+body #main-content .dashboard-item h2 {
+  margin-top: 1em; }
+  @media (min-width: 768px) {
+    body #main-content .dashboard-item h2 {
+      margin-top: 0; } }
+body #main-content .dashboard-item.AA-burnt-gold .lead, body #main-content .dashboard-item.AA-burnt-gold h2 {
+  color: #947024; }
+body #main-content .dashboard-item.grey .lead, body #main-content .dashboard-item.grey h2 {
+  color: #6C6D68; }
 
 /*# sourceMappingURL=styles.css.map */
