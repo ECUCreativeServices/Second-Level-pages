@@ -427,6 +427,8 @@ body #main-content .dash-content .link-list {
         content: "";
         color: #572C86;
         margin-right: 5px; }
+body #main-content .ribbon.style-3 h2 {
+  margin-bottom: 0.5rem; }
 body #main-content .ribbon.style-3 .AA-burnt-gold .lead, body #main-content .ribbon.style-3 .AA-burnt-gold h2 {
   color: #947024; }
 body #main-content .ribbon.style-3 .grey .lead, body #main-content .ribbon.style-3 .grey h2 {
