@@ -18,11 +18,17 @@ body
 							color: $dark-purple
 					&::after
 						color: $white
+				img
+					display: none
+					@media (min-width: $screen-lg-min)
+						display: block
 			.clusters
 				background: $dark-teal
 				color: $white
 				padding: 15px
-				margin: 0.5em
+				margin: 0
+				@media (min-width: $screen-xl-min)
+					margin: 0.5em
 				h2
 					color: $white !important
 				#econ-dev-svg
@@ -31,6 +37,10 @@ body
 					margin: 37px 20px 0 5px
 			a.teal.horizontal
 				background: $teal
+		img.teal-button-icons, img.gold-button-icons
+			margin: 0px 10px 0px 0
+			float: left
+			min-width: 45px
 		#health-care
 			background: rgb(207,177,205)
 			.ribbon-callout
@@ -78,7 +88,7 @@ body
 						@media (min-width: $screen-lg-min)
 							height: 14.5em
 						span
-							font-size: 1.25em
+							font-size: 1.2em
 							font-weight: 500
 							text-align: center
 							position: absolute
@@ -90,31 +100,37 @@ body
 							width: 100%
 							font-family: $heading-font
 							text-transform: uppercase
+							@media (min-width: $screen-xl-min)
+								padding: 15px 5px
+								min-height: 90px
+							&.single-line
+								@media (min-width: $screen-xl-min)
+									padding-top: 1.5em
 
 		#img1-1
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/09/lg-img1.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Physicians.jpg")
 		#img1-2
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/10/lg-img2.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/CSLC.jpg")
 		#img1-3
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/09/lg-img3.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Telepsych.jpg")
 		#img1-4
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/09/lg-img4.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Heart.jpg")
 		#img1-5
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/09/lg-img5.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Pediatrics.jpg")
 		#img1-6
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/09/lg-img6.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Agromedicine.jpg")
 		#img2-1
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/09/lg-img1.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Engagement.jpg")
 		#img2-2
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/10/lg-img2.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/RISE29.jpg")
 		#img2-3
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/09/lg-img3.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/EOSA.jpg")
 		#img2-4
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/09/lg-img4.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/PFI.jpg")
 		#img2-5
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/09/lg-img5.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Civic.jpg")
 		#img2-6
-			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2019/09/lg-img6.jpg")
+			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Military.jpg")
 		#outreach
 			background: rgb(218, 212, 232)
 			.ribbon-callout
