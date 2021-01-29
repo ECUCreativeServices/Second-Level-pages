@@ -1,5 +1,7 @@
 body
 	#main-content
+		h2
+			text-transform: uppercase
 		.ribbon.glance
 			.ribbon-callout
 				color: $white
@@ -32,12 +34,22 @@ body
 				h2
 					color: $white !important
 				#econ-dev-svg
-					width: 47px
-					height: 47px
-					margin: 37px 20px 0 5px
+					display: none
+					@media (min-width: $screen-xl-min)
+						display: inline
+						width: 47px
+						height: 47px
+						margin: 37px 4px 0 5px
 			a.teal.horizontal
 				background: $teal
-		img.teal-button-icons, img.gold-button-icons
+				min-height: 88px
+				@media (min-width: $screen-md-min)
+					min-height: 123px
+				@media (min-width: $screen-lg-min)
+					min-height: 88px
+				@media (min-width: $screen-xl-min)
+					min-height: 123px
+		img.teal-button-icons
 			margin: 0px 10px 0px 0
 			float: left
 			min-width: 45px
@@ -52,18 +64,9 @@ body
 		#education
 			.ribbon-callout
 				padding: 25px
-			a.gold.horizontal
+			a.teal.horizontal
 				background: $AA-burnt-gold
-				min-height: 88px
-				padding: 20px
-				align-items: center
-				display: flex
-				font-family: $heading-font
-				text-transform: uppercase
 				color: $white
-				text-decoration: none
-				border: none
-				font-size: 1.1rem
 		.lg-row
 			display: flex
 			flex-wrap: wrap
@@ -76,7 +79,7 @@ body
 					padding: 0 15px 28px
 					.lg-item
 						background-size: cover
-						background-position: center center
+						background-position: center -25px
 						position: relative
 						display: flex
 						align-items: center
@@ -100,12 +103,19 @@ body
 							width: 100%
 							font-family: $heading-font
 							text-transform: uppercase
+							@media (min-width: $screen-md-min)
+								min-height: 80px
+								padding: 10px 15px
 							@media (min-width: $screen-xl-min)
-								padding: 15px 5px
-								min-height: 90px
-							&.single-line
+								padding: 10px 5px
+							&.single-line-xl
+								@media (min-width: $screen-md-min)
+									padding-top: 1.25em
+							&.single-line-lg
+								@media (min-width: $screen-md-min)
+									padding-top: 1.25em
 								@media (min-width: $screen-xl-min)
-									padding-top: 1.5em
+									padding-top: 10px
 
 		#img1-1
 			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Physicians.jpg")
@@ -134,7 +144,7 @@ body
 		#outreach
 			background: rgb(218, 212, 232)
 			.ribbon-callout
-				background: rgb(148, 132, 190)
+				background: #7F69B0
 				color: $white
 				padding: 25px
 				h2

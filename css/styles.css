@@ -238,6 +238,8 @@ body #main-content a.btn-ecu-white {
         color: #FFFFFF;
         font-size: 1.8rem; } }
 
+body #main-content h2 {
+  text-transform: uppercase; }
 body #main-content .ribbon.glance .ribbon-callout {
   color: #FFFFFF;
   background: #41215E;
@@ -271,12 +273,26 @@ body #main-content .ribbon.glance .clusters {
   body #main-content .ribbon.glance .clusters h2 {
     color: #FFFFFF !important; }
   body #main-content .ribbon.glance .clusters #econ-dev-svg {
-    width: 47px;
-    height: 47px;
-    margin: 37px 20px 0 5px; }
+    display: none; }
+    @media (min-width: 1200px) {
+      body #main-content .ribbon.glance .clusters #econ-dev-svg {
+        display: inline;
+        width: 47px;
+        height: 47px;
+        margin: 37px 4px 0 5px; } }
 body #main-content .ribbon.glance a.teal.horizontal {
-  background: #00818F; }
-body #main-content img.teal-button-icons, body #main-content img.gold-button-icons {
+  background: #00818F;
+  min-height: 88px; }
+  @media (min-width: 768px) {
+    body #main-content .ribbon.glance a.teal.horizontal {
+      min-height: 123px; } }
+  @media (min-width: 992px) {
+    body #main-content .ribbon.glance a.teal.horizontal {
+      min-height: 88px; } }
+  @media (min-width: 1200px) {
+    body #main-content .ribbon.glance a.teal.horizontal {
+      min-height: 123px; } }
+body #main-content img.teal-button-icons {
   margin: 0px 10px 0px 0;
   float: left;
   min-width: 45px; }
@@ -290,18 +306,9 @@ body #main-content #health-care {
       color: #FFFFFF !important; }
 body #main-content #education .ribbon-callout {
   padding: 25px; }
-body #main-content #education a.gold.horizontal {
+body #main-content #education a.teal.horizontal {
   background: #947024;
-  min-height: 88px;
-  padding: 20px;
-  align-items: center;
-  display: flex;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-decoration: none;
-  border: none;
-  font-size: 1.1rem; }
+  color: #FFFFFF; }
 body #main-content .lg-row {
   display: flex;
   flex-wrap: wrap; }
@@ -314,7 +321,7 @@ body #main-content .lg-row {
       padding: 0 15px 28px; }
       body #main-content .lg-row a .lg-container .lg-item {
         background-size: cover;
-        background-position: center center;
+        background-position: center -25px;
         position: relative;
         display: flex;
         align-items: center;
@@ -340,13 +347,22 @@ body #main-content .lg-row {
           width: 100%;
           font-family: "Oswald", sans-serif;
           text-transform: uppercase; }
+          @media (min-width: 768px) {
+            body #main-content .lg-row a .lg-container .lg-item span {
+              min-height: 80px;
+              padding: 10px 15px; } }
           @media (min-width: 1200px) {
             body #main-content .lg-row a .lg-container .lg-item span {
-              padding: 15px 5px;
-              min-height: 90px; } }
+              padding: 10px 5px; } }
+          @media (min-width: 768px) {
+            body #main-content .lg-row a .lg-container .lg-item span.single-line-xl {
+              padding-top: 1.25em; } }
+          @media (min-width: 768px) {
+            body #main-content .lg-row a .lg-container .lg-item span.single-line-lg {
+              padding-top: 1.25em; } }
           @media (min-width: 1200px) {
-            body #main-content .lg-row a .lg-container .lg-item span.single-line {
-              padding-top: 1.5em; } }
+            body #main-content .lg-row a .lg-container .lg-item span.single-line-lg {
+              padding-top: 10px; } }
 body #main-content #img1-1 {
   background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Physicians.jpg"); }
 body #main-content #img1-2 {
@@ -374,7 +390,7 @@ body #main-content #img2-6 {
 body #main-content #outreach {
   background: #dad4e8; }
   body #main-content #outreach .ribbon-callout {
-    background: #9484be;
+    background: #7F69B0;
     color: #FFFFFF;
     padding: 25px; }
     body #main-content #outreach .ribbon-callout h2 {
