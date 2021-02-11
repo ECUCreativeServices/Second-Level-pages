@@ -43,21 +43,22 @@ body
 			a.teal.horizontal
 				background: $teal
 				min-height: 88px
+				margin-bottom: 1.5rem
 				@media (min-width: $screen-md-min)
 					min-height: 123px
 				@media (min-width: $screen-lg-min)
 					min-height: 88px
 				@media (min-width: $screen-xl-min)
-					min-height: 123px
+					padding: 20px 8px
 		img.teal-button-icons
 			margin: 0px 10px 0px 0
 			float: left
 			min-width: 45px
 		#health-care
-			background: rgb(207,177,205)
+			background: $ribbon-3-main
 			.ribbon-callout
 				color: $white
-				background: $ecu-hot-pink
+				background: $ecu-purple
 				padding: 25px
 				h2
 					color: $white !important
@@ -116,6 +117,14 @@ body
 									padding-top: 1.25em
 								@media (min-width: $screen-xl-min)
 									padding-top: 10px
+							.hidden-lg
+								display: block
+								@media (min-width: $screen-md-min)
+									display: none
+							.hidden-sm
+								display: none
+								@media (min-width: $screen-md-min)
+									display: block
 
 		#img1-1
 			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Physicians.jpg")
@@ -142,9 +151,9 @@ body
 		#img2-6
 			background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2021/01/Military.jpg")
 		#outreach
-			background: rgb(218, 212, 232)
+			background: $ribbon-4-main
 			.ribbon-callout
-				background: #7F69B0
+				background: $dark-teal
 				color: $white
 				padding: 25px
 				h2
