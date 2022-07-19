@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Quattrocento:400,700|Roboto+Slab:400");
 /* BASE STYLES - GLOBAL CHANGES ONLY */
 body #main-content .intro-ribbon {
@@ -265,7 +264,7 @@ body #main-content a.btn-ecu-white {
 }
 body #main-content a.btn-ecu-white::after {
   font-family: "FontAwesome";
-  content: "";
+  content: "\f054";
   color: #FFFFFF;
   margin-left: 5px;
 }
@@ -359,7 +358,7 @@ body #main-content .btn-solid-outline:hover {
 }
 body #main-content .btn-solid-outline::before {
   font-family: "FontAwesome";
-  content: "";
+  content: "\f2b7";
   color: #FFFFFF;
   margin-left: 5px;
   float: left;
@@ -392,7 +391,7 @@ body #main-content .btn-solid-outline a {
 }
 body #main-content .btn-solid-outline a::after {
   font-family: "FontAwesome";
-  content: "";
+  content: "\f054";
   color: white;
   margin-left: 5px;
 }
@@ -537,7 +536,7 @@ body #main-content .dash-content .link-list li a:hover {
 }
 body #main-content .dash-content .link-list li a::before {
   font-family: "FontAwesome";
-  content: "";
+  content: "\f054";
   color: #572C86;
   margin-right: 5px;
 }
