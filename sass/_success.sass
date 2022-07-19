@@ -1,0 +1,225 @@
+/* STUDENT SUCCESS */
+
+#main-content
+
+	.intro-ribbon
+		margin-top: -1.125rem
+		padding: 1.5625rem 0
+		.intro-text
+			padding: 1rem 2.5rem
+	.btn-row
+		width: 90%
+		margin: 1.25rem auto
+	.btn-solid-outline
+		width: 100%
+		text-align: center
+		cursor: pointer
+		-webkit-appearance: none
+		border: 0 solid
+		box-shadow: inset 0 0 1.25rem rgba(255, 255, 255, 0)
+		text-shadow: none
+		transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1)
+		padding: 1.25rem 0
+		margin: 0.625rem 0
+		&:hover
+			box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2)
+			outline-color: rgba(255, 255, 255, 0)
+			outline-offset: 0.625rem
+		@media (min-width: 992px)
+			outline-offset: 0.313rem
+			padding: 0.468rem
+		a
+			color: white
+			text-transform: uppercase
+			text-decoration: none
+			font-weight: 500
+			line-height: 1.3rem
+			font-family: $heading-font
+			border: none
+			display: block
+			div
+				font-size: 1rem
+				display: inline-block
+				&:after
+					content: "\f054"
+					font-family: $font-awesome
+					margin-left: .5rem
+			span
+				&.title
+					font-weight: 700
+					font-size: 2.1rem
+					display: inline-block
+					margin: 0
+					width: 40%
+					padding: 0 .5rem 0 0
+					&::before
+						display: none
+					@media (min-width: 768px)
+						display: block
+						margin: 0
+						padding: 0
+						width: 100%
+					@media (min-width: 992px)
+						display: inline-block
+						margin: 0
+						padding: 15px 0.625rem 12px 0
+						text-align: right
+						width: 45%
+					@media (min-width: 1200px)
+						width: 50%
+						&::before
+							display: inherit
+							font-family: $font-awesome
+							content: "\f040"
+							color: white
+							font-size: 2rem
+							padding: 0 7px 0 0
+
+				&.subtitle
+					line-height: 1em
+					display: inline-block
+					width: 50%
+					border-left: solid white 2px
+					padding: 0 0 0 .5rem
+					text-align: left
+					@media (min-width: 768px)
+						width: 100%
+						border-left: none
+						padding: .5rem 0 0
+						text-align: center
+						display: block
+						margin: 10px auto 0
+						border-top: thin solid white
+					@media (min-width: 992px)
+						display: inline-block
+						width: 50%
+						border-left: solid white 2px
+						padding: 0 0 0 .625rem
+						text-align: left
+						border-top: none
+						margin: 0
+					&::after
+						content: "\f054"
+						font-family: $font-awesome
+						margin-left: .5rem
+						@media (min-width: 768px)
+								//display: none
+
+	.ecu-hot-pink-bg
+		outline: none
+		background-color: $ecu-hot-pink
+		@media (min-width: 768px)
+			background-color: $ecu-hot-pink
+			outline: thin solid $ecu-hot-pink
+	.dark-teal-bg
+		background-color: $dark-teal
+		outline: none
+		@media (min-width: 768px)
+			background-color: $dark-teal
+			outline: 1px solid $dark-teal
+	.footer-bg
+		background-color: $footer-bg
+		outline: none
+		@media (min-width: 768px)
+			background-color: $footer-bg
+			outline: 1px solid $footer-bg
+	.bg-ecu-purple
+		box-sizing: border-box
+		padding: 0
+		margin: 0
+		h2
+			text-transform: uppercase
+
+	.image-blocks
+		display: none
+		@media (min-width: $screen-lg-min)
+			display: block
+		#img-block-1
+			@media (min-width: $screen-lg-min)
+				padding-bottom: .5em
+			#img-1
+				+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/Engineering_Lab-6849_1140.jpg", 12rem, 10.438rem)
+
+		#img-block-2
+			@media (min-width: $screen-lg-min)
+				padding-left: .5em
+				padding-bottom: .5em
+			#img-2
+				+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/Estrogen_Torres_ECHI-0020_1140.jpg", 12rem, 10.438rem)
+
+		#img-block-3
+			@media (min-width: $screen-lg-min)
+				padding-bottom: 0
+			#img-3
+				+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/B34R0210_1140.jpg", 26.15rem, 22.15rem)
+
+	.dashboard-item
+		h2
+			margin-top: -13px
+		&.dark-purple
+			.lead, h2
+				color: $dark-purple
+				&:hover
+					text-decoration: underline
+		&.ecu-hot-pink
+			.lead, h2
+				color: $ecu-hot-pink
+				&:hover
+					text-decoration: underline
+		&.dark-teal
+			.lead, h2
+				color: $dark-teal
+				&:hover
+					text-decoration: underline
+		&.AA-burnt-gold
+			.lead, h2
+				color: $burnt-gold-aa
+		&.AA-teal
+			.lead, h2
+				color: $teal
+				&:hover
+					text-decoration: underline
+		&.grey
+			.lead, h2
+				color: $grey
+				&:hover
+					text-decoration: underline
+
+		.lead
+			opacity: 1 !important
+			margin: -1rem 0 1rem
+		ul
+			li
+				text-align: left
+				list-style: none
+				line-height: 2rem
+				a
+					text-decoration: none
+					border-bottom: none
+					color: $ecu-purple !important
+					text-transform: capitalize
+					transition: .5s
+					&:hover
+						color: $light-purple
+						border-color: $light-purple
+						border-bottom: thin solid $light-purple
+					&::before
+						content: "\f054"
+						font-family: $font-awesome
+						margin-right: .5rem
+
+		.want-more
+			text-align: center
+			color: #947024
+			a
+				color: #947024
+				text-transform: Capitalize
+				margin: 0 1rem
+				text-decoration: none
+				border-bottom: none
+				&:hover
+					border-color: $burnt-gold-aa
+					border-bottom: thin solid $burnt-gold-aa
+			span
+					display: block
+
