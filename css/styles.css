@@ -302,12 +302,136 @@ body #main-content a.btn-ecu-white .icon-btn {
 }
 
 /* STUDENT SUCCESS */
+#main-content .ribbon.style-3 a.purple {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  background: #726F95;
+  padding: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  border: none;
+  font-size: 1.5rem;
+}
+@media (min-width: 992px) {
+  #main-content .ribbon.style-3 a.purple {
+    padding: 10px 10px 50px;
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  #main-content .ribbon.style-3 a.purple:hover {
+    transform: scale(1.1);
+    -moz-transform-origin: 1 1;
+  }
+}
+#main-content .ribbon.style-3 a.purple.horizontal {
+  min-height: 88px;
+  padding: 20px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+#main-content .ribbon.style-3 a.purple.horizontal a {
+  font-weight: bold;
+}
+#main-content .ribbon.style-3 img.purple-button-icons {
+  margin: 0px 10px 0px 0;
+  float: left;
+  min-width: 45px;
+}
 #main-content .intro-ribbon {
-  margin-top: -1.125rem;
-  padding: 1.5625rem 0;
+  padding: 1.5rem 0;
 }
 #main-content .intro-ribbon .intro-text {
   padding: 1rem 2.5rem;
+}
+#main-content .intro-ribbon .btn-solid-outline {
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid #FFFFFF;
+  outline-offset: 5px;
+  transition: all 1050ms cubic-bezier(0.19, 1, 0.22, 1);
+  padding: 7px 0 7px 20px;
+}
+@media (min-width: 768px) {
+  #main-content .intro-ribbon .btn-solid-outline {
+    width: 95%;
+    margin-left: 6px;
+    padding-left: 0;
+  }
+}
+#main-content .intro-ribbon .btn-solid-outline:hover {
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 10px;
+  text-shadow: 1px 1px 2px #427388;
+}
+#main-content .intro-ribbon .btn-solid-outline::before {
+  font-family: "FontAwesome";
+  content: "\f2b7";
+  color: #FFFFFF;
+  margin-left: 5px;
+  float: left;
+  font-size: 2rem;
+  padding: 0 10px;
+  display: none;
+  line-height: 42px;
+}
+@media (min-width: 768px) {
+  #main-content .intro-ribbon .btn-solid-outline::before {
+    display: block;
+    line-height: 41px;
+  }
+}
+#main-content .intro-ribbon .btn-solid-outline a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.3rem;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  display: block;
+}
+#main-content .intro-ribbon .btn-solid-outline a::after {
+  font-family: "FontAwesome";
+  content: "\f054";
+  color: #FFFFFF;
+  margin-left: 5px;
+}
+#main-content .intro-ribbon #degree {
+  max-width: 160px;
+  background-color: #FFFFFF;
+  margin: 15px 5px 5px;
+  width: 95%;
+  outline: 1px solid #FFFFFF;
+  padding: 7px;
+}
+#main-content .intro-ribbon #degree:hover {
+  outline: 1px solid #572C86;
+}
+@media (min-width: 992px) {
+  #main-content .intro-ribbon #degree {
+    padding-left: 0;
+  }
+}
+#main-content .intro-ribbon #degree::before {
+  color: #572C86;
+  content: "\f19c";
+  display: none;
+  font-size: 2.5rem;
+}
+@media (min-width: 992px) {
+  #main-content .intro-ribbon #degree::before {
+    display: block;
+  }
+}
+#main-content .intro-ribbon #degree a {
+  color: #572C86;
+}
+#main-content .intro-ribbon #degree a::after {
+  color: #572C86;
 }
 #main-content .btn-row {
   width: 90%;
@@ -315,7 +439,7 @@ body #main-content a.btn-ecu-white .icon-btn {
 }
 #main-content .btn-solid-outline {
   width: 100%;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
   -webkit-appearance: none;
   border: 0 solid;
@@ -476,150 +600,72 @@ body #main-content a.btn-ecu-white .icon-btn {
   #main-content .image-blocks {
     display: block;
   }
-}
-@media (min-width: 992px) {
-  #main-content .image-blocks #img-block-1 {
-    padding-bottom: 0.5em;
-  }
-}
-#main-content .image-blocks #img-block-1 #img-1 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/Engineering_Lab-6849_1140.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-@media (min-width: 992px) {
   #main-content .image-blocks #img-block-1 #img-1 {
-    height: 12rem;
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Crop_Dental_ch_0026.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
-@media (min-width: 992px) and (min-width: 1200px) {
+@media (min-width: 992px) and (min-width: 992px) {
   #main-content .image-blocks #img-block-1 #img-1 {
-    height: 10.438rem;
+    height: 24.2em;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (min-width: 992px) and (min-width: 1200px) {
+  #main-content .image-blocks #img-block-1 #img-1 {
+    height: 32em;
+  }
+}
+@media (min-width: 992px) and (min-width: 992px) {
   #main-content .image-blocks #img-block-2 {
     padding-left: 0.5em;
-    padding-bottom: 0.5em;
-  }
-}
-#main-content .image-blocks #img-block-2 #img-2 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/Estrogen_Torres_ECHI-0020_1140.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-@media (min-width: 992px) {
-  #main-content .image-blocks #img-block-2 #img-2 {
-    height: 12rem;
-  }
-}
-@media (min-width: 992px) and (min-width: 1200px) {
-  #main-content .image-blocks #img-block-2 #img-2 {
-    height: 10.438rem;
   }
 }
 @media (min-width: 992px) {
+  #main-content .image-blocks #img-block-2 #img-2 {
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Uncropped_FDOC_Rogers_ch_0905.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 992px) and (min-width: 992px) {
+  #main-content .image-blocks #img-block-2 #img-2 {
+    height: 10.157em;
+  }
+}
+@media (min-width: 992px) and (min-width: 992px) and (min-width: 1200px) {
+  #main-content .image-blocks #img-block-2 #img-2 {
+    height: 13.9em;
+  }
+}
+@media (min-width: 992px) and (min-width: 992px) {
   #main-content .image-blocks #img-block-3 {
-    padding-bottom: 0;
+    padding-top: 0.5em;
   }
-}
-#main-content .image-blocks #img-block-3 #img-3 {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/991/2018/11/B34R0210_1140.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 @media (min-width: 992px) {
   #main-content .image-blocks #img-block-3 #img-3 {
-    height: 26.15rem;
+    background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Inset_Biology_ch_1048.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
-@media (min-width: 992px) and (min-width: 1200px) {
+@media (min-width: 992px) and (min-width: 992px) {
   #main-content .image-blocks #img-block-3 #img-3 {
-    height: 22.15rem;
+    height: 13.56em;
   }
 }
-#main-content .dashboard-item h2 {
-  margin-top: -13px;
+@media (min-width: 992px) and (min-width: 992px) and (min-width: 1200px) {
+  #main-content .image-blocks #img-block-3 #img-3 {
+    height: 17.65em;
+  }
 }
-#main-content .dashboard-item.dark-purple .lead, #main-content .dashboard-item.dark-purple h2 {
-  color: #41215E;
-}
-#main-content .dashboard-item.dark-purple .lead:hover, #main-content .dashboard-item.dark-purple h2:hover {
-  text-decoration: underline;
-}
-#main-content .dashboard-item.ecu-hot-pink .lead, #main-content .dashboard-item.ecu-hot-pink h2 {
-  color: #77216F;
-}
-#main-content .dashboard-item.ecu-hot-pink .lead:hover, #main-content .dashboard-item.ecu-hot-pink h2:hover {
-  text-decoration: underline;
-}
-#main-content .dashboard-item.dark-teal .lead, #main-content .dashboard-item.dark-teal h2 {
-  color: #004261;
-}
-#main-content .dashboard-item.dark-teal .lead:hover, #main-content .dashboard-item.dark-teal h2:hover {
-  text-decoration: underline;
-}
-#main-content .dashboard-item.AA-burnt-gold .lead, #main-content .dashboard-item.AA-burnt-gold h2 {
-  color: #947024;
-}
-#main-content .dashboard-item.AA-teal .lead, #main-content .dashboard-item.AA-teal h2 {
-  color: #00818F;
-}
-#main-content .dashboard-item.AA-teal .lead:hover, #main-content .dashboard-item.AA-teal h2:hover {
-  text-decoration: underline;
-}
-#main-content .dashboard-item.grey .lead, #main-content .dashboard-item.grey h2 {
-  color: #6C6D68;
-}
-#main-content .dashboard-item.grey .lead:hover, #main-content .dashboard-item.grey h2:hover {
-  text-decoration: underline;
-}
-#main-content .dashboard-item .lead {
-  opacity: 1 !important;
-  margin: -1rem 0 1rem;
-}
-#main-content .dashboard-item ul li {
-  text-align: left;
-  list-style: none;
-  line-height: 2rem;
-}
-#main-content .dashboard-item ul li a {
-  text-decoration: none;
-  border-bottom: none;
-  color: #572C86 !important;
-  text-transform: capitalize;
-  transition: 0.5s;
-}
-#main-content .dashboard-item ul li a:hover {
-  color: #be9fdf;
-  border-color: #be9fdf;
-  border-bottom: thin solid #be9fdf;
-}
-#main-content .dashboard-item ul li a::before {
-  content: "\f054";
-  font-family: "FontAwesome";
-  margin-right: 0.5rem;
-}
-#main-content .dashboard-item .want-more {
-  text-align: center;
-  color: #947024;
-}
-#main-content .dashboard-item .want-more a {
-  color: #947024;
-  text-transform: Capitalize;
-  margin: 0 1rem;
-  text-decoration: none;
-  border-bottom: none;
-}
-#main-content .dashboard-item .want-more a:hover {
-  border-color: #947024;
-  border-bottom: thin solid #947024;
-}
-#main-content .dashboard-item .want-more span {
-  display: block;
+
+.bg-gray {
+  background-color: #d9d8d6;
 }
 
 /*# sourceMappingURL=styles.css.map */
