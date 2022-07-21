@@ -663,9 +663,113 @@ body #main-content a.btn-ecu-white .icon-btn {
     height: 17.65em;
   }
 }
-
-.bg-gray {
-  background-color: #d9d8d6;
+#main-content .card {
+  border-radius: 0;
+  border: none;
+  padding: 0;
+}
+#main-content .card--img-bg:first-child {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Inset_Biology_ch_1048.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 5px;
+}
+@media (min-width: 992px) {
+  #main-content .card--img-bg:first-child {
+    height: 13.56em;
+  }
+}
+@media (min-width: 992px) and (min-width: 1200px) {
+  #main-content .card--img-bg:first-child {
+    height: 17.65em;
+  }
+}
+#main-content .card--img-bg:nth-child(2) {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Uncropped_FDOC_Rogers_ch_0905.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  #main-content .card--img-bg:nth-child(2) {
+    height: 10.157em;
+  }
+}
+@media (min-width: 992px) and (min-width: 1200px) {
+  #main-content .card--img-bg:nth-child(2) {
+    height: 13.9em;
+  }
+}
+#main-content .card--content {
+  padding: 2em;
+}
+#main-content .card--content--heading {
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#main-content .card .link-list {
+  list-style-type: none;
+  padding: 0 1rem 1rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  font-family: "Oswald", sans-serif;
+}
+#main-content .card .link-list li {
+  padding-left: 18px;
+  line-height: 1.25em;
+  padding-bottom: 0.75em;
+}
+#main-content .card .link-list li a {
+  color: #FFFFFF;
+  margin-left: -14px;
+  border-bottom: thin solid transparent;
+}
+#main-content .card .link-list li a:hover {
+  border-bottom: thin solid #FFFFFF;
+}
+#main-content .card .link-list li a::before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  margin-right: 0.5rem;
+}
+@media (min-width: 576px) {
+  #main-content .card .link-list {
+    -webkit-columns: 5em 3;
+    -moz-columns: 5em 3;
+    columns: 5em 3;
+  }
+}
+@media (min-width: 576px) and (min-width: 768px) {
+  #main-content .card .link-list {
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    -ms-column-gap: 1em;
+    column-gap: 1em;
+  }
+}
+@media (min-width: 576px) and (min-width: 768px) and (min-width: 992px) {
+  #main-content .card .link-list {
+    -webkit-column-gap: 1.25em;
+    -moz-column-gap: 1.25em;
+    -ms-column-gap: 1.25em;
+    column-gap: 1.25em;
+  }
+}
+@media (min-width: 576px) and (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
+  #main-content .card .link-list {
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    -ms-column-gap: 1em;
+    column-gap: 1em;
+  }
+}
+#main-content .bg-gray {
+  background-color: #d6d8d9;
+}
+#main-content .bg-gold {
+  background-color: #947024;
 }
 
 /*# sourceMappingURL=styles.css.map */

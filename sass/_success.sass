@@ -244,5 +244,62 @@
 					padding-top: 0.5em
 				#img-3
 					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Inset_Biology_ch_1048.jpg", 13.56em, 17.65em)
-.bg-gray
-	background-color: #d9d8d6
+	.card
+		border-radius: 0
+		border: none
+		padding: 0
+		&--img-bg:first-child
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Inset_Biology_ch_1048.jpg", 13.56em, 17.65em)
+			padding-right: 5px
+		&--img-bg:nth-child(2)
+			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Uncropped_FDOC_Rogers_ch_0905.jpg", 10.157em, 13.9em)
+		&--content
+			padding: 2em
+			&--heading
+				text-transform: uppercase
+				color: $white
+				
+		.link-list
+			list-style-type: none
+			padding: 0 1rem 1rem
+			margin-block-start: 0
+			margin-block-end: 0
+			padding-inline-start: 0
+			font-family: $heading-font
+			li
+				padding-left: 18px
+				line-height: 1.25em
+				padding-bottom: 0.75em
+				a
+					color: $white 
+					margin-left: -14px
+					border-bottom: thin solid transparent
+					&:hover
+						border-bottom: thin solid $white
+					&::before
+						content: "\f105"
+						font-family: "FontAwesome"
+						margin-right: 0.5rem
+			@media (min-width: $screen-sm-min)
+				-webkit-columns: 5em 3
+				-moz-columns: 5em 3
+				columns: 5em 3
+				@media (min-width: $screen-md-min)
+					-webkit-column-gap: 1em
+					-moz-column-gap: 1em
+					-ms-column-gap: 1em
+					column-gap: 1em
+					@media (min-width: $screen-lg-min)
+						-webkit-column-gap: 1.25em
+						-moz-column-gap: 1.25em
+						-ms-column-gap: 1.25em
+						column-gap: 1.25em
+						@media (min-width: $screen-xl-min)
+							-webkit-column-gap: 1em
+							-moz-column-gap: 1em
+							-ms-column-gap: 1em
+							column-gap: 1em
+	.bg-gray
+		background-color: $bs-dark-grey
+	.bg-gold
+		background-color: $burnt-gold-aa
