@@ -146,6 +146,7 @@
 					margin: 0
 					width: 40%
 					padding: 0 .5rem 0 0
+					text-align: center
 					&::before
 						display: none
 					@media (min-width: 768px)
@@ -248,17 +249,21 @@
 		border-radius: 0
 		border: none
 		padding: 0
-		&--img-bg:first-child
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Inset_Biology_ch_1048.jpg", 13.56em, 17.65em)
-			padding-right: 5px
-		&--img-bg:nth-child(2)
-			+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Uncropped_FDOC_Rogers_ch_0905.jpg", 10.157em, 13.9em)
+		&--images
+			.col-md-7
+				.card--img-bg
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Medical_Forum-9322.jpg", 13em, 13em)
+			.col-md-5
+				padding-left: .5em
+				.card--img-bg
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Crop_Hispanic_Dental_ch_0318.jpg", 13em, 13em)
+		&--image
+			padding: 1em 1em 0
 		&--content
 			padding: 2em
 			&--heading
 				text-transform: uppercase
 				color: $white
-				
 		.link-list
 			list-style-type: none
 			padding: 0 1rem 1rem
@@ -281,9 +286,9 @@
 						font-family: "FontAwesome"
 						margin-right: 0.5rem
 			@media (min-width: $screen-sm-min)
-				-webkit-columns: 5em 3
-				-moz-columns: 5em 3
-				columns: 5em 3
+				-webkit-columns: 5em 2
+				-moz-columns: 5em 2
+				columns: 5em 2
 				@media (min-width: $screen-md-min)
 					-webkit-column-gap: 1em
 					-moz-column-gap: 1em
@@ -299,7 +304,20 @@
 							-moz-column-gap: 1em
 							-ms-column-gap: 1em
 							column-gap: 1em
+							-webkit-columns: 5em 3
+							-moz-columns: 5em 3
+							columns: 5em 3
 	.bg-gray
 		background-color: $bs-dark-grey
 	.bg-gold
 		background-color: $burnt-gold-aa
+	.bg-purple
+		background-color: $ecu-purple
+
+
+// hack
+.col-lg-5
+	.card
+		p:empty
+			display: none
+			

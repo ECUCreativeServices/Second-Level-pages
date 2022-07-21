@@ -486,6 +486,7 @@ body #main-content a.btn-ecu-white .icon-btn {
   margin: 0;
   width: 40%;
   padding: 0 0.5rem 0 0;
+  text-align: center;
 }
 #main-content .btn-solid-outline a span.title::before {
   display: none;
@@ -668,38 +669,43 @@ body #main-content a.btn-ecu-white .icon-btn {
   border: none;
   padding: 0;
 }
-#main-content .card--img-bg:first-child {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Inset_Biology_ch_1048.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-right: 5px;
-}
-@media (min-width: 992px) {
-  #main-content .card--img-bg:first-child {
-    height: 13.56em;
-  }
-}
-@media (min-width: 992px) and (min-width: 1200px) {
-  #main-content .card--img-bg:first-child {
-    height: 17.65em;
-  }
-}
-#main-content .card--img-bg:nth-child(2) {
-  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Uncropped_FDOC_Rogers_ch_0905.jpg");
+#main-content .card--images .col-md-7 .card--img-bg {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Medical_Forum-9322.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (min-width: 992px) {
-  #main-content .card--img-bg:nth-child(2) {
-    height: 10.157em;
+  #main-content .card--images .col-md-7 .card--img-bg {
+    height: 13em;
   }
 }
 @media (min-width: 992px) and (min-width: 1200px) {
-  #main-content .card--img-bg:nth-child(2) {
-    height: 13.9em;
+  #main-content .card--images .col-md-7 .card--img-bg {
+    height: 13em;
   }
+}
+#main-content .card--images .col-md-5 {
+  padding-left: 0.5em;
+}
+#main-content .card--images .col-md-5 .card--img-bg {
+  background-image: url("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Crop_Hispanic_Dental_ch_0318.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  #main-content .card--images .col-md-5 .card--img-bg {
+    height: 13em;
+  }
+}
+@media (min-width: 992px) and (min-width: 1200px) {
+  #main-content .card--images .col-md-5 .card--img-bg {
+    height: 13em;
+  }
+}
+#main-content .card--image {
+  padding: 1em 1em 0;
 }
 #main-content .card--content {
   padding: 2em;
@@ -736,9 +742,9 @@ body #main-content a.btn-ecu-white .icon-btn {
 }
 @media (min-width: 576px) {
   #main-content .card .link-list {
-    -webkit-columns: 5em 3;
-    -moz-columns: 5em 3;
-    columns: 5em 3;
+    -webkit-columns: 5em 2;
+    -moz-columns: 5em 2;
+    columns: 5em 2;
   }
 }
 @media (min-width: 576px) and (min-width: 768px) {
@@ -763,6 +769,9 @@ body #main-content a.btn-ecu-white .icon-btn {
     -moz-column-gap: 1em;
     -ms-column-gap: 1em;
     column-gap: 1em;
+    -webkit-columns: 5em 3;
+    -moz-columns: 5em 3;
+    columns: 5em 3;
   }
 }
 #main-content .bg-gray {
@@ -770,6 +779,13 @@ body #main-content a.btn-ecu-white .icon-btn {
 }
 #main-content .bg-gold {
   background-color: #947024;
+}
+#main-content .bg-purple {
+  background-color: #572C86;
+}
+
+.col-lg-5 .card p:empty {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
