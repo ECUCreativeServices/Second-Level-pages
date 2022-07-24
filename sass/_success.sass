@@ -232,19 +232,19 @@
 			#img-block-1
 				@media (min-width: $screen-lg-min)
 				#img-1
-					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Crop_Dental_ch_0026.jpg", 24.20em, 32em)
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Crop_Dental_ch_0026.jpg", 37.2em, 32em)
 
 			#img-block-2
 				@media (min-width: $screen-lg-min)
 					padding-left: .5em
 				#img-2
-					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Uncropped_FDOC_Rogers_ch_0905.jpg", 10.157em, 13.9em)
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Uncropped_FDOC_Rogers_ch_0905.jpg", 17em, 13.9em)
 
 			#img-block-3
 				@media (min-width: $screen-lg-min)
 					padding-top: 0.5em
 				#img-3
-					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Inset_Biology_ch_1048.jpg", 13.56em, 17.65em)
+					+image-blocks("https://info.ecu.edu/wp-content/pv-uploads/sites/513/2022/07/Inset_Biology_ch_1048.jpg", 19.7em, 17.65em)
 	.card
 		border-radius: 0
 		border: none
@@ -307,13 +307,40 @@
 							-webkit-columns: 5em 3
 							-moz-columns: 5em 3
 							columns: 5em 3
-	.bg-gray
+	.logo-wrapper
+		padding: 1em 0
+		ul.logos
+			display: flex
+			flex-wrap: wrap
+			list-style: none
+			justify-content: center
+			align-items: center
+			padding: 0 2em
+			li
+				flex-basis: 0
+				flex-grow: 1
+				width: 100%
+				min-width: 4em
+				padding: 0.5em
+				display: flex
+				justify-content: center
+				img
+					max-width: 5em
+					max-height: 4em
+					&.smaller
+						max-width: 3.5em
+					&.bigger
+						max-width: 6em
+	section.bg-grey
 		background-color: $bs-dark-grey
+		padding: 1em
 	.bg-gold
 		background-color: $burnt-gold-aa
+		a.btn-ecu-white
+			&:hover, &:hover::after
+				color: $burnt-gold-aa
 	.bg-purple
 		background-color: $ecu-purple
-
 
 // hack
 .col-lg-5
