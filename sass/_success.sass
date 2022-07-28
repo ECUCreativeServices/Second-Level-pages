@@ -341,6 +341,35 @@
 				color: $burnt-gold-aa
 	.bg-purple
 		background-color: $ecu-purple
+		
+		//RSS feed Styles
+		
+	.wp-rss-template-container
+		width: 100%
+		margin: .875em
+		.wpra-grid-item
+			.wpra-item
+				padding: 0
+			&__content
+				padding: 0
+				position: relative
+				display: block
+				max-width: 100%
+				height: auto
+			&__title
+				//position: absolute
+				bottom: 0
+				padding: 1em
+				background-color: rgba(66, 20, 95, 0.6)
+				width: 100%
+				font-family: $heading-font
+				font-size: 18px
+				font-weight: 400
+				a
+					color: $white
+					border-bottom: transparent
+					&:hover
+						border-bottom: 1px solid $white
 
 // hack
 .col-lg-5

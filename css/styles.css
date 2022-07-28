@@ -817,6 +817,36 @@ body #main-content a.btn-ecu-white .icon-btn {
 #main-content .bg-purple {
   background-color: #572C86;
 }
+#main-content .wp-rss-template-container {
+  width: 100%;
+  margin: 0.875em;
+}
+#main-content .wp-rss-template-container .wpra-grid-item .wpra-item {
+  padding: 0;
+}
+#main-content .wp-rss-template-container .wpra-grid-item__content {
+  padding: 0;
+  position: relative;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#main-content .wp-rss-template-container .wpra-grid-item__title {
+  bottom: 0;
+  padding: 1em;
+  background-color: rgba(66, 20, 95, 0.6);
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+#main-content .wp-rss-template-container .wpra-grid-item__title a {
+  color: #FFFFFF;
+  border-bottom: transparent;
+}
+#main-content .wp-rss-template-container .wpra-grid-item__title a:hover {
+  border-bottom: 1px solid #FFFFFF;
+}
 
 .col-lg-5 .card p:empty {
   display: none;
