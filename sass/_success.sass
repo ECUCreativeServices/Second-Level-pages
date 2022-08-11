@@ -370,6 +370,53 @@
 					border-bottom: transparent
 					&:hover
 						border-bottom: 1px solid $white
+		//graphitext
+	.ribbon.style-3
+		.graphic-text
+			color: $ecu-purple
+			font-family: $sans-serif !important
+			background-color: white !important
+			max-width: 825px
+			margin: auto
+			padding: 2em 4em
+			text-align: center
+			@media (min-width: $screen-lg-min)
+				text-align: left
+			&_lead-in
+				font-weight: 700
+				font-size: 1.2em
+			&_percent
+				font-weight: 700
+				font-size: 9.5em
+				line-height: .875em
+			&-heading
+				font-weight: 700
+				line-height: 2.5em
+				span
+					display: block
+					width: 100%
+					margin: auto
+					text-align: center
+				&_1
+					font-size: 3.5em
+				&_2
+					font-size: 1.2em
+				&_3
+					font-size: 1.1em
+					line-height: .5em
+					padding-bottom: 30px
+			&_footer
+				margin-top: 20px
+				font-size: 1.1em
+				font-weight: 700
+				line-height: 1em
+				text-align: center
+				@media (min-width: $screen-lg-min)
+					line-height: 3em
+					letter-spacing: 0.5px
+					text-align: left
+				a
+					color: $ecu-purple
 
 // hack
 .col-lg-5
